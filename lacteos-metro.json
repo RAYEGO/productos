@@ -1,0 +1,3008 @@
+[
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/596133-800-auto?v=638880609454970000&width=800&height=auto&aspect=true",
+    "descripcion": "Sixpack Leche Reconstituida Gloria Lata 390g",
+    "precio": 22.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607569-144-144?v=638948481343470000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Gloria 390g",
+    "precio": 17.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Leche Ultrafiltrada Sin Lactosa Gloria Zero Lacto Lata 390g",
+    "precio": 26.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Tripack Leche UHT Sin Lactosa Gloria Zero Lacto Caja 946ml",
+    "precio": 16.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/622244-144-144?v=639010065707030000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Leche para Diluir Laive Sin Lactosa Botella 390g",
+    "precio": 24.95
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/248416-144-144?v=638173947720670000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x6 Mezcla Láctea Laive Sin Lactosa 480g",
+    "precio": 23.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/587848-144-144?v=638833593680100000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Ideal Cremosita Lata 390g",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpaxk Leche Reconstituida Gloria Light Lata 390g",
+    "precio": 23.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Tripack Leche Entera UHT Gloria Caja 946ml",
+    "precio": 16.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pack x6 Leche Evaporada Gloria Entera",
+    "precio": 24.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Tripack Leche Entera UHT Gloria Bolsa 800ml",
+    "precio": 12.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/459983-144-144?v=638285830638100000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Leche Light Laive Sin Lactosa Botella 390g",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506917-144-144?v=638398245693670000&width=144&height=144&aspect=true",
+    "descripcion": "Fourpack Leche Semidescremada UHT Laive Sin Lactosa Caja 946ml",
+    "precio": 22.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/617646-144-144?v=638998509982400000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego Vakimu Original 960g",
+    "precio": 17.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607555-144-144?v=638938245806770000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Gloria 180g",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Tripack Leche UHT Gloria Light Caja 946ml",
+    "precio": 16.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598524-144-144?v=638896665936170000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Fresa Galonera 1.6kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241549-144-144?v=638173833920200000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Laive 180g",
+    "precio": 13.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Griego Descremado Danlac Sabor Natural Frasco 900g",
+    "precio": 20.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/559570-144-144?v=638690386160800000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Laive en Tajadas 440g",
+    "precio": 23.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627576-144-144?v=639040953743100000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Bonlé Familiar Caja 480g",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Estilo Kéfir Danlac Botella 900g",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240977-144-144?v=638173830938100000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Bonlé x kg",
+    "precio": 34.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598515-144-144?v=638896665905000000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Vainilla Galonera 1.6kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Leche Reconstituida Gloria Niños Lata 390g",
+    "precio": 23.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240797-144-144?v=638173829931100000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Philadelphia Kraft Original Caja 180 g",
+    "precio": 13.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Edam Braedt 440g",
+    "precio": 21.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/248431-144-144?v=638173947762730000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Entera Pasteurizada Danlac Botella 900ml",
+    "precio": 7.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Tripack Leche UHT Descremada Gloria Slim Triple Zero Caja 946ml",
+    "precio": 16.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/587851-144-144?v=638833593719730000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Ideal Amanecer Lata 390g",
+    "precio": 18.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240967-144-144?v=638173830887570000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Light Cuisine & Co x kg",
+    "precio": 37
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/559591-144-144?v=638690386230630000&width=144&height=144&aspect=true",
+    "descripcion": "Fourpack Leche Semidescremada UHT Laive Sin Lactosa Light Caja 946ml",
+    "precio": 23.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/465101-144-144?v=638300181220430000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Laive Light Sin Lactosa Caja 480g",
+    "precio": 23.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627577-144-144?v=639040953748600000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Sin Lactosa Bonlé Caja 480g",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Frutado con Fresa Danlac Botella 900g",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Edam en Tajadas Braedt 180g",
+    "precio": 10.32
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/578247-144-144?v=638786074110330000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Laive + Jamón Americano Suiza 300g",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/248468-144-144?v=638173947876670000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Entera UHT Laive 900ml",
+    "precio": 4.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Reconstituida Gloria Lata 390g",
+    "precio": 4.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/618775-144-144?v=638999592373300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego Vakimu Frutos del Bosque 960g",
+    "precio": 17.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/540907-144-144?v=638597937690270000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Bebida de Soya Soy Vida Lata 390g",
+    "precio": 15.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/393571-144-144?v=638180614113630000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Uht Vigor Bolsa 800ml",
+    "precio": 5.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/516119-144-144?v=638458833765500000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Battimix Vainilla 146g",
+    "precio": 3.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514785-144-144?v=638448465847900000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego Sabor Natural 800g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598533-144-144?v=638896665966500000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Lúcuma Galonera 1.6kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607574-144-144?v=638938245910700000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego Sabor Frutos Rojos 800g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520542-144-144?v=638483890065370000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Parmesano Rallado Laive 35g",
+    "precio": 4.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/395211-144-144?v=638180782176570000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Bonlé en Tajadas 500g",
+    "precio": 22.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607556-144-144?v=638938245811170000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Gloria 180g",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/426618-144-144?v=638280593454900000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Natural SKYR Plusa 500g",
+    "precio": 18.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240793-144-144?v=638173829910130000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Cottage Plusa pote 225 g",
+    "precio": 11.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Evaporada Entera Cuisine & Co Lata 410g",
+    "precio": 4.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/586662-144-144?v=638826682120170000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Leche UHT Laive Sabor Chocolate Caja 170ml",
+    "precio": 9.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/533440-144-144?v=638551497703000000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Sello de Oro Barra 200g",
+    "precio": 4.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/547227-144-144?v=638635845686230000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla Plusa Con Sal Barra 200 g",
+    "precio": 15.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/513752-144-144?v=638436153912030000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Sin Lactosa Laive x kg",
+    "precio": 41.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241529-144-144?v=638173833837470000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Manty Clásica 300g",
+    "precio": 5.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/399050-144-144?v=638181122358900000&width=144&height=144&aspect=true",
+    "descripcion": "Twopack Bebida de Almendra Nature's Heart Sin Azúcar Caja 946ml",
+    "precio": 18.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Leche Reconstituida con Vitaminas Gloria Lata 170g",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607592-144-144?v=638938245994200000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Bonlé Protección Lata 390g",
+    "precio": 15
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598538-144-144?v=638896665982000000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Fresa Plátano Galonera 1.6kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Frutado Danlac Maracumango 900g",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Entero Danlac Sabor Natural Botella 900g",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/622245-144-144?v=639010065732370000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Leche para Diluir Laive Botella 390g",
+    "precio": 19.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598514-144-144?v=638896665902030000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Durazno Galonera 1.6kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/490322-144-144?v=638327831513030000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sbelt Sabor Fresa 1.7kg",
+    "precio": 12.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506914-144-144?v=638398245681470000&width=144&height=144&aspect=true",
+    "descripcion": "Fourpack Leche Entera UHT Laive Caja 946ml",
+    "precio": 23.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607565-144-144?v=638938245858570000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla Gloria Sin Sal 180g",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/534744-144-144?v=638560785697670000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Concentrada Sin Lactosa Laive Botella 390g",
+    "precio": 4.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/611683-144-144?v=638967729931070000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozarella Gloria Bola 250g",
+    "precio": 13.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514782-144-144?v=638448465837300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego Sabor Frutos Rojos 120g",
+    "precio": 2.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Griego Descremado con Arándano Danlac Frasco 900g",
+    "precio": 20.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Gouda en Tajadas Braedt 180g",
+    "precio": 10.32
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240966-144-144?v=638173830879730000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Cuisine & Co x kg",
+    "precio": 37
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/535849-144-144?v=638564098003900000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Crema Cuisine & Co Caja 227g",
+    "precio": 12.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Leche Sabor a Chocolate Gloria Niños Caja 180ml",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506912-144-144?v=638398245671870000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Semidescremada UHT Laive Sin Lactosa Caja 946ml",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Leche Light Gloria Zero Lacto Lata 390g",
+    "precio": 23.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607570-144-144?v=638938245884400000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Gloria x kg",
+    "precio": 38.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/459982-144-144?v=638285830603030000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Light Laive Sin Lactosa Botella 390g",
+    "precio": 4.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/589238-144-144?v=638839641696200000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Laive 350g",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/538163-144-144?v=638578173741700000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Descremado Sin Lactosa Quark Sabor Vainilla 500g",
+    "precio": 16.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/555386-144-144?v=638666842139330000&width=144&height=144&aspect=true",
+    "descripcion": "KÉFIR GRIEGO NATURAL DESLACTO DUMAN 500G",
+    "precio": 17.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/551712-144-144?v=638653143990130000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Bebida de Almendra Nature's Heart Sin Azúcar Caja 946ml",
+    "precio": 51.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/490315-144-144?v=638327829672200000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sbelt Sabor Vainilla Francesa 1.7kg",
+    "precio": 12.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/377695-144-144?v=638180591059970000&width=144&height=144&aspect=true",
+    "descripcion": "Twopack Bebida de Almendra Laive Vio Sabor Vainilla Caja 946ml",
+    "precio": 21.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/586640-144-144?v=638826682048800000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Laive Light Caja 480g",
+    "precio": 23.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/615926-144-144?v=638985873968070000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive con Fresa 1.7kg",
+    "precio": 11.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Ultrafiltrada Sin Lactosa Gloria Zero Lacto Lata 390g",
+    "precio": 4.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Leche Reconstituida con Quinua , Kiwicha y Cañihua Gloria 390g",
+    "precio": 23.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Frutado con Frutos del Bosque Danlac Botella 900g",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/355299-144-144?v=638180580608530000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Descremado Vakimu Quark 500g",
+    "precio": 15.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506916-144-144?v=638398245689900000&width=144&height=144&aspect=true",
+    "descripcion": "Fourpack Leche Descremada UHT Laive Sbelt Caja 946ml",
+    "precio": 23.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/617641-144-144?v=638998509958800000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego Vakimu Mango Pasión 960g",
+    "precio": 17.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520543-144-144?v=638483890069030000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozzarella Laive Light 250g",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240798-144-144?v=638173829933430000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Philadelphia Original Pote 150 g",
+    "precio": 13.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520544-144-144?v=638483890072000000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Laive 180g",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598163-144-144?v=638890618023100000&width=144&height=144&aspect=true",
+    "descripcion": "Fórmula de Crecimiento en Polvo Similac Total Comfort Kid 2.1kg",
+    "precio": 193.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Parcialmente Descremada Gloria Light Bolsa 800ml",
+    "precio": 4.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241548-144-144?v=638173833918170000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Laive 180g",
+    "precio": 13.99
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Mozzarella en Tajadas Braedt 180g",
+    "precio": 10.32
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598523-144-144?v=638896665932930000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Fresa Botella 946g",
+    "precio": 6.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/459612-144-144?v=638285798657970000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Laive Sin Lactosa 180g",
+    "precio": 13.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598157-144-144?v=638890617995930000&width=144&height=144&aspect=true",
+    "descripcion": "Fórmula de Crecimiento en Polvo Similac Total Comfort 1 1.4kg",
+    "precio": 259.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/554988-144-144?v=638665329875270000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Sin Lactosa Yoleit Frutos del Bosque 1.6kg",
+    "precio": 11.47
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598532-144-144?v=638896665963200000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Guanábana Galonera 1.6kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Reconstituida Gloria Light Lata 390g",
+    "precio": 4.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Griego Descremado con Mango Danlac Frasco 900g",
+    "precio": 20.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520553-144-144?v=638483890103000000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Laive x kg",
+    "precio": 40.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/625362-144-144?v=639023674303130000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Sabor Mora Laive 1.7kg",
+    "precio": 11.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Entera UHT Gloria Caja 946ml",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/248486-144-144?v=638173947914200000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida Chocolatada La Preferida 800ml",
+    "precio": 3.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche UHT Sin Lactosa Gloria Zero Lacto Caja 946ml",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/573869-144-144?v=638761773841070000&width=144&height=144&aspect=true",
+    "descripcion": "Fourpack Bebida de Almendra Sin Endulzar Laive Vio Caja 946ml",
+    "precio": 34.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/545369-144-144?v=638624505873000000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Bonlé Bajo en Grasa Caja 480g",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598425-144-144?v=638895913412300000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x8 Fórmula de Continuación NAN 3 Bebés 390g",
+    "precio": 40.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240819-144-144?v=638173830073100000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Preparado Cheddar Laive 12 tajadas",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/584857-144-144?v=638810381388300000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Sin Lactosa Laive 440g",
+    "precio": 25.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607554-144-144?v=638938245802030000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Gloria 90g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Alimento Lácteo Fermentado Yofresh Fresa Caja 180ml",
+    "precio": 10.8
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/515187-144-144?v=638453758306670000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Bebida Láctea Yopi Sabor Chocolate Caja 170ml",
+    "precio": 8.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242845-144-144?v=638173840253600000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Frutado Gloria Fresa Vaso 120 g",
+    "precio": 1.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520541-144-144?v=638483890062500000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozzarella Laive 250g",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/248482-144-144?v=638173947905430000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Semidescremada UHT Laive Sin Lactosa 900ml",
+    "precio": 5.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/538164-144-144?v=638578173744200000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Descremado Sin Lactosa Quark Sabor Fresa 500g",
+    "precio": 16.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607573-144-144?v=638938245902900000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Gloria en Tajadas 500g",
+    "precio": 26.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Bebida Láctea Gloria Pro Power Dark Chocolate Botella 320ml",
+    "precio": 35.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Bebida Láctea Gloria Pro Day Chocolate Botella 320ml",
+    "precio": 25.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/530256-144-144?v=638526551456070000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Deslactosada Danlac Light Botella 900ml",
+    "precio": 8.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/616507-144-144?v=638986846008400000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sabor Vainilla Francesa 1.7kg",
+    "precio": 11.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/617645-144-144?v=638998509977400000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego Vakimu Arándano 960g",
+    "precio": 17.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607588-144-144?v=638938245975900000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Bonlé Familiar Lata 390g",
+    "precio": 18.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/521718-144-144?v=638490047843500000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Crema Sabor Natural Laive 227g",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/248318-144-144?v=638173947492170000&width=144&height=144&aspect=true",
+    "descripcion": "Fourpack Bebida con Soya Laive Vio Caja 946ml",
+    "precio": 25.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/489794-144-144?v=638326645855070000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Laive Sin Lactosa Fresa 1.7kg",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/563863-144-144?v=638706262986330000&width=144&height=144&aspect=true",
+    "descripcion": "Leche UHT Sin Lactosa Deslactosada Vigor Bolsa 800ml",
+    "precio": 5.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275740-144-144?v=638179302494470000&width=144&height=144&aspect=true",
+    "descripcion": "Tabla Quesos Metro",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242846-144-144?v=638173840255970000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Frutado Gloria Durazno Vaso 120 g",
+    "precio": 1.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/478988-144-144?v=638319621797530000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Slim Frutos Rojos Galonera 1.7kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/490320-144-144?v=638327831500500000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive con Lúcuma 1.7kg",
+    "precio": 11.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/555373-144-144?v=638666842099800000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Sin Lactosa Yoleit Maracumango 1.6kg",
+    "precio": 11.47
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/413666-144-144?v=638279068691200000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Coco Nature's Heart Sin Azúcar Caja 946ml",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242746-144-144?v=638173839792500000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x4 Alimento Fermentado Fresa Laive Bio Defensa Light 100ml",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613363-144-144?v=638975397774430000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Fresa Botella 180g",
+    "precio": 2.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514779-144-144?v=638448465828330000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego con Miel 800g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520552-144-144?v=638483890098630000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Artesanal Laive x kg",
+    "precio": 30.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Sabor Chocolate Gloria Caja 946ml",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/465137-144-144?v=638300182353700000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozzarella Ligth Cuisine & Co Rallado 200g",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/513755-144-144?v=638436153923430000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Laive Sbelt Laive x kg",
+    "precio": 32.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/248475-144-144?v=638173947892630000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Semidescremada UHT Laive Light 900ml",
+    "precio": 4.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506913-144-144?v=638398245676530000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Descremada UHT Laive Sbelt Caja 946ml",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/392679-144-144?v=638180611425030000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Yogurt Gloria Sabor Fresa Botella 180g",
+    "precio": 10.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607553-144-144?v=638938245797500000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Gloria x kg (250g aprox)",
+    "precio": 39.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627581-144-144?v=639040953771500000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x6 Bebida Sabor Chocolate Bonlé Caja 180ml",
+    "precio": 9.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242745-144-144?v=638173839786870000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x4 Alimento Fermentado Vainilla Laive Bio Defensa Light 100ml",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598509-144-144?v=638896665889870000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Vainilla Botella 946g",
+    "precio": 6.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598510-144-144?v=638896665892370000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Natural Botella 946g",
+    "precio": 6.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241525-144-144?v=638173833818600000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Dorina Clásica 220g",
+    "precio": 7.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Griego Danlac Sabor Natural Frasco 420g",
+    "precio": 13.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506926-144-144?v=638398245729530000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Semidescremada UHT Laive Sin Lactosa Light Caja 946ml",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/496244-144-144?v=638343814341700000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sbelt Sabor Fresa 946g",
+    "precio": 7.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/460034-144-144?v=638285833571430000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Vakimu +Pro Fresa 500g",
+    "precio": 15.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/579290-144-144?v=638791367537600000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Batido Natural Laive Griego Botella 800g",
+    "precio": 11.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/335458-144-144?v=638180573015300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego Tigo Con Arándano y Chía Balde 1 Kg",
+    "precio": 18.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514788-144-144?v=638448465858730000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego Sabor Mango 800g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/460035-144-144?v=638285833616300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Vakimu +Pro Arándano 500g",
+    "precio": 15.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Mantequilla con Sal Danlac Frasco 180g",
+    "precio": 16.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613998-144-144?v=638979826635370000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x8 Fórmula de Continuación NAN 2 Bebés 390g",
+    "precio": 47.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pack x6 Gloria Leche Light 170g",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/490314-144-144?v=638327829661970000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sbelt Sabor Durazno 1.7kg",
+    "precio": 12.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/496763-144-144?v=638349000448470000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Concentrada Laive Bolsa 390g",
+    "precio": 3.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche UHT Gloria Light Caja 946ml",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/532871-144-144?v=638545881882430000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Crema Light Cuisine & Co Caja 227g",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/525683-144-144?v=638506677672730000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Batido con Trozos de Arándano Laive Griego 120g",
+    "precio": 2.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/533442-144-144?v=638551497709700000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Sello de Oro Pote 400g",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/404048-144-144?v=638181134659230000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego Sin Azúcar Tigo Premium 1kg",
+    "precio": 18.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/563350-144-144?v=638701943464370000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Dorina Light 220g",
+    "precio": 7.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/496239-144-144?v=638343814317070000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sbelt Sabor Vainilla Francesa 946g",
+    "precio": 7.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Bebida Láctea Gloria Pro Power Caramel Macchiato Botella 320ml",
+    "precio": 35.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/555371-144-144?v=638666842093100000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Yoleit Sin Lactosa con Fresa Botella 1.6kg",
+    "precio": 11.47
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Bebida con Avena Gloria Acti Avena Caja 946ml",
+    "precio": 6.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514262-144-144?v=638442741786670000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Andino Plusa x kg",
+    "precio": 45.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/460616-144-144?v=638285892127030000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Almendra Nature's Heart Sin Azúcar Caja 946ml",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506915-144-144?v=638398245686300000&width=144&height=144&aspect=true",
+    "descripcion": "Fourpack Leche Semidescremada UHT Laive Light Caja 946ml",
+    "precio": 23.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506923-144-144?v=638398245718300000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Sabor Chocolate Laive Caja 946ml",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Frutado con Chirimoya Danlac Botella 900g",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/558929-144-144?v=638688657702030000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Coco Laive Vio Sin Endulzar Caja 946ml",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/509576-144-144?v=638417253678000000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Slim Vainilla Galonera 1.7kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Entera UHT Gloria Bolsa 800ml",
+    "precio": 4.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Parmesano Braedt Rallado 200g",
+    "precio": 16.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627413-144-144?v=639035877899470000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Crema Natural Delice Caja 190 g",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/587849-144-144?v=638833593696800000&width=144&height=144&aspect=true",
+    "descripcion": "Mezcla Láctea Ideal Cremosita Lata 390g",
+    "precio": 4.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/537875-144-144?v=638576122557430000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Battimix Gloria Vainilla C/Hojuelas Azucaradas Vaso 125 g",
+    "precio": 3.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/582898-144-144?v=638803677870000000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Almendra Laive Vìo Almendra Sabor Vainilla 800ml",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/496238-144-144?v=638343814311530000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sbelt Sabor Lúcuma 946g",
+    "precio": 7.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627580-144-144?v=639040953765970000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida Láctea Sabor Chocolate Bonlé Bolsa 800 ml",
+    "precio": 2.95
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Parcialmente Descremada UHT Gloria Zero Lacto",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514786-144-144?v=638448465851300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego Sabor Maracuyá 800g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-eeuu.png",
+    "descripcion": "Queso Duro Parmesano Rallado Crystal Farms Frasco 226 gr",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607568-144-144?v=638938245873270000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Sin Lactosa Gloria Zero Lacto x kg (400g aprox)",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/460184-144-144?v=638285839025670000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Batido Sabor Fresa con Bolitas de Chocolate Gloria Batti Mix 146g",
+    "precio": 3.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/248399-144-144?v=638173947681400000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x6 Mezcla Láctea Laive Cremosa 480g",
+    "precio": 22.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240825-144-144?v=638173830107330000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Preparado Cheddar Laive 8 tajadas",
+    "precio": 8.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Tripack Leche Parcialmente Descremada Gloria Niños Caja 1L",
+    "precio": 16.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240916-144-144?v=638173830588630000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Parmesano Rallado Pote 100 g",
+    "precio": 10.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Bebida De Almendra Sin Gluten y  Sin Azúcar Cuisine & Co Caja 1 Litro",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/513751-144-144?v=638436153908470000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Parmesano Laive x kg",
+    "precio": 113.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/465139-144-144?v=638300182419870000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozzarella Cuisine & Co Rallado 200g",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Fresca Piamonte Bolsa 950 ml",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240799-144-144?v=638173829935470000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Philadelphia Light Pote 150 g",
+    "precio": 13.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/611685-144-144?v=638967729937670000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fundido en Tajadas Gloria Sabor Natural 136g",
+    "precio": 7.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche UHT Sin Lactosa Gloria Zero Lacto Bolsa 800ml",
+    "precio": 5.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241550-144-144?v=638173833925530000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla Sin Sal Laive 180g",
+    "precio": 13.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/295642-144-144?v=638179462520070000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Coco Laive Vio Caja 946ml",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/465104-144-144?v=638300181313230000&width=144&height=144&aspect=true",
+    "descripcion": "Leche UHT Laive Light Sin Lactosa Bolsa 900ml",
+    "precio": 5.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514895-144-144?v=638449440747630000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Light Cuisine & Co x kg",
+    "precio": 50.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Sin Lactosa Danlac Line Piña Pitahaya 900g",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514892-144-144?v=638449440734370000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Laive x kg",
+    "precio": 49.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/577275-144-144?v=638779269940570000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Kéfir Duman Fruto del Bosque 500g",
+    "precio": 16.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/592497-144-144?v=638858001818300000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Laive 90g",
+    "precio": 7.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/562863-144-144?v=638701509703300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Laive Griego Frutos Rojos 115g",
+    "precio": 2.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/392680-144-144?v=638180611430830000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Yogurt Gloria Sabor Vainilla Botella 180g",
+    "precio": 10.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/573831-144-144?v=638761773735000000&width=144&height=144&aspect=true",
+    "descripcion": "Pack Suiza Mixto 300g: Jamón Pizzero + Queso Edam",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/401850-144-144?v=638181128516070000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Almendra Laive Vio Sin Endulzar Caja 946ml",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/496230-144-144?v=638343814264830000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sin Lactosa Sabor Vainilla Francesa 946g",
+    "precio": 8.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613362-144-144?v=638975397768330000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Vainilla Botella 180g",
+    "precio": 2.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/392592-144-144?v=638180610927300000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Cottage Cuisine & Co 227g",
+    "precio": 11.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504867-144-144?v=638386150472630000&width=144&height=144&aspect=true",
+    "descripcion": "Jamón Pizza Otto Kunz + Queso Edam 340g",
+    "precio": 15.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520549-144-144?v=638483890088630000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Andino Laive 180g",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/589242-144-144?v=638839641715200000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Paria Gloria Cajamarca 500g",
+    "precio": 31.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Gouda Braedt 440g",
+    "precio": 21.52
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Frutado con Aguaymanto Danlac Botella 900g",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/586725-144-144?v=638826682337270000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sbelt Mora Galonera 1.7kg",
+    "precio": 12.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Bebida de Coco Cuisine & Co Sin Azúcar Añadida Caja 1L",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514411-144-144?v=638446737751200000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mantecoso Chugur Molde 300 g",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/579289-144-144?v=638791367534330000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Batido Laive Griego Sabor Frutos Rojos 800g",
+    "precio": 11.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/533441-144-144?v=638551497706270000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Sello de Oro Barra 90g",
+    "precio": 3.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/390405-144-144?v=638180602298830000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Oquendo 250g",
+    "precio": 8.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Sabor a Cheddar Braedt 170g",
+    "precio": 6.93
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598040-144-144?v=638890186067100000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Frutado Deslactosado Tigo Arándano 850g",
+    "precio": 10.96
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Evaporada Light Cuisine & Co Lata 410g",
+    "precio": 4.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598511-144-144?v=638896665894700000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Tutti Frutti Botella 946g",
+    "precio": 6.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607590-144-144?v=638938245985300000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Gloria 50g",
+    "precio": 3.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Parmesano Braedt x kg",
+    "precio": 107.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242775-144-144?v=638173839931270000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Batishake Gloria Vainilla Vaso 120 g",
+    "precio": 2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241545-144-144?v=638173833905800000&width=144&height=144&aspect=true",
+    "descripcion": "Crema de Mantequilla Light Laive 180g",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/509575-144-144?v=638417253670470000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Slim Fresa Galonera 1.7kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/625318-144-144?v=639023674097130000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sabor Fresa 930g",
+    "precio": 7.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/496237-144-144?v=638343814307170000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sbelt Sabor Mora 946g",
+    "precio": 7.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607591-144-144?v=638988138680230000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Sin Lactosa Gloria Zero Lacto x kg (250g aprox)",
+    "precio": 41.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/570433-144-144?v=638743089701630000&width=144&height=144&aspect=true",
+    "descripcion": "Fórmula Infantil Enfamil Promental Confort 1.65kg",
+    "precio": 313.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242744-144-144?v=638173839780600000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x4 Alimento Fermentado Tutti Frutti Laive Bio Defensa Niños 100ml",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598512-144-144?v=638896665897200000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Lúcuma Botella 946g",
+    "precio": 6.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242790-144-144?v=638173840008470000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Yopi Laive Fresa Vaso 80 g",
+    "precio": 0.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514784-144-144?v=638448465844470000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego Sabor Mango 120g",
+    "precio": 2.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Bebida Láctea Gloria Pro Day Vainilla Botella 320ml",
+    "precio": 25.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/625320-144-144?v=639023674106700000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sabor Vainilla Francesa 930g",
+    "precio": 7.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche UHT Descremada Gloria Slim Triple Zero Caja 946ml",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/269359-144-144?v=638176587021900000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Laive Swis 450g",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/538165-144-144?v=638578173745800000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Proteico Sin Lactosa Vakimu +Pro Sabor Vainilla 350g",
+    "precio": 8.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/521288-144-144?v=638488317910230000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Zero Lacto Fresa 1.7kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/612322-144-144?v=638969349768230000&width=144&height=144&aspect=true",
+    "descripcion": "Twopack Fórmula de Crecimiento en Polvo Similac Total Comfort Kid 2.1kg",
+    "precio": 375.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Tabla de Charcutería Braedt",
+    "precio": 16.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/611686-144-144?v=638967729940500000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fundido en Tajadas Gloria Sabor Cheddar 136g",
+    "precio": 7.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/589244-144-144?v=638839641723430000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Andino Gloria Cajamarca 500g",
+    "precio": 31.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/536394-144-144?v=638567805648270000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego con Miel 128g",
+    "precio": 4.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613364-144-144?v=638975397779800000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Lúcuma Botella 180g",
+    "precio": 2.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242741-144-144?v=638173839762470000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x4 Alimento Fermentado Fresa Laive Bio Defensa 100ml",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520563-144-144?v=638483890139530000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Almendra Laive Vio Sin Azúcar Botella 390g",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/400638-144-144?v=638181126302930000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Batti Mix Mini Cookies 138g",
+    "precio": 3.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Parcialmente Descremada Gloria Sabor Chocolate Bolsa 900ml",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche en Polvo Gloria Lata 800 g",
+    "precio": 42.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506919-144-144?v=638398245704230000&width=144&height=144&aspect=true",
+    "descripcion": "Leche Entera UHT Laive Caja 946ml",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/604701-144-144?v=638917941919530000&width=144&height=144&aspect=true",
+    "descripcion": "Kéfir Griego Duman Natural 200g",
+    "precio": 7.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598162-144-144?v=638890618016100000&width=144&height=144&aspect=true",
+    "descripcion": "Fórmula de Crecimiento en Polvo Similac Total Comfort 1 820g",
+    "precio": 167.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/496624-144-144?v=638346945678470000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sin Lactosa Durazno 946g",
+    "precio": 8.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Leche Reconstituida con Quinua Gloria 390g",
+    "precio": 23.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/378008-144-144?v=638180591255200000&width=144&height=144&aspect=true",
+    "descripcion": "Mezcla Láctea en Polvo Bonlé 96g",
+    "precio": 3.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/625333-144-144?v=639023674157700000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sabor Fresa 180g",
+    "precio": 2.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/441639-144-144?v=638283321962300000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Avena Nature's Heart Sin Azúcar Caja 946ml",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche en Polvo Gloria Bolsa 96g",
+    "precio": 5.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240792-144-144?v=638173829906370000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Pasteurizado Laive x kg",
+    "precio": 38.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/616526-144-144?v=638986846091330000&width=144&height=144&aspect=true",
+    "descripcion": "Leche para Diluir Laive Botella 390g",
+    "precio": 4.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sixpack Leche con Avena y Canela Gloria Acti Avena Caja 180ml",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/552624-144-144?v=638654853704430000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Dorina Clásica 900g",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/580522-144-144?v=638796550438030000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Battishake Gloria Fresa Vaso 120 g",
+    "precio": 2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514787-144-144?v=638448465854970000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego Sabor Natural 120g",
+    "precio": 2.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520551-144-144?v=638483890094570000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozzarella en Tajadas Laive 180g",
+    "precio": 12.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/593326-144-144?v=638863334761770000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Pro Day Mora Botella 300g",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/465136-144-144?v=638300182322300000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozzarella Ligth Cuisine & Co Bola 200g",
+    "precio": 13.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/617111-144-144?v=638987493747270000&width=144&height=144&aspect=true",
+    "descripcion": "Kéfir Bebible Deslactosado Duman Natural 900ml",
+    "precio": 16
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/515180-144-144?v=638453758287800000&width=144&height=144&aspect=true",
+    "descripcion": "Twopack Bebida de Avena Nature's Heart Sin Azúcar Caja 946ml",
+    "precio": 18.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Frutado con Fresa Danlac 160g",
+    "precio": 4.67
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Frutado con Fresa Danlac Line Botella 900g",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Bebida Láctea Gloria Pro Power Sabor Dark Chocolate Botella 320ml",
+    "precio": 6.99
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241519-144-144?v=638173833790300000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Laive Swis 200g",
+    "precio": 4.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/374812-144-144?v=638180589447230000&width=144&height=144&aspect=true",
+    "descripcion": "Mezcla Láctea La Preferida 800ml",
+    "precio": 3.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/478684-144-144?v=638319527072330000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Deslactosado Yoleit Griego Sabor Natural Pote 950g",
+    "precio": 16.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/530255-144-144?v=638526550845270000&width=144&height=144&aspect=true",
+    "descripcion": "Leche UHT Vigor Light Bolsa 800ml",
+    "precio": 5.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598039-144-144?v=638890186064700000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Frutado Deslactosado Tigo Frutas Tropicales 850g",
+    "precio": 10.96
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613365-144-144?v=638975397785900000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Durazno Botella 180g",
+    "precio": 2.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/404046-144-144?v=638181134653930000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego 0% Grasas Tigo Premium 1kg",
+    "precio": 18.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/455845-144-144?v=638285360235000000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego Frutos Rojos Botella 950g",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/460032-144-144?v=638285833500600000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Vakimu +Pro Fresa 160g",
+    "precio": 6.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/351872-144-144?v=638180579298870000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego Tigo Frutos Rojos 1 kg",
+    "precio": 18.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/576303-144-144?v=638773977738230000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Yoleit Sin Lactosa Sabor Vainilla Botella 1.6kg",
+    "precio": 11.47
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242769-144-144?v=638173839905730000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Batido Descremado con Trozos de Fresa Laive Griego Frutado 120g",
+    "precio": 2.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/561221-144-144?v=638695677735770000&width=144&height=144&aspect=true",
+    "descripcion": "Twopack Bebida de Coco Laive Vio Sin Endulzar Caja 946ml",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/458166-144-144?v=638285747933530000&width=144&height=144&aspect=true",
+    "descripcion": "Fórmula Infantil Enfamil Promental Confort 1.1kg",
+    "precio": 229.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pack San Fernando 338g: Jamón Sandwich + Queso Edam",
+    "precio": 10.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/525234-144-144?v=638503549732630000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Mezcla Láctea Ideal Light Lata 390g",
+    "precio": 23.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/625325-144-144?v=639023674125970000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Laive Sabor Vainilla Francesa 180g",
+    "precio": 2.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/587850-144-144?v=638833593714270000&width=144&height=144&aspect=true",
+    "descripcion": "Mezcla Láctea Ideal Amanecer 390g",
+    "precio": 3.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Reconstituida con Quinua , Kiwicha y Cañihua Gloria 390g",
+    "precio": 4.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/552626-144-144?v=638654853711470000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina La Danesa 500g",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/449180-144-144?v=638284988685300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego Vakimu Fresa 500g",
+    "precio": 10.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/522764-144-144?v=638495878578300000&width=144&height=144&aspect=true",
+    "descripcion": "Mezcla Láctea en Polvo Anchor Bolsa 96g",
+    "precio": 5.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627394-144-144?v=639035877801000000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Crema Delice Natural Pote 455 g",
+    "precio": 23.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/406662-144-144?v=638181141802800000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego 0% Grasas Tigo Premium Mango - Maracuyá  1kg",
+    "precio": 18.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/531582-144-144?v=638536485667300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt con Linaza Gloria Actibio Sabor Higo Guindón y Pasas 950g",
+    "precio": 7.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/525289-144-144?v=638503762954430000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x3 Bebida de Coco Nature's Heart Sin Azúcar Caja 946ml",
+    "precio": 37.8
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Bebida Láctea Gloria Pro Power Sabor Caramel Macchiato Botella 320ml",
+    "precio": 6.99
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/593324-144-144?v=638863334347130000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Pro Power Sauco Vaso 155g",
+    "precio": 4.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/522179-144-144?v=638491450328770000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Tigo Griego Arándano con Chía 1.6kg",
+    "precio": 16.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607571-144-144?v=638938245892900000&width=144&height=144&aspect=true",
+    "descripcion": "Mezcla Láctea Cremosa Bonlé Lata 395 g Pack de 6 unid",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-francia.png",
+    "descripcion": "Mantequilla con Sal Président Barra 200 gr",
+    "precio": 21.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/617108-144-144?v=638987493713300000&width=144&height=144&aspect=true",
+    "descripcion": "Kéfir Bebible Deslactosado Duman Fresa 900ml",
+    "precio": 16
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/561220-144-144?v=638695677733570000&width=144&height=144&aspect=true",
+    "descripcion": "Twopack Bebida de Almendra Laive Vio Sin Endulzar Caja 946ml",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/593325-144-144?v=638863334564970000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Pro Day Avena Vaso 155g",
+    "precio": 3.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/531580-144-144?v=638536485663100000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt con Linaza Gloria Actibio Sabor Higo Guindón y Pasas 1.7kg",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627405-144-144?v=639035877860630000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Crema Delice Menos Calorías 150g",
+    "precio": 10.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-peru.png",
+    "descripcion": "Queso Fresco Floralp Molde 500 gr",
+    "precio": 26.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/552628-144-144?v=638654853718830000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina La Preferida 90g",
+    "precio": 2.55
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/549140-144-144?v=638645782284370000&width=144&height=144&aspect=true",
+    "descripcion": "Yopi Kboom Bolitas Explosivas 100g",
+    "precio": 3.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/460311-144-144?v=638285880562330000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozzarella Especial Duman Rallado 200g",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/593327-144-144?v=638863334973230000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Pro Day Manzana Botella 300g",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/531583-144-144?v=638536485670430000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt con Linaza Gloria Actibio Sabor Fresa 950g",
+    "precio": 7.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-francia.png",
+    "descripcion": "Queso Petit Brie Ile de France Molde 125 g",
+    "precio": 26.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/525285-144-144?v=638503762943070000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x3 Bebida de Almendra Nature's Heart Sin Azúcar Caja 946ml",
+    "precio": 37.8
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/453984-144-144?v=638285297599970000&width=144&height=144&aspect=true",
+    "descripcion": "Crema con Queso Cuisine & Co Original 80g",
+    "precio": 3.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Griego Descremado con Mango Danlac Frasco 420g",
+    "precio": 13.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/412529-144-144?v=638279044059070000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Almendra Nature's Heart Caja 946ml",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/451365-144-144?v=638285102874900000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Tigo Griego Fresa Botella 285g",
+    "precio": 4.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/427444-144-144?v=638280649064400000&width=144&height=144&aspect=true",
+    "descripcion": "Fórmula Infantil en Polvo Enfamil Promental Etapa 1 1.65kg",
+    "precio": 310.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/572233-144-144?v=638748598048400000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Yoleit Sabor Maracumango 950g",
+    "precio": 8.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/347675-144-144?v=638180577678000000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Gouda Gloria Tajadas 180 g",
+    "precio": 13.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-eeuu.png",
+    "descripcion": "Queso Parmesano y Romano Rallado Crystal Farms Frasco 226 gr",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/375943-144-144?v=638180590075300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Tradicional La Abuela Natural 1kg",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/478989-144-144?v=638319621803470000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Gloria Slim Frutos Rojos Botella 1kg",
+    "precio": 6.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/453985-144-144?v=638285297636830000&width=144&height=144&aspect=true",
+    "descripcion": "Crema con Queso Cuisine & Co Tocino 80g",
+    "precio": 3.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/396393-144-144?v=638180790028370000&width=144&height=144&aspect=true",
+    "descripcion": "Mezcla Láctea Bonle Polvo Doypack 345g",
+    "precio": 12.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Reconstituida Gloria Niños Lata 390g",
+    "precio": 4.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/611681-144-144?v=638967729921800000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fundido Untable Gloria Sabor Natural 80g",
+    "precio": 3.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/617109-144-144?v=638987493739400000&width=144&height=144&aspect=true",
+    "descripcion": "Kéfir Bebible Deslactosado Duman Vainilla 900ml",
+    "precio": 16
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Gouda Braedt en Tajadas x kg",
+    "precio": 63.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/404506-144-144?v=638181135907570000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt con Chocobolitas Cuisine & Co 125g",
+    "precio": 3.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627401-144-144?v=639035877837200000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Crema Gourmet Delice con Cabanossi & Chimichurri Molde 150 g",
+    "precio": 21.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/453983-144-144?v=638285297564370000&width=144&height=144&aspect=true",
+    "descripcion": "Crema con Queso Cuisine & Co Aceituna 80g",
+    "precio": 3.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242856-144-144?v=638173840313200000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Premium Tigo Natural Vaso 160 g",
+    "precio": 5.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-francia.png",
+    "descripcion": "Queso Mini Brie Ile de France 5un",
+    "precio": 26.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/611680-144-144?v=638967729918830000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozarella con Orégano Gloria Bola 250g",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Mozzarella Braedt Rallado 200g",
+    "precio": 14.32
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/453991-144-144?v=638285297828970000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Cuisine & Co Tajadas 390g",
+    "precio": 24.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Frutado con Chirimoya Danlac Pote 160g",
+    "precio": 4.67
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242764-144-144?v=638173839880100000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Mix Tigo Vainilla C/Galletas Trituradas Vaso 125 g",
+    "precio": 3.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514406-144-144?v=638446737730530000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Andino Arequipa x kg",
+    "precio": 67.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/490313-144-144?v=638327506084430000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Paria La Matilde Tajadas 500g",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/460615-144-144?v=638285892095130000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida de Coco Nature's Heart Caja 946ml",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-francia.png",
+    "descripcion": "Queso Petit Camembert Ile de France Molde 125 g",
+    "precio": 24.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Queso Gouda Braed 90g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/532873-144-144?v=638545881888870000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Crema Light Cuisine & Co Pote 150g",
+    "precio": 12.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241518-144-144?v=638173833784970000&width=144&height=144&aspect=true",
+    "descripcion": "Margarina Laive Swis 90g",
+    "precio": 3.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/446524-144-144?v=638284554856200000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Andino La Matilde 200 g",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627400-144-144?v=639035877832200000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Cottage Delice 227g",
+    "precio": 13.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/534577-144-144?v=638560569692200000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Natural Ecologic 1L",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-francia.png",
+    "descripcion": "Queso Maduro Emmental Président Barra 250 gr",
+    "precio": 34.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/561239-144-144?v=638695677782600000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Deslactosado Yoleit Sabor Frutos del Bosque Botella 160g",
+    "precio": 2.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240985-144-144?v=638173830987500000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Bonlé en tajadas paquete 185 g",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-uruguay.png",
+    "descripcion": "Queso Fundido Sabor Cheddar Milkunz en Tajadas x kg",
+    "precio": 56.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/611682-144-144?v=638967729927930000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fundido Untable Gloria Sabor Jamón 80g",
+    "precio": 3.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/610343-144-144?v=638959846098000000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Batido Laive Griego Frutos Rojos Botella 1.5kg",
+    "precio": 20
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-peru.png",
+    "descripcion": "Queso Fresco Bocconcini Fior di Latte Duman Doypack 250 gr",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/417854-144-144?v=638279360104000000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Andino La Candelaria x kg",
+    "precio": 75.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/540884-144-144?v=638597721680770000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Sin Lactosa Cuisine & Co Iron Protein Vainilla 480g",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627411-144-144?v=639035877890200000&width=144&height=144&aspect=true",
+    "descripcion": "Crema con Queso y Aceituna Untadeli 80g",
+    "precio": 3.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/521290-144-144?v=638488317924300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Zero Lacto Fresa 180g",
+    "precio": 2.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/569465-144-144?v=638737149822100000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Laive Griego Sabor Arándanos 800g",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/520550-144-144?v=638483890091600000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Gouda Laive 180g",
+    "precio": 13.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/358082-144-144?v=638180581716370000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mantecoso Cuisine & Co 200g",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/380935-144-144?v=638180593146330000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Laminado 200 g",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/586014-144-144?v=638820849837230000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Natural Tigo Griego Chef 500g",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/311191-144-144?v=638179494244030000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Parmesano Bolsa 1 kg",
+    "precio": 111.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/455205-144-144?v=638285341383130000&width=144&height=144&aspect=true",
+    "descripcion": "Yogut Bebible Tigo Fresa 140g",
+    "precio": 3.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242850-144-144?v=638173840276430000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego La Abuela Vainilla Francesa 150g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/534585-144-144?v=638560569718730000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Ecologic Sabor Arándano 1L",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613413-144-144?v=638978853721900000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Parmesano Gloria x kg",
+    "precio": 106
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/374129-144-144?v=638180589068230000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Parmesano La Candelaria x kg",
+    "precio": 91.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/456523-144-144?v=638285696076000000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Oquendo Sabor Natural 946ml",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-peru.png",
+    "descripcion": "Queso Fresco Mozzarella Duman Molde 240 gr",
+    "precio": 18.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/404526-144-144?v=638181135954830000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt con Grageas Cuisine & Co 125g",
+    "precio": 3.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/GRATDELI-ME.png",
+    "descripcion": "Alimento Lácteo Enfagrow Premium Promental Vainilla 850g",
+    "precio": 102.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627412-144-144?v=639035877895330000&width=144&height=144&aspect=true",
+    "descripcion": "Crema con Queso Untadeli 80g",
+    "precio": 3.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/559512-144-144?v=638690385981000000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Mix Sabor Fresa con Bolitas de Chocolate Laive 125g",
+    "precio": 2.99
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-francia.png",
+    "descripcion": "Mantequilla sin Sal Président Barra 200g",
+    "precio": 21.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/608351-144-144?v=638944293984830000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Laminado Kraft 180g",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-francia.png",
+    "descripcion": "Queso Blando Brie Ile de France Loncha 150 gr",
+    "precio": 19.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/300719-144-144?v=638179472831070000&width=144&height=144&aspect=true",
+    "descripcion": "Queso De Soya Tofu Metro Pote 500 g",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/453988-144-144?v=638285297734130000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Cuisine & Co Tajadas 150g",
+    "precio": 12.6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/513975-144-144?v=638439825761930000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Paria Lait's x kg",
+    "precio": 65.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627410-144-144?v=639035877885670000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Crema Untadeli Finas Hierbas 80g",
+    "precio": 3.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/592531-144-144?v=638858001933170000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Suiza Tajadas 180g",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/586727-144-144?v=638826682342100000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Laive Griego Frutos Rojos 500g",
+    "precio": 10.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/490310-144-144?v=638327506075370000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Gouda La Matilde Tajadas 200g",
+    "precio": 14.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242848-144-144?v=638173840265670000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego La Abuela Fresa 150g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/478675-144-144?v=638319527042300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Deslactosado Yoleit Sabor Vanilla Botella 160g",
+    "precio": 2.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/455204-144-144?v=638285341352930000&width=144&height=144&aspect=true",
+    "descripcion": "Yogut Bebible Tigo Durazno 140g",
+    "precio": 3.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/446522-144-144?v=638284554795470000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam La Matilde 200 g",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242852-144-144?v=638173840285670000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego La Abuela Frambuesa 150g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-chile.png",
+    "descripcion": "Queso Mozzarella Milkunz x kg",
+    "precio": 59.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242786-144-144?v=638173839987500000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Estílo Griego Tigo con Miel de Abeja Vaso 160 g",
+    "precio": 6.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/626507-144-144?v=639026482736530000&width=144&height=144&aspect=true",
+    "descripcion": "Tripack Leche Deslactosada Vigor Bolsa 800ml",
+    "precio": 15.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/559559-144-144?v=638690386128000000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Parmesano Rallado Serenísima Bolsa 40 g",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Yogurt Griego Danlac Aguaymanto con Zanahoria 420g",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/622900-144-144?v=639011685955730000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Deslactosado Yoleit Griego Mango 950g",
+    "precio": 16.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/534586-144-144?v=638560569723270000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Ecologic Sabor Fresa 1L",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506625-144-144?v=638392305963800000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Parmesano La Matilde  x kg",
+    "precio": 97.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Leche Evaporada Entera Gloria Lata 390g",
+    "precio": 4.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514256-144-144?v=638442741765600000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Gouda Cuisne & Co x kg",
+    "precio": 55.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/564318-144-144?v=638712743600830000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam La Matilde Tajadas 500g",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/535781-144-144?v=638563485865800000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fresco Ecologic 400g",
+    "precio": 20.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/404527-144-144?v=638181135958730000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt con Hojuelas Azucaradas Cuisine & Co 125g",
+    "precio": 3.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/525252-144-144?v=638503549798600000&width=144&height=144&aspect=true",
+    "descripcion": "Pack Nature's Heart: Bebida de Almendra Sin Azúcar + Bebida Vegetal Origen + Espumador",
+    "precio": 21.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/418384-144-144?v=638279370554830000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Gouda President en Tajadas 150g",
+    "precio": 12.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-francia.png",
+    "descripcion": "Queso para Hamburguesa President en Tajadas 200g",
+    "precio": 18.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514409-144-144?v=638446737741930000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Paria Tipo Puno Valle Lindo x kg",
+    "precio": 65.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-espana.png",
+    "descripcion": "Tapas de Queso Duro Manchego García Baquero Paquete de Cuñas 150 gr",
+    "precio": 33.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/534588-144-144?v=638560569729930000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Ecologic Sabor Vainilla 1L",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/418381-144-144?v=638279370500770000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam President en Tajadas 150g",
+    "precio": 12.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627398-144-144?v=639035877822330000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Delice Reggianito x kg",
+    "precio": 108.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/589240-144-144?v=638839641701970000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Duman Laminado 300g",
+    "precio": 17.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/374112-144-144?v=638180589059900000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam La Candelaria x kg",
+    "precio": 75.8
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-peru.png",
+    "descripcion": "Queso Brie Clásico 1 kg",
+    "precio": 125.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/586228-144-144?v=638822793693730000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Cuisine & Co Sabor Vainilla Botella 1.6kg",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/515046-144-144?v=638451921828330000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Danbo Cuisine & Co x kg",
+    "precio": 56.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/456734-144-144?v=638285702558470000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Emmental Cuisine & Co Tajadas 150g",
+    "precio": 10.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/257341-144-144?v=638176284085000000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego La Abuela Lúcuma Bajo en Grasa 150g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/257337-144-144?v=638176284071970000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego La Abuela Fresa Bajo en Grasa 150g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/416549-144-144?v=638279312669970000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozzarella Rallada Duman Bolsa 250 g",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/608353-144-144?v=638944293992500000&width=144&height=144&aspect=true",
+    "descripcion": "Pack Kraft: Jamón Americano 240g + Queso Edam 100g",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/608384-144-144?v=638944294106630000&width=144&height=144&aspect=true",
+    "descripcion": "Queso de Cabra con Ajo & Hierbas Soignon 110g",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240911-144-144?v=638173830561730000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Blando Brie Prestige Caja 125 gr",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514255-144-144?v=638442741760430000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Andino Lait's x kg",
+    "precio": 76.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-espana.png",
+    "descripcion": "Crema de Queso de Cabra Spanish Cheese Pote 125 g",
+    "precio": 26.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/548988-144-144?v=638642766306870000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Tipo Mozzarella Oquendo 500g",
+    "precio": 24.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/268736-144-144?v=638176585244230000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Blando Camembert Prestige Caja 125 gr",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/586229-144-144?v=638822793697470000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Cuisine & Co Sabor Fresa Botella 900g",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/456525-144-144?v=638285696145630000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Bebible Oquendo Sabor Fresa Bolsa 946ml",
+    "precio": 6
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/268744-144-144?v=638176585265930000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Maduro Edam Vonk Bola al Vacío x Kilo",
+    "precio": 127.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/525286-144-144?v=638503762945870000&width=144&height=144&aspect=true",
+    "descripcion": "Pack x3 Bebida de Coco Nature's Heart Caja 946ml",
+    "precio": 37.8
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241009-144-144?v=638173831141930000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Gouda Laive x kg",
+    "precio": 61.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/487295-144-144?v=638322344569030000&width=144&height=144&aspect=true",
+    "descripcion": "Bebida a Base de Coco Lata 400 ml",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/522709-144-144?v=638495878393500000&width=144&height=144&aspect=true",
+    "descripcion": "Alimento Complementario en Polvo NAN Optipro 3 Lata 800g",
+    "precio": 80.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/548980-144-144?v=638642766282830000&width=144&height=144&aspect=true",
+    "descripcion": "Parmesano Rallado Uno x kg",
+    "precio": 119.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/535772-144-144?v=638563485841800000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Mozzarella De Origen Bloque 200g",
+    "precio": 12.7
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/GRATDELI-ME.png",
+    "descripcion": "Twopack Alimento Lácteo Enfagrow Premium Promental Preescolar Vainilla 1.1kg",
+    "precio": 239.2
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627409-144-144?v=639035877880030000&width=144&height=144&aspect=true",
+    "descripcion": "Tipo Mozzarella Delichizz 250g",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Alimento Lácteo Fresa Yofresh Botella 330 gr",
+    "precio": 3.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/388990-144-144?v=638180599974670000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Griego Cuisine & Co Sabor Durazno 500g",
+    "precio": 8.3
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/608352-144-144?v=638944293988570000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam Laminado Kraft 180g",
+    "precio": 23.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/GRATDELI-ME.png",
+    "descripcion": "Alimento Lácteo Enfagrow Premium Promental Confort Etapa 2 800g",
+    "precio": 92.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/542493-144-144?v=638609277982770000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Paria de Vaca Duman x Kg",
+    "precio": 65.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/487159-144-144?v=638322344193270000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla Sin Sal Arias 235g",
+    "precio": 35.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/487158-144-144?v=638322344190430000&width=144&height=144&aspect=true",
+    "descripcion": "Mantequilla con Sal Arias 235g",
+    "precio": 35.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/371187-144-144?v=638180587592130000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Andino en Tajadas Cuisine & Co 120g",
+    "precio": 10.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613416-144-144?v=638978853749400000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Paria Gloria x kg",
+    "precio": 55
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/487157-144-144?v=638322344187630000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Manchego 6M Don Lorenzo 150g",
+    "precio": 44.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/488304-144-144?v=638322347537030000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Paria Artichay x kg",
+    "precio": 70.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-espana.png",
+    "descripcion": "Queso Duro Manchego Baby Maese Miguel x Kg",
+    "precio": 160.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/528634-144-144?v=638513914636530000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Tipo Suizo Artichay x kg",
+    "precio": 75.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/515188-144-144?v=638453758310870000&width=144&height=144&aspect=true",
+    "descripcion": "Sixpack Bebida Láctea Yopi Sabor Avena y Canela Caja 170ml",
+    "precio": 8.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275540-144-144?v=638179302259870000&width=144&height=144&aspect=true",
+    "descripcion": "Mezcla Láctea 50% Menos Grasa Laive Light Caja 480g",
+    "precio": 3.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/622911-144-144?v=639011685997970000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Griego Sabor Frutos Rojos 1kg",
+    "precio": 15.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/371176-144-144?v=638180587586200000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Paria en Tajadas Cuisine & Co 120g",
+    "precio": 10.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/541892-144-144?v=638604311562270000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Gloria Actibio Sabor Vainilla Botella 180ml",
+    "precio": 2.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/349658-144-144?v=638180578424470000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam De Origen Laminado 500g",
+    "precio": 45.1
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/242854-144-144?v=638173840304300000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Premium Tigo Durazno Vaso 160 g",
+    "precio": 5.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/525682-144-144?v=638506677666800000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Cremoso Sabor Fresa Laive Pixar 120g",
+    "precio": 1.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/309255-144-144?v=638179489654800000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Fundido Happy Cow Pote 120 gr",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275976-144-144?v=638179302746870000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Duro Ibérico Baby Rocinante Cuña 200 gr",
+    "precio": 33.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240930-144-144?v=638173830663800000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Maduro Marble Jack Rallado Crystal Farms Bolsa 226 gr",
+    "precio": 20.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240929-144-144?v=638173830657100000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Maduro Mozzarella Rallado Crystal Farms Bolsa 226 gr",
+    "precio": 17.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/248316-144-144?v=638173947489170000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Maduro Edam Milkunz Bola x Kg",
+    "precio": 102
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/625179-144-144?v=639021945858000000&width=144&height=144&aspect=true",
+    "descripcion": "Yogurt Skyr Plusa Frutos Bosque 500g",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/608385-144-144?v=638944294108970000&width=144&height=144&aspect=true",
+    "descripcion": "Queso de Cabra con Miel Soignon 110g",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/564352-144-144?v=638714469691400000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Grana Padano Zanetti Rallado 100g",
+    "precio": 17.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/535774-144-144?v=638563485847430000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Andino De Origen Tajadas 300g",
+    "precio": 25.4
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506624-144-144?v=638392305961630000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Edam La Matilde en Tajadas 1kg",
+    "precio": 53.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/417799-144-144?v=638279358971300000&width=144&height=144&aspect=true",
+    "descripcion": "Queso T Provol Ahumado Chugur x kg (Molx250g)",
+    "precio": 88.9
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/413009-144-144?v=638279055593600000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Tipo Edam Chugur x kg (Molx400g)",
+    "precio": 89
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/546097-144-144?v=638629149961300000&width=144&height=144&aspect=true",
+    "descripcion": "Queso Deshidratado para Pasta Zanetti 80g",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Lácteos y Huevos",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/537057-144-144?v=638572881693470000&width=144&height=144&aspect=true",
+    "descripcion": "Queso para Pasta Deshidratado Zanetti 100g",
+    "precio": 12.9
+  }
+]

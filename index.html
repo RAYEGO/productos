@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Productos - Panel de Control</title>
+  <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar-header">
+        <h2>Mi Tienda</h2>
+      </div>
+      <div class="sidebar-nav">
+        <a href="/" class="active">Registro</a>
+        <a href="/visualizar">Ver Productos</a>
+        <a href="#" onclick="alert('Próximamente'); return false;">Configuración</a>
+      </div>
+      <div class="sidebar-footer">
+        &copy; 2026 Mi Tienda App
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="content-wrapper">
+        <div class="page-header">
+          <h1>Registro de Productos</h1>
+        </div>
+
+        <div class="card">
+          <form id="product-form" class="form-grid">
+            <div class="form-group">
+              <label for="categoria">Categoría</label>
+              <input type="text" id="categoria" name="categoria" required>
+            </div>
+            <div class="form-group">
+              <label for="precio">Precio</label>
+              <input type="number" id="precio" name="precio" min="0" step="0.01" required>
+            </div>
+            <div class="form-group full-width">
+              <label for="imagen">URL de la imagen</label>
+              <input type="url" id="imagen" name="imagen" placeholder="https://ejemplo.com/imagen.jpg">
+            </div>
+            <div class="form-group full-width">
+              <label for="descripcion">Descripción</label>
+              <textarea id="descripcion" name="descripcion" required></textarea>
+            </div>
+            <div class="form-group full-width">
+              <button type="submit" id="submit-button" class="btn btn-primary">Agregar producto</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="card">
+          <div class="form-group">
+            <label for="import-file">Importar productos desde archivo (JSON)</label>
+            <input type="file" id="import-file" accept="application/json">
+          </div>
+          
+          <div class="btn-group">
+            <button type="button" id="save-server-button" class="btn btn-success">Guardar en Servidor</button>
+            <a href="/visualizar" class="btn btn-info">Ver Guardados</a>
+          </div>
+
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Categoría</th>
+                  <th>Imagen</th>
+                  <th>Descripción</th>
+                  <th>Precio</th>
+                </tr>
+              </thead>
+              <tbody id="products-body">
+                <tr id="empty-row">
+                  <td colspan="5">
+                    <div class="empty-state">
+                      No hay productos registrados. Usa el formulario para agregar uno o importa datos.
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <footer class="main-footer">
+        <p>Panel de Administración de Productos v1.0</p>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    var form = document.getElementById("product-form");
+    var tbody = document.getElementById("products-body");
+    var emptyRow = document.getElementById("empty-row");
+    var submitButton = document.getElementById("submit-button");
+    var importFileInput = document.getElementById("import-file");
+    var saveServerButton = document.getElementById("save-server-button");
+
+    function agregarFilaProducto(categoria, imagen, descripcion, precio) {
+      // Verificar si ya existe un producto con la misma descripción
+      var rows = tbody.querySelectorAll("tr");
+      for (var i = 0; i < rows.length; i++) {
+        var row = rows[i];
+        if (row.id === "empty-row") continue;
+        
+        var cells = row.querySelectorAll("td");
+        if (cells.length > 3 && cells[3].textContent.trim() === descripcion) {
+          return false; // Indicar que no se agregó por duplicado
+        }
+      }
+
+      if (emptyRow) {
+        tbody.removeChild(emptyRow);
+        emptyRow = null;
+      }
+      var row = document.createElement("tr");
+
+      // Columna #
+      var indexCell = document.createElement("td");
+      indexCell.textContent = tbody.children.length + 1;
+      row.appendChild(indexCell);
+
+      var categoriaCell = document.createElement("td");
+      categoriaCell.textContent = categoria;
+      row.appendChild(categoriaCell);
+
+      var imagenCell = document.createElement("td");
+      imagenCell.className = "image-cell";
+      if (imagen) {
+        var img = document.createElement("img");
+        img.src = imagen;
+        img.alt = categoria;
+        imagenCell.appendChild(img);
+      }
+      row.appendChild(imagenCell);
+
+      var descripcionCell = document.createElement("td");
+      descripcionCell.textContent = descripcion;
+      row.appendChild(descripcionCell);
+
+      var precioCell = document.createElement("td");
+      precioCell.className = "price-cell";
+      precioCell.textContent = precio.toFixed(2);
+      row.appendChild(precioCell);
+
+      tbody.appendChild(row);
+      return true; // Indicar éxito
+    }
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      submitButton.disabled = true;
+      var categoria = form.categoria.value.trim();
+      var precioValue = form.precio.value.trim();
+      var imagen = form.imagen.value.trim();
+      var descripcion = form.descripcion.value.trim();
+
+      if (!categoria || !precioValue || !descripcion) {
+        submitButton.disabled = false;
+        return;
+      }
+
+      var precio = Number(precioValue);
+      if (Number.isNaN(precio) || precio < 0) {
+        submitButton.disabled = false;
+        return;
+      }
+
+      var agregado = agregarFilaProducto(categoria, imagen, descripcion, precio);
+      
+      if (!agregado) {
+        alert("El producto con esta descripción ya existe en la lista.");
+        submitButton.disabled = false;
+        return;
+      }
+
+      form.reset();
+      submitButton.disabled = false;
+      form.categoria.focus();
+    });
+
+    if (importFileInput) {
+      importFileInput.addEventListener("change", function () {
+        var fileList = importFileInput.files;
+        if (!fileList || !fileList[0]) {
+          return;
+        }
+        var file = fileList[0];
+        var reader = new FileReader();
+        reader.onload = function () {
+          var text = String(reader.result || "");
+          var data;
+          try {
+            data = JSON.parse(text);
+          } catch (error) {
+            importFileInput.value = "";
+            return;
+          }
+          if (!Array.isArray(data)) {
+            importFileInput.value = "";
+            return;
+          }
+          var count = 0;
+          data.forEach(function (item) {
+            if (!item) {
+              return;
+            }
+            var categoria = typeof item.categoria === "string" ? item.categoria.trim() : "";
+            var descripcion = typeof item.descripcion === "string" ? item.descripcion.trim() : "";
+            var imagen = typeof item.imagen === "string" ? item.imagen.trim() : "";
+            var precioNumero = Number(item.precio);
+
+            if (!categoria || !descripcion || Number.isNaN(precioNumero) || precioNumero < 0) {
+              return;
+            }
+            if (agregarFilaProducto(categoria, imagen, descripcion, precioNumero)) {
+              count++;
+            }
+          });
+          importFileInput.value = "";
+          if (count > 0) {
+            alert("Se importaron " + count + " productos correctamente.");
+          } else {
+            alert("No se importaron productos (posibles duplicados o formato inválido).");
+          }
+        };
+        reader.readAsText(file);
+      });
+    }
+
+    if (saveServerButton) {
+      saveServerButton.addEventListener("click", function() {
+        var filas = tbody.querySelectorAll("tr");
+        var productos = [];
+        
+        filas.forEach(function(fila) {
+          if (fila.id === "empty-row") return;
+          
+          var celdas = fila.querySelectorAll("td");
+          if (celdas.length < 5) return;
+
+          var categoria = celdas[1].textContent;
+          var imgEl = celdas[2].querySelector("img");
+          var imagen = imgEl ? imgEl.src : "";
+          var descripcion = celdas[3].textContent;
+          var precio = celdas[4].textContent;
+
+          productos.push({
+            categoria: categoria,
+            imagen: imagen,
+            descripcion: descripcion,
+            precio: precio
+          });
+        });
+
+        if (productos.length === 0) {
+          alert("No hay productos para guardar.");
+          return;
+        }
+
+        saveServerButton.disabled = true;
+        saveServerButton.textContent = "Guardando...";
+
+        fetch("/api/agregar", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(productos)
+        })
+        .then(function(res) { 
+          if (!res.ok) {
+            if (res.status === 404) {
+              throw new Error("El servidor no reconoce la ruta de guardado. ¿Reiniciaste el servidor?");
+            }
+            throw new Error("Error del servidor: " + res.status); 
+          }
+          return res.json(); 
+        })
+        .then(function(data) {
+          var msg = "Productos guardados correctamente.";
+          if (data.agregados !== undefined) {
+             msg += "\nSe agregaron " + data.agregados + " nuevos productos.";
+             if (data.agregados < productos.length) {
+               msg += "\n(" + (productos.length - data.agregados) + " eran duplicados y no se agregaron)";
+             }
+          }
+          alert(msg);
+        })
+        .catch(function(err) {
+          console.error(err);
+          alert(err.message || "Error al guardar productos.");
+        })
+        .finally(function() {
+          saveServerButton.disabled = false;
+          saveServerButton.textContent = "Guardar en Servidor";
+        });
+      });
+    }
+  </script>
+</body>
+</html>

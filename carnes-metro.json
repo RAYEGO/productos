@@ -1,0 +1,2012 @@
+[
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/290311-144-144?v=638179316343400000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Entero con Menudencia Metro x kg",
+    "precio": 9.4
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Huevos Pardos Metro 30un",
+    "precio": 18.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239354-144-144?v=638173822458030000&width=144&height=144&aspect=true",
+    "descripcion": "Carne Molida Especial Nacional x kg",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Huevos Clásicos Pardos La Calera 30un",
+    "precio": 20
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/293508-144-144?v=638179319777900000&width=144&height=144&aspect=true",
+    "descripcion": "Bisteck Bola de Lomo Nacional x kg",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Huevos Pardos Metro 15un",
+    "precio": 9.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504888-144-144?v=638386150550930000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pechuga Pollo Redondos x kg",
+    "precio": 23.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239350-144-144?v=638173822435800000&width=144&height=144&aspect=true",
+    "descripcion": "Carne Molida de Bisteck Nacional x kg",
+    "precio": 35.8
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/627443-144-144?v=639038577784070000&width=144&height=144&aspect=true",
+    "descripcion": "Carne para Guiso Nacional x kg",
+    "precio": 33.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504891-144-144?v=638386150557530000&width=144&height=144&aspect=true",
+    "descripcion": "Pechuga Especial de Pollo Redondos x kg",
+    "precio": 17.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pavo Entero con Menudencia Cuisine & Co x kg",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/548976-144-144?v=638642766267400000&width=144&height=144&aspect=true",
+    "descripcion": "Huevos Rosados Avivel 90un",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pavo Entero Congelado San Fernando x kg",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Huevos Pardos Metro Bandeja 90 Unid",
+    "precio": 40.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/501038-144-144?v=638367357712700000&width=144&height=144&aspect=true",
+    "descripcion": "Pavo Entero Redondos x kg",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504889-144-144?v=638386150554270000&width=144&height=144&aspect=true",
+    "descripcion": "Pechuga Entera de Pollo Redondos x kg",
+    "precio": 15.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/293493-144-144?v=638179319757070000&width=144&height=144&aspect=true",
+    "descripcion": "Bisteck de Tapa Nacional x kg",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Filete de Pechuga de Pollo Congelada San Fernando x kg",
+    "precio": 26.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/450760-144-144?v=638285083419570000&width=144&height=144&aspect=true",
+    "descripcion": "Tilapia en Filetes Congelada Cuisine & Co 1kg",
+    "precio": 25.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/610347-144-144?v=638959899277600000&width=144&height=144&aspect=true",
+    "descripcion": "Huevos Pardos Artisan 15un",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pechuga de Pavita en Trozos San Fernando x Kg",
+    "precio": 17.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/276924-144-144?v=638179303780070000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta Punta de Lomo x kg",
+    "precio": 16.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514770-144-144?v=638448465792970000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta de Lomo de Cerdo con Piel Porcionado x kg",
+    "precio": 22.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Filete de Pechuga Pollo San Fernando x kg",
+    "precio": 24.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Huevos Gallinas Libres 12un",
+    "precio": 15.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/276845-144-144?v=638179303701370000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pechuga Importado x kg",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239572-144-144?v=638173823635500000&width=144&height=144&aspect=true",
+    "descripcion": "Guiso de Cerdo x kg",
+    "precio": 26.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Muslo de Pollo Congelado San Fernando x kg",
+    "precio": 16.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275933-144-144?v=638179302696800000&width=144&height=144&aspect=true",
+    "descripcion": "Hígado de Res Importado Trozado x kg",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514766-144-144?v=638448465782000000&width=144&height=144&aspect=true",
+    "descripcion": "Churrasco Largo Nacional Porcionado x kg",
+    "precio": 34.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/364499-144-144?v=638180584332470000&width=144&height=144&aspect=true",
+    "descripcion": "Nuggets de Pechuga de Pollo Redondos 36un",
+    "precio": 14.1
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506506-144-144?v=638392089783300000&width=144&height=144&aspect=true",
+    "descripcion": "Pierna con Encuentro de Pollo Redondos x kg",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Huevo de Corral La Calera 12un.",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pollo Fresco con Menudencia San Fernando x kg",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504895-144-144?v=638386150567400000&width=144&height=144&aspect=true",
+    "descripcion": "Muslo de de Pollo Redondos x kg",
+    "precio": 16.49
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Rodaja Especial de Pavita San Fernando kg",
+    "precio": 23.4
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/450761-144-144?v=638285083448230000&width=144&height=144&aspect=true",
+    "descripcion": "Tilapia en Filetes Congelada Cuisine & Co 500g",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pechuga de Pavita San Fernando x kg",
+    "precio": 22.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Guiso de Pechuga de Pavita San Fernando x kg",
+    "precio": 20.89
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Medallón de Muslo de Pavita San Fernando x kg",
+    "precio": 22.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241466-144-144?v=638173833523270000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Trucha Arco Iris Bolsa 500 g",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/622243-144-144?v=639045247300400000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo con Menudencia Redondos x kg",
+    "precio": 9.8
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/293466-144-144?v=638179319719500000&width=144&height=144&aspect=true",
+    "descripcion": "Guiso Especial Nacional x kg",
+    "precio": 41.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/419156-144-144?v=638279385592800000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Enrollado Cordon Bleu Redondos x un",
+    "precio": 40.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/505177-144-144?v=638386257673400000&width=144&height=144&aspect=true",
+    "descripcion": "Pollipavo Redondos x kg",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/265549-144-144?v=638176575561100000&width=144&height=144&aspect=true",
+    "descripcion": "Panceta de Cerdo en Tiras con Piel y con Hueso x kg",
+    "precio": 33.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/278597-144-144?v=638179305558100000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Tilapia Umi Foods 1kg",
+    "precio": 22.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514771-144-144?v=638448465796100000&width=144&height=144&aspect=true",
+    "descripcion": "Costillar Nacional x kg",
+    "precio": 18.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pierna de Pollo Congelada San Fernando x kg",
+    "precio": 16.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/610345-144-144?v=638959899115130000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Trucha x kg",
+    "precio": 46.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/276780-144-144?v=638179303634870000&width=144&height=144&aspect=true",
+    "descripcion": "Lomo Fino Metro x kg",
+    "precio": 85.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Huevos Pardo San Fernando 30un",
+    "precio": 23.6
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pechuga de Pollo Especial Sin Piel San Fernando Light x kg",
+    "precio": 19.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/545138-144-144?v=638622777682170000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas de Res Oregon Foods 8un",
+    "precio": 28.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Carne Molida de Pavita San Fernando Bolsa 500 g",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504108-144-144?v=638381721938870000&width=144&height=144&aspect=true",
+    "descripcion": "Hígado de Pollo Redondos x kg",
+    "precio": 8.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Hamburguesa San Fernando La Super Rica 14un",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/507889-144-144?v=638404185710130000&width=144&height=144&aspect=true",
+    "descripcion": "Nuggets de Pollo con Quinua Avinka 15un",
+    "precio": 10.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Hamburguesa La Súper de Carne San Fernando 14un",
+    "precio": 11.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275473-144-144?v=638179302188200000&width=144&height=144&aspect=true",
+    "descripcion": "Trucha Entera Eviscerada x kg",
+    "precio": 22.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/529696-144-144?v=638520178174970000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Entero en Trozos con Menudencia Redondos kg",
+    "precio": 10.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/507888-144-144?v=638404185707630000&width=144&height=144&aspect=true",
+    "descripcion": "Deditos de Pollo Avinka 12un",
+    "precio": 12.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Huevos de Codorniz Metro Paquete 18 Unid",
+    "precio": 8.35
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Nuggets de Pollo San Fernando 900g",
+    "precio": 24.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/bandera-chile.png",
+    "descripcion": "Filete de Salmón Fresco x kg",
+    "precio": 72.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/489801-144-144?v=638326645886830000&width=144&height=144&aspect=true",
+    "descripcion": "Enrollado de Cerdo Otto Kunz Guindones y Tocino",
+    "precio": 49.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239527-144-144?v=638173823397500000&width=144&height=144&aspect=true",
+    "descripcion": "Lechón Entero Congelado Redondos x kg",
+    "precio": 47.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Panceta de Cerdo en Tiras con Piel y con Hueso San Fernando x kg",
+    "precio": 38.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/547087-144-144?v=638633470036170000&width=144&height=144&aspect=true",
+    "descripcion": "Milanesa de Pollo Redondos 1kg",
+    "precio": 32.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504894-144-144?v=638386150564600000&width=144&height=144&aspect=true",
+    "descripcion": "Pierna de Pollo Redondos x kg",
+    "precio": 15.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/265551-144-144?v=638176575568300000&width=144&height=144&aspect=true",
+    "descripcion": "Panceta de Cerdo con Piel y con Hueso x kg",
+    "precio": 33.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514768-144-144?v=638448465788430000&width=144&height=144&aspect=true",
+    "descripcion": "Sancochado de Osobuco Nacional Porcionado x kg",
+    "precio": 25.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/507887-144-144?v=638404185704370000&width=144&height=144&aspect=true",
+    "descripcion": "Nuggets de Pollo con Brócoli Avinka 15un",
+    "precio": 10.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504106-144-144?v=638381721930070000&width=144&height=144&aspect=true",
+    "descripcion": "Molleja de Pollo Redondos x kg",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/593336-144-144?v=638863941665430000&width=144&height=144&aspect=true",
+    "descripcion": "Porciones de Trucha Piscis 500g",
+    "precio": 27.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241264-144-144?v=638173832486400000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas de Pollo Redondos 14un",
+    "precio": 13.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/398318-144-144?v=638180801719770000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Trucha Cuisine & Co 500g",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Muslo de Pollo San Fernando x kg",
+    "precio": 15.8
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514765-144-144?v=638448465778900000&width=144&height=144&aspect=true",
+    "descripcion": "Sancochado Punta de Pecho Nacional x kg",
+    "precio": 24.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/325045-144-144?v=638180568233400000&width=144&height=144&aspect=true",
+    "descripcion": "Porciones de Bonito Congelado Bolsa 500 g",
+    "precio": 11.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/555541-144-144?v=638669758211470000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Enrollado con Jamón, Tocino y Guindones x kg",
+    "precio": 41.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/398200-144-144?v=638180801100830000&width=144&height=144&aspect=true",
+    "descripcion": "Bonito Entero x kg",
+    "precio": 9.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "NUGGETS POLLO SAN FERNANDO X36UN",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Brazuelo de Pavita San Fernando x kg",
+    "precio": 13.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Rodaja Casera de Pavita San Fernando x kg",
+    "precio": 10.4
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/411743-144-144?v=638181188701570000&width=144&height=144&aspect=true",
+    "descripcion": "Nuggets de Pechuga de Pollo Redondos 23un 350g",
+    "precio": 9.85
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239294-144-144?v=638173822130430000&width=144&height=144&aspect=true",
+    "descripcion": "Mondongo Picado a La Italiana x kg",
+    "precio": 16.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Hamburguesa La Casera de Carne San Fernando 14un",
+    "precio": 13.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239534-144-144?v=638173823433670000&width=144&height=144&aspect=true",
+    "descripcion": "Enrollado de Cerdo con Jamón y Piña Alamesa x kg",
+    "precio": 42.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/293573-144-144?v=638179319873170000&width=144&height=144&aspect=true",
+    "descripcion": "Cuadril Nacional x kg",
+    "precio": 54.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/297080-144-144?v=638179464565770000&width=144&height=144&aspect=true",
+    "descripcion": "El Churrasquito de Carne Schilcayo 14un",
+    "precio": 16.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/533438-144-144?v=638551497692700000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas Parrilleras Oregon Foods 4un",
+    "precio": 28.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/570236-144-144?v=638738769712430000&width=144&height=144&aspect=true",
+    "descripcion": "Carne Molida de Pollo Redondos 500g",
+    "precio": 13.35
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275733-144-144?v=638179302486970000&width=144&height=144&aspect=true",
+    "descripcion": "Trucha Deshuesada x kg",
+    "precio": 31.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/292698-144-144?v=638179318837300000&width=144&height=144&aspect=true",
+    "descripcion": "Pulmón Precocido para Chanfainita x kg",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241265-144-144?v=638173832492500000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Enrollado con Verduras Redondos x un",
+    "precio": 40.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Sasami de Pollo San Fernando kg",
+    "precio": 24.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/410469-144-144?v=638181181369530000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pechuga Artisan x Kg.  Libre de Antibióticos",
+    "precio": 46.6
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/273702-144-144?v=638179300241470000&width=144&height=144&aspect=true",
+    "descripcion": "Albóndiga de Res De la Casa x kg",
+    "precio": 30.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/386459-144-144?v=638180597359230000&width=144&height=144&aspect=true",
+    "descripcion": "Porciones de Atún Congelado Cuisine & Co 500g",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Nuggets de Pollo San Fernando 180g",
+    "precio": 5.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241267-144-144?v=638173832504070000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Enrollado con Champiñones Redondos x un",
+    "precio": 40.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239318-144-144?v=638173822266900000&width=144&height=144&aspect=true",
+    "descripcion": "Bisteck Cabeza de Lomo Nacional x kg",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/293643-144-144?v=638179319975400000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta de Brazuelo de Cerdo Con Piel Metro x kg",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/277030-144-144?v=638179303894400000&width=144&height=144&aspect=true",
+    "descripcion": "Baby Beef Nacional Metro x kg",
+    "precio": 59.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504113-144-144?v=638381721958400000&width=144&height=144&aspect=true",
+    "descripcion": "Ala Media de de Pollo Redondos x kg",
+    "precio": 17.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/555544-144-144?v=638669758218530000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Enrollado Jamon y Queso Sin Piel x kg",
+    "precio": 41.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/529695-144-144?v=638520178171670000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Entero Sin Menudencia Redondos x kg",
+    "precio": 11.25
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239562-144-144?v=638173823581130000&width=144&height=144&aspect=true",
+    "descripcion": "Panceta de Cerdo Sin Piel y con Hueso x kg",
+    "precio": 33.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/475570-144-144?v=638315672301700000&width=144&height=144&aspect=true",
+    "descripcion": "Huevos Org nicos Pachacamac 12un",
+    "precio": 17.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Filete de Pierna de Pollo con Piel San Fernando x kg",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/277141-144-144?v=638179304006400000&width=144&height=144&aspect=true",
+    "descripcion": "Asado de Pejerrey Metro x kg",
+    "precio": 48.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Filete de Pierna de Pollo Sin Piel San Fernando x kg",
+    "precio": 22.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514763-144-144?v=638448465773270000&width=144&height=144&aspect=true",
+    "descripcion": "Asado de Tira con Hueso Nacional Porcionado x kg",
+    "precio": 37.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/534451-144-144?v=638557437899400000&width=144&height=144&aspect=true",
+    "descripcion": "Porciones de Salmón Vadimar 500g",
+    "precio": 49.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/514767-144-144?v=638448465785500000&width=144&height=144&aspect=true",
+    "descripcion": "Sancochado de Pescuezo Nacional x kg",
+    "precio": 25.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pulpa de Bondiola San Fernando x Kg",
+    "precio": 31.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/269685-144-144?v=638176588504000000&width=144&height=144&aspect=true",
+    "descripcion": "Pierna de Cerdo con Piel y con Hueso x kg",
+    "precio": 19.49
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/412323-144-144?v=638279021556370000&width=144&height=144&aspect=true",
+    "descripcion": "Carne Picada de Res Metro x kg",
+    "precio": 38.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/276975-144-144?v=638179303838130000&width=144&height=144&aspect=true",
+    "descripcion": "Asado de Aguja Nacional x kg",
+    "precio": 38.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239558-144-144?v=638173823562370000&width=144&height=144&aspect=true",
+    "descripcion": "Bife de Lomo de Cerdo x kg",
+    "precio": 32.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/418651-144-144?v=638279375836530000&width=144&height=144&aspect=true",
+    "descripcion": "Mixtura de Mariscos Congelada Bolsa 200 g",
+    "precio": 10.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Crispy Nuggets de Pollo San Fernando 160g",
+    "precio": 5.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/361573-144-144?v=638180583138970000&width=144&height=144&aspect=true",
+    "descripcion": "Langostinos Precocidos Congelados Azul Marino Bolsa 200 g",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/521739-144-144?v=638490048195400000&width=144&height=144&aspect=true",
+    "descripcion": "Carne Molida Económica Congelada Los Hierros x 500 g",
+    "precio": 14.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/471725-144-144?v=638315661437000000&width=144&height=144&aspect=true",
+    "descripcion": "COSTILLA BABY BACK AGROSUPER",
+    "precio": 36
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/278735-144-144?v=638179305713400000&width=144&height=144&aspect=true",
+    "descripcion": "Deditos de Pechuga de Pollo Redondos 15un",
+    "precio": 13
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/488793-144-144?v=638325564483770000&width=144&height=144&aspect=true",
+    "descripcion": "Porciones de Bonito con Piel Pescanova Bolsa 1 kg",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Hamburguesa de Res y Cerdo San Fernando 340g",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/564078-144-144?v=638708423224670000&width=144&height=144&aspect=true",
+    "descripcion": "Carne Molida Especial x kg",
+    "precio": 24.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/571880-144-144?v=638745141779130000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas Angus Oregon Foods 4un",
+    "precio": 47.12
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Brazuelo de Cerdo Entero San Fernando x kg",
+    "precio": 28.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/277049-144-144?v=638179303911730000&width=144&height=144&aspect=true",
+    "descripcion": "Cola de Cuadril Metro x kg",
+    "precio": 54.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/278725-144-144?v=638179305702200000&width=144&height=144&aspect=true",
+    "descripcion": "Chicken Pop Redondos Bolsa 300 g",
+    "precio": 12.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Alas Pollo Congeladas San Fernando x kg",
+    "precio": 16.3
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Molleja de Pollo San Fernando x kg",
+    "precio": 14.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Corazón de Pollo San Fernando x kg",
+    "precio": 13.3
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Panceta de Cerdo en Tiras Sin Piel y con Hueso San Fernando x kg",
+    "precio": 41.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/327749-144-144?v=638180569694230000&width=144&height=144&aspect=true",
+    "descripcion": "Langostino Chico Pelado Azul Marino Bolsa 400 g",
+    "precio": 21.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/576238-144-144?v=638772465941770000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Merluza Sin Piel Seafrost 500g",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/346882-144-144?v=638180577387900000&width=144&height=144&aspect=true",
+    "descripcion": "Piernas de Pollo Artisan x Kg.  Libre de Antibióticos",
+    "precio": 28.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/240770-144-144?v=638173829777500000&width=144&height=144&aspect=true",
+    "descripcion": "Huevitos de Codorniz Avicod Bandeja 18 Unid",
+    "precio": 8.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Nuggets de Pavita con Cereales San Fernando 24un 550g",
+    "precio": 22.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/516313-144-144?v=638459698140000000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Merluza con Piel Seafrost 500g",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/412035-144-144?v=638278971825970000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Tilapia Congelada Bolsa 500 g",
+    "precio": 10.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pechuga de Pollo con Alas Congelada San Fernando x kg",
+    "precio": 18.3
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/539580-144-144?v=638586706570570000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pejerrey Corte Mariposa 200g",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/276993-144-144?v=638179303856770000&width=144&height=144&aspect=true",
+    "descripcion": "Asado Ruso Nacional x kg",
+    "precio": 40.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239550-144-144?v=638173823523230000&width=144&height=144&aspect=true",
+    "descripcion": "Lomo Enrollado de Cerdo x kg",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/245656-144-144?v=638173940587470000&width=144&height=144&aspect=true",
+    "descripcion": "Panceta de Cerdo en Tiras Sin Piel y con Hueso x kg",
+    "precio": 30.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/354940-144-144?v=638180580477130000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas Premium Artesanales Clásicas Los Hierros Bolsa 4 Unid / 340 g",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/366284-144-144?v=638180585143600000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pejerrey Artisan x Kg.  Libre de Antibióticos",
+    "precio": 47.79
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/598626-144-144?v=638899473663870000&width=144&height=144&aspect=true",
+    "descripcion": "Porciones de Salmón Rosado Sin Piel Umi Foods 1kg",
+    "precio": 45.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/605764-144-144?v=638923665945030000&width=144&height=144&aspect=true",
+    "descripcion": "Porciones de Perico Cero Grados 450g",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/438907-144-144?v=638281824386200000&width=144&height=144&aspect=true",
+    "descripcion": "Nuggets Multigranos Redondos Bolsa 18 Unid",
+    "precio": 6.97
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275004-144-144?v=638179301695730000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pechuga de Pollo Criollo Redondos Bolsa 4 Unid",
+    "precio": 20.4
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Hamburguesas de Pavita San Fernando 6un",
+    "precio": 21.4
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239581-144-144?v=638173823692770000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Parrillera de Res Otto Kunz 4un",
+    "precio": 28.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/354089-144-144?v=638180580157870000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa de Res Argentina Cuisine & Co Burger 4un",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/543500-144-144?v=638611763129630000&width=144&height=144&aspect=true",
+    "descripcion": "Picaña de Cerdo Duroc Redondos x kg",
+    "precio": 37.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Nuggets de Pavita con Cereales San Fernando 180g",
+    "precio": 7.8
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241128-144-144?v=638173831775400000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas de Pollo x kg",
+    "precio": 17.75
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Nuggets San Fernando Safari 10un",
+    "precio": 5.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/398229-144-144?v=638180801242870000&width=144&height=144&aspect=true",
+    "descripcion": "Picaña Argentina Cuisine & Co x kg",
+    "precio": 106.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/449165-144-144?v=638284988215900000&width=144&height=144&aspect=true",
+    "descripcion": "Tilapia Marina en Filetes Santa Priscila 430g",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pierna de Pollo Sin Piel San Fernando Light x kg",
+    "precio": 19.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/376237-144-144?v=638180590240230000&width=144&height=144&aspect=true",
+    "descripcion": "Mini Burger de Res Argentina Cuisine & Co 12un",
+    "precio": 33.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/251542-144-144?v=638173959571970000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Vegetariana de Soya Kartriso Bandeja 500 g",
+    "precio": 18.6
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Nuggets de Pechuga de Pollo con Chía Vive Bien Caja 550 g",
+    "precio": 20.45
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/276762-144-144?v=638179303613530000&width=144&height=144&aspect=true",
+    "descripcion": "Hígado de Res Importado x kg",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Filete de Pechuga de Pavita San Fernando x kg",
+    "precio": 32.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/391737-144-144?v=638180606378770000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa de Salmón Nutritiva 360g",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/418642-144-144?v=638279375652600000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Parrillera de Pollo Finas Hierba Redondos 4un",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/398232-144-144?v=638180801259900000&width=144&height=144&aspect=true",
+    "descripcion": "Bife Ancho Argentino Cuisine & Co x kg",
+    "precio": 134.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/605766-144-144?v=638923665949730000&width=144&height=144&aspect=true",
+    "descripcion": "Pejerrey Corte Mariposa Cero Grados 450g",
+    "precio": 18.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/410470-144-144?v=638181181374370000&width=144&height=144&aspect=true",
+    "descripcion": "Alas de Pollo Artisan x kg Libre de Antibióticos",
+    "precio": 27.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pulpa de Pierna de Cerdo San Fernando x kg",
+    "precio": 38.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Panceta de Cerdo en Tiras con Piel y Sin Hueso San Fernando x kg",
+    "precio": 43.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/376308-144-144?v=638180590277230000&width=144&height=144&aspect=true",
+    "descripcion": "Porciones de Tollo Azul Congelado Cuisine & Co 500g",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/327859-144-144?v=638180569744100000&width=144&height=144&aspect=true",
+    "descripcion": "Langostino Extra Grande con cáscara Azul Marino Bolsa 400 g",
+    "precio": 26.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Drummets de Pavita San Fernando x kg",
+    "precio": 16.6
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/279614-144-144?v=638179306598500000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta de Lomo con Piel de Cerdo x kg",
+    "precio": 22.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/267151-144-144?v=638176580593200000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pechuga de Pollo Oriental Redondos Bolsa 4 Unid",
+    "precio": 20.4
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275176-144-144?v=638179301876770000&width=144&height=144&aspect=true",
+    "descripcion": "Patas de Pollo x kg",
+    "precio": 9.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/465041-144-144?v=638300179420470000&width=144&height=144&aspect=true",
+    "descripcion": "Nuggets de Tilapia Marina Santa Priscila 142g",
+    "precio": 6.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/392558-144-144?v=638180610747330000&width=144&height=144&aspect=true",
+    "descripcion": "Hígado Feteado Schilcayo 1kg",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/412117-144-144?v=638278973492630000&width=144&height=144&aspect=true",
+    "descripcion": "Bife de Vacío de Res Metro x kg",
+    "precio": 51.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504109-144-144?v=638381721942400000&width=144&height=144&aspect=true",
+    "descripcion": "Ala Entera de Pollo Redondos x kg",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/455092-144-144?v=638285337805000000&width=144&height=144&aspect=true",
+    "descripcion": "Plant Based Nuggets Flexfood 12un",
+    "precio": 12.3
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/296158-144-144?v=638179463286670000&width=144&height=144&aspect=true",
+    "descripcion": "Anticucho de Corazón de Res Metro x kg",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/547231-144-144?v=638635845700000000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pechuga a la Pimienta Avinka 3un",
+    "precio": 26.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/606038-144-144?v=638929713944400000&width=144&height=144&aspect=true",
+    "descripcion": "Milanesa de Pescado Empanizado Seafrost 600g",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/332959-144-144?v=638180571991600000&width=144&height=144&aspect=true",
+    "descripcion": "Jurel Entero",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613379-144-144?v=638977557763230000&width=144&height=144&aspect=true",
+    "descripcion": "Pernil de Cerdo Navideño Redondos Premium x kg",
+    "precio": 28.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Alitas de Pollo Picante Metro Bolsa 1 Kg",
+    "precio": 28.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275715-144-144?v=638179302470870000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta de Brazuelo con Piel de Cerdo x kg",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Costilla de Cerdo San Fernando x kg",
+    "precio": 42.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/295774-144-144?v=638179462706370000&width=144&height=144&aspect=true",
+    "descripcion": "El Churrasquito de Carne Schilcayo 6un",
+    "precio": 8.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/571879-144-144?v=638745141775370000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas de Bife Oregon Foods 4un",
+    "precio": 44.4
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/333100-144-144?v=638180572052970000&width=144&height=144&aspect=true",
+    "descripcion": "Doncella Entera",
+    "precio": 17.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/378834-144-144?v=638180591744100000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa de Pollo Schilcayo El Churrasquito 14 un.",
+    "precio": 15.8
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/411984-144-144?v=638278970842470000&width=144&height=144&aspect=true",
+    "descripcion": "Tilapia Entera Eviscerada Sin Escamas x kg",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/449167-144-144?v=638284988279870000&width=144&height=144&aspect=true",
+    "descripcion": "Tilapia Marina en Filetes Apanados Santa Priscila 454g",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/412455-144-144?v=638279041704730000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa de Pechuga de Pollo Rico 16un.",
+    "precio": 29.4
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/487268-144-144?v=638322344495370000&width=144&height=144&aspect=true",
+    "descripcion": "Langostinos Pelados y Desvenados Grandes Santa Priscila Bolsa 454 g",
+    "precio": 27.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/571900-144-144?v=638745141848000000&width=144&height=144&aspect=true",
+    "descripcion": "Bistec Apanado de Res Oregon Foods 3un",
+    "precio": 38.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/339974-144-144?v=638180574741870000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas Premium de Pollo Los Hierros Bolsa 8 Unid /504 g",
+    "precio": 13.25
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Huevos la Calera: Huevos Pardos 14un + Huevo Sorpresa",
+    "precio": 18.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/487269-144-144?v=638322344498030000&width=144&height=144&aspect=true",
+    "descripcion": "Langostinos Precocidos Grandes Santa Priscila 363g",
+    "precio": 26.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/343366-144-144?v=638180575988270000&width=144&height=144&aspect=true",
+    "descripcion": "GALLINA C/M CONGELADA KG",
+    "precio": 10.49
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Empanizado Deditos de Pollo San Fernando 300g",
+    "precio": 13.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/474895-144-144?v=638315670190370000&width=144&height=144&aspect=true",
+    "descripcion": "Bisteck Feteado Wong Pasturas de Oxapampa x kg",
+    "precio": 42.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/557264-144-144?v=638683257687130000&width=144&height=144&aspect=true",
+    "descripcion": "Langostinos Precocidos Sin Cáscara Cuisine & Co Medianos 200g",
+    "precio": 18.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Enrollado de Pierna de Cerdo San Fernando x kg",
+    "precio": 34.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/516312-144-144?v=638459698132130000&width=144&height=144&aspect=true",
+    "descripcion": "Anillas de Calamar Gigante Seafrost 500g",
+    "precio": 26.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/269691-144-144?v=638176588537930000&width=144&height=144&aspect=true",
+    "descripcion": "Pierna de Cerdo Sin Piel y Sin Hueso x kg",
+    "precio": 26.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275923-144-144?v=638179302686630000&width=144&height=144&aspect=true",
+    "descripcion": "Mixtura de Mariscos Metro x kg",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241467-144-144?v=638173833526230000&width=144&height=144&aspect=true",
+    "descripcion": "Carpaccio de Salmón Cuisine & Co 100g",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/376287-144-144?v=638180590266200000&width=144&height=144&aspect=true",
+    "descripcion": "Mini Hamburguesa Parrillera Otto Kunz 600g",
+    "precio": 31.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/354702-144-144?v=638180580388770000&width=144&height=144&aspect=true",
+    "descripcion": "Carne de Res Premium Molida Wong x kg",
+    "precio": 56.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/297079-144-144?v=638179464563270000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta Ahumada La Segoviana Paquete 300 g",
+    "precio": 15.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/473062-144-144?v=638315665137700000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Sabor Estofado Redondos 780g",
+    "precio": 17.89
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/487270-144-144?v=638322344501470000&width=144&height=144&aspect=true",
+    "descripcion": "Nuggets de Tilapia Marina Santa Priscila 454g",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Menudencia de Pollo para Sopa San Fernando x kg",
+    "precio": 12.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/607532-144-144?v=638938137940270000&width=144&height=144&aspect=true",
+    "descripcion": "Milanesa Vegetal Flexfoods 2un",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Deli Bistec San Fernando 4un.",
+    "precio": 9.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Hamburguesas de Pollo San Fernando 6un",
+    "precio": 21.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275129-144-144?v=638179301829530000&width=144&height=144&aspect=true",
+    "descripcion": "Corazón de Pollo x kg",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/367686-144-144?v=638180585823770000&width=144&height=144&aspect=true",
+    "descripcion": "Langostino Precocido Empanizado en Panko Umi Foods Caja 283 g",
+    "precio": 28.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/344172-144-144?v=638180576306970000&width=144&height=144&aspect=true",
+    "descripcion": "Anillas de Pota Rebozadas Pescanova Bolsa 500 g",
+    "precio": 18.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/516974-144-144?v=638465097667230000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Vegana Flexfood Flex Burger 2un",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239546-144-144?v=638173823503700000&width=144&height=144&aspect=true",
+    "descripcion": "Asado de Cerdo x kg",
+    "precio": 28.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/404492-144-144?v=638181135874030000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Pollo La Sanguchera 16un",
+    "precio": 13.3
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613671-144-144?v=638979718408700000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa de Res Osso 4un",
+    "precio": 42.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239536-144-144?v=638173823445930000&width=144&height=144&aspect=true",
+    "descripcion": "Filete Vegetariano  de Soya Kartriso Bandeja 500 g",
+    "precio": 18.6
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/573529-144-144?v=638755293713270000&width=144&height=144&aspect=true",
+    "descripcion": "Bisteck de Bola de Lomo Wong Premium x kg",
+    "precio": 70.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/441253-144-144?v=638283306061730000&width=144&height=144&aspect=true",
+    "descripcion": "Cubos de Atún Umi Foods 500g",
+    "precio": 19.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/555543-144-144?v=638669758216800000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Enrollado con Verduras x kg",
+    "precio": 30.25
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/297077-144-144?v=638179464561230000&width=144&height=144&aspect=true",
+    "descripcion": "La Sanguchera de Carne Schilcayo 16un",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275169-144-144?v=638179301868030000&width=144&height=144&aspect=true",
+    "descripcion": "Alas con Punta de Pollo Natural x kg",
+    "precio": 14.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/375529-144-144?v=638180589842400000&width=144&height=144&aspect=true",
+    "descripcion": "Asado de Tira Parrillero Nacional Metro x kg",
+    "precio": 49.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/341726-144-144?v=638180575386530000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Fresco Sin Menudencia Artisan Libre de Antibióticos x kg",
+    "precio": 19.49
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506891-144-144?v=638394792119400000&width=144&height=144&aspect=true",
+    "descripcion": "Colas Peladas de Langostinos Cuisine & Co Mediano 400g",
+    "precio": 25.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/249562-144-144?v=638173950818500000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Salmón Vadimar x kg",
+    "precio": 75.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/445137-144-144?v=638284498123000000&width=144&height=144&aspect=true",
+    "descripcion": "Anticucho de Res Schilcayo 500g",
+    "precio": 18.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/545365-144-144?v=638624505860200000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pierna a la Italiana Avinka 330g",
+    "precio": 17.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/571894-144-144?v=638745141827930000&width=144&height=144&aspect=true",
+    "descripcion": "Mini Burgers Angus Oregon Foods 12un",
+    "precio": 59.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/392556-144-144?v=638180610738400000&width=144&height=144&aspect=true",
+    "descripcion": "Mondonguito Italiano Schilcayo 1kg",
+    "precio": 16.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/434480-144-144?v=638281498474970000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Sabor Criollo Redondos 780g",
+    "precio": 17.89
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241156-144-144?v=638173831919430000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Entero Light  x kg",
+    "precio": 12.3
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/569941-144-144?v=638737689822370000&width=144&height=144&aspect=true",
+    "descripcion": "Milanesas Plant Based Della Natura 4un",
+    "precio": 17.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/504158-144-144?v=638381937775430000&width=144&height=144&aspect=true",
+    "descripcion": "Pierna de Pollo Light Redondos x kg",
+    "precio": 18.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/395278-144-144?v=638180782561130000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Tilapia Cuisine & Co 500g",
+    "precio": 36.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/589637-144-144?v=638841693715770000&width=144&height=144&aspect=true",
+    "descripcion": "Cecina de Cerdo Ahumado Tradicional Tavancho x kg",
+    "precio": 59.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Solomillo de Cerdo San Fernando x kg",
+    "precio": 43.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/543499-144-144?v=638611763125400000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta de Lomo Duroc Redondos x kg",
+    "precio": 31.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506888-144-144?v=638394792099030000&width=144&height=144&aspect=true",
+    "descripcion": "Langostinos Precocidos Cuisine & Co Chico 400g",
+    "precio": 30.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239638-144-144?v=638173823998270000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Angus con Sal de Maras Otto Kunz Caja 4 unid",
+    "precio": 59.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/273409-144-144?v=638179299846000000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas Angus Bon Beef Caja 4 Unid",
+    "precio": 51.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/576446-144-144?v=638775814905070000&width=144&height=144&aspect=true",
+    "descripcion": "Conchas de Abanico Media Valva Congelada Azul Marino 6un",
+    "precio": 22.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/412443-144-144?v=638279041316630000&width=144&height=144&aspect=true",
+    "descripcion": "Muslos de Pollo Rico x kg",
+    "precio": 16.49
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/506892-144-144?v=638394792123130000&width=144&height=144&aspect=true",
+    "descripcion": "Mixtura de Mariscos Cuisine & Co 500g",
+    "precio": 25.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Costillas St Louis Finas Hierbas San Fernando x kg",
+    "precio": 44.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/606769-144-144?v=638935546055330000&width=144&height=144&aspect=true",
+    "descripcion": "Filetes de Trucha Ahumada Azul Marino 100g",
+    "precio": 16.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239338-144-144?v=638173822376000000&width=144&height=144&aspect=true",
+    "descripcion": "Sancochado Punta de Pecho x kg",
+    "precio": 24.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241430-144-144?v=638173833335170000&width=144&height=144&aspect=true",
+    "descripcion": "Choritos Precocidos Wong 300g",
+    "precio": 11.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/241436-144-144?v=638173833369900000&width=144&height=144&aspect=true",
+    "descripcion": "Cabrilla Entera",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/559561-144-144?v=638690386132670000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Pierna Artisan x kg Libre de Antibióticos",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/386465-144-144?v=638180597362800000&width=144&height=144&aspect=true",
+    "descripcion": "Porciones de Pez Espada Congelado Cuisine & Co 500g",
+    "precio": 35.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pavita Sazón Criolla San Fernando Asu Olla 600g",
+    "precio": 18.1
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/543498-144-144?v=638611763122270000&width=144&height=144&aspect=true",
+    "descripcion": "Chuletón de Pierna Duroc Redondos x kg",
+    "precio": 31.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275746-144-144?v=638179302499500000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Perico Fresco x kg",
+    "precio": 49.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239635-144-144?v=638173823974970000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas Vegetarianas Della Natura Sabor Ahumado 400g",
+    "precio": 21.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/605765-144-144?v=638923665947230000&width=144&height=144&aspect=true",
+    "descripcion": "Langostinos Grandes Cero Grados 450g",
+    "precio": 31.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/587522-144-144?v=638828949639400000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Trucha Ahumada Fresca 125g",
+    "precio": 14.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/321787-144-144?v=638180566314000000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa de Carne de Res La Magnífica 14un.",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/559514-144-144?v=638690385988470000&width=144&height=144&aspect=true",
+    "descripcion": "Picanha de Cerdo x kg",
+    "precio": 36.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239544-144-144?v=638173823490230000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas Parrilleras Wong Caja 4un",
+    "precio": 25.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Chicharrón de Pollo Cuisine & Co 450g",
+    "precio": 29.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/296044-144-144?v=638179463121330000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa de Res La Segoviana Bolsa 14un",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/475646-144-144?v=638315672640870000&width=144&height=144&aspect=true",
+    "descripcion": "Filetes de Pejerrey con Piel Seafrost 450g",
+    "precio": 21.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pierna de Pollo Especial San Fernando x kg",
+    "precio": 14.7
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/406976-144-144?v=638181142638230000&width=144&height=144&aspect=true",
+    "descripcion": "Entrecostilla de Res Metro x kg",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/279634-144-144?v=638179306618770000&width=144&height=144&aspect=true",
+    "descripcion": "Súper Hamburguesa de Res La Segoviana Bolsa 16 unid",
+    "precio": 18.3
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275124-144-144?v=638179301825170000&width=144&height=144&aspect=true",
+    "descripcion": "Molleja de Pollo x kg",
+    "precio": 13.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/594127-144-144?v=638870097723900000&width=144&height=144&aspect=true",
+    "descripcion": "Mini Burgers Mix Sanúa Kids 12un",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239647-144-144?v=638173824045270000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Vegetariana de Quinua Della Natura 400g",
+    "precio": 22.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/570237-144-144?v=638738769716200000&width=144&height=144&aspect=true",
+    "descripcion": "Saltadito de Pierna de Pollo Redondos x kg",
+    "precio": 28.4
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/573533-144-144?v=638755293728630000&width=144&height=144&aspect=true",
+    "descripcion": "Guiso Especial Wong Premium x kg",
+    "precio": 64.8
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Filete de Pierna de Pavita San Fernando x kg",
+    "precio": 24.8
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/521242-144-144?v=638488101954530000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Parrillera de Pollo Redondos 600g",
+    "precio": 19.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/449166-144-144?v=638284988248800000&width=144&height=144&aspect=true",
+    "descripcion": "Colas de Langostino Apanado Santa Priscila 454g",
+    "precio": 29.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/309835-144-144?v=638179490955200000&width=144&height=144&aspect=true",
+    "descripcion": "Trilogía de Mini Burgers Vegetarianas Della Natura 12un",
+    "precio": 17.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239648-144-144?v=638173824047430000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Vegetariana de Garbanzo Della Natura 400g",
+    "precio": 20.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/473063-144-144?v=638315665139270000&width=144&height=144&aspect=true",
+    "descripcion": "Pollo Sabor Oriental Redondos 780g",
+    "precio": 17.89
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239430-144-144?v=638173822889770000&width=144&height=144&aspect=true",
+    "descripcion": "Asado de Aguja Wong Premium x kg",
+    "precio": 53.6
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275837-144-144?v=638179302590500000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta de Pierna con Piel de Cerdo x kg",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/542658-144-144?v=638610359059730000&width=144&height=144&aspect=true",
+    "descripcion": "Costillar Don Goyo x kg",
+    "precio": 21.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/613704-144-144?v=638979718541000000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa Angus Osso 4un",
+    "precio": 52.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Panceta de Cerdo en Tiras Sin Piel y Sin Hueso San Fernando x kg",
+    "precio": 43.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Bife de Lomo de Cerdo x kg",
+    "precio": 38.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pavita Sazón Estofado San Fernando Asu Olla 600g",
+    "precio": 18.1
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/537059-144-144?v=638572881698570000&width=144&height=144&aspect=true",
+    "descripcion": "Suprema de Pollo Artisan 550g",
+    "precio": 36.3
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/436573-144-144?v=638281599275400000&width=144&height=144&aspect=true",
+    "descripcion": "Anticucho Bolsa 500 g",
+    "precio": 16.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/463746-144-144?v=638300076960000000&width=144&height=144&aspect=true",
+    "descripcion": "Costilla La Segoviana x kg",
+    "precio": 44.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/412196-144-144?v=638278975064200000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Tilapia Mediana x kg",
+    "precio": 35
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/487271-144-144?v=638322344504270000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesa de Langostino Santa Priscila 4un.",
+    "precio": 29.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Pulpa de Brazuelo de Cerdo San Fernando x kg",
+    "precio": 31.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/475645-144-144?v=638315672638570000&width=144&height=144&aspect=true",
+    "descripcion": "Mixtura de Mariscos Royal Seafrost 300g",
+    "precio": 19.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/412442-144-144?v=638279041284730000&width=144&height=144&aspect=true",
+    "descripcion": "Pierna de Pollo x kg",
+    "precio": 15.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/398237-144-144?v=638180801285370000&width=144&height=144&aspect=true",
+    "descripcion": "Bife Angosto Argentino Cuisine & Co x kg",
+    "precio": 120.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/593038-144-144?v=638862927897630000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Paiche Fresco x kg",
+    "precio": 65.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/573282-144-144?v=638754645678530000&width=144&height=144&aspect=true",
+    "descripcion": "Tira de Costillar de Cerdo Rico x kg",
+    "precio": 32.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/609091-144-144?v=638949369792700000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas de Lentejas y Champiñones Sanúa 400g",
+    "precio": 21.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/388408-144-144?v=638180599307770000&width=144&height=144&aspect=true",
+    "descripcion": "Corazón de Pollo Anticuchero Bolsa 400 g",
+    "precio": 8.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/569942-144-144?v=638737689825830000&width=144&height=144&aspect=true",
+    "descripcion": "Nuggets Plant Based Della Natura Kids 6un",
+    "precio": 15.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239636-144-144?v=638173823977300000&width=144&height=144&aspect=true",
+    "descripcion": "Hamburguesas Vegetarianas Finas Hierbas Della Natura 400g",
+    "precio": 21.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Alitas de Pollo Oriental Metro 1kg",
+    "precio": 27.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/273415-144-144?v=638179299858200000&width=144&height=144&aspect=true",
+    "descripcion": "Mini Hamburguesas Angus Bon Beef Caja 8 Unid",
+    "precio": 37.2
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/392568-144-144?v=638180610799100000&width=144&height=144&aspect=true",
+    "descripcion": "Apanado de Carne Schilcayo 520g",
+    "precio": 12.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/573530-144-144?v=638755293716700000&width=144&height=144&aspect=true",
+    "descripcion": "Cuadril Wong Premium x kg",
+    "precio": 82.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/276863-144-144?v=638179303721400000&width=144&height=144&aspect=true",
+    "descripcion": "Ojo de Bife de Res Metro x kg",
+    "precio": 64.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/557268-144-144?v=638683257699000000&width=144&height=144&aspect=true",
+    "descripcion": "Langostinos Precocidos Sin Cáscara Cuisine & Co Extra Grandes 500g",
+    "precio": 46.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/573575-144-144?v=638755833769100000&width=144&height=144&aspect=true",
+    "descripcion": "Porcionas de Basa Sin Piel Congelados 500g",
+    "precio": 10.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/275901-144-144?v=638179302662830000&width=144&height=144&aspect=true",
+    "descripcion": "Filete de Basa Congelado 1kg",
+    "precio": 17.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/398231-144-144?v=638180801253330000&width=144&height=144&aspect=true",
+    "descripcion": "Entraña Argentina Cuisine & Co x kg",
+    "precio": 146.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/516310-144-144?v=638459698126970000&width=144&height=144&aspect=true",
+    "descripcion": "Nuggets de Pescado Empanizado Seafrost 500g",
+    "precio": 20.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/412166-144-144?v=638278974490800000&width=144&height=144&aspect=true",
+    "descripcion": "Milanesa de Res Nacional x kg",
+    "precio": 39.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/398233-144-144?v=638180801264700000&width=144&height=144&aspect=true",
+    "descripcion": "Lomo Fino Medallón Argentino Cuisine & Co x kg",
+    "precio": 131.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/509645-144-144?v=638417685672970000&width=144&height=144&aspect=true",
+    "descripcion": "Cerdo Duroc Sabor Oriental 530g",
+    "precio": 23.99
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/251773-144-144?v=638173961569130000&width=144&height=144&aspect=true",
+    "descripcion": "Conchas de Abanico con Coral Azul Marino 500g",
+    "precio": 52.5
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/239586-144-144?v=638173823721700000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta de Cerdo Ahumada Kassler Zimmermann x kg",
+    "precio": 41.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/367043-144-144?v=638180585510600000&width=144&height=144&aspect=true",
+    "descripcion": "Tomahawk de Cerdo Duroc Redondos x kg",
+    "precio": 43.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/ids/510758-144-144?v=638423631278170000&width=144&height=144&aspect=true",
+    "descripcion": "Chuleta Parrillera de Cerdo x kg",
+    "precio": 22.9
+  },
+  {
+    "categoria": "Carnes, Aves y Pescados",
+    "imagen": "https://metroio.vtexassets.com/arquivos/tag-coleman-D.png",
+    "descripcion": "Chicharrón de Cerdo San Fernando x kg",
+    "precio": 39.9
+  }
+]

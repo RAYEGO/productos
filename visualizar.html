@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizar Productos - Panel de Control</title>
+  <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar-header">
+        <h2>Mi Tienda</h2>
+      </div>
+      <div class="sidebar-nav">
+        <a href="/">Registro</a>
+        <a href="/visualizar" class="active">Ver Productos</a>
+        <a href="#" onclick="alert('Próximamente'); return false;">Configuración</a>
+      </div>
+      <div class="sidebar-footer">
+        &copy; 2026 Mi Tienda App
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="content-wrapper">
+        <div class="page-header">
+          <h1>Productos Guardados y Filtros</h1>
+        </div>
+
+        <div class="card">
+          <div class="btn-group">
+             <a href="/" class="btn btn-secondary">&larr; Volver al Registro</a>
+             <button id="delete-selected-btn" class="btn btn-danger" style="display: none;">Eliminar Seleccionados (<span id="selected-count">0</span>)</button>
+             <button id="export-json-btn" class="btn btn-info">Exportar JSON</button>
+             <button id="export-csv-btn" class="btn btn-info">Exportar CSV</button>
+          </div>
+
+          <div class="filter-container">
+            <input type="text" id="search-input" class="filter-input" placeholder="Buscar por descripción...">
+            <select id="category-filter" class="filter-select">
+              <option value="">Todas las categorías</option>
+            </select>
+          </div>
+
+          <div id="loading" style="text-align: center; padding: 20px;">Cargando productos...</div>
+
+          <div class="table-container">
+            <table id="products-table" style="display: none;">
+              <thead>
+                <tr>
+                  <th><input type="checkbox" id="select-all"></th>
+                  <th>#</th>
+                  <th>Categoría</th>
+                  <th>Imagen</th>
+                  <th>Descripción</th>
+                  <th>Precio</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody id="products-body">
+              </tbody>
+            </table>
+          </div>
+          
+          <div id="pagination-controls" class="pagination-container" style="display: none;">
+            <div class="total-count">Total: <span id="total-items">0</span> productos</div>
+            <div class="pagination" id="pagination">
+              <!-- Pagination buttons will be injected here -->
+            </div>
+          </div>
+          
+          <div id="empty-message" class="empty-state" style="display: none;">
+            No hay productos guardados todavía.
+          </div>
+        </div>
+      </div>
+
+      <footer class="main-footer">
+        <p>Panel de Administración de Productos v1.0</p>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Edit Modal -->
+  <div id="edit-modal" class="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Editar Producto</h3>
+        <button class="modal-close" id="close-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="edit-form" class="form-grid">
+          <input type="hidden" id="edit-index">
+          <div class="form-group full-width">
+            <label for="edit-categoria">Categoría</label>
+            <input type="text" id="edit-categoria" required>
+          </div>
+          <div class="form-group full-width">
+            <label for="edit-descripcion">Descripción</label>
+            <input type="text" id="edit-descripcion" required>
+          </div>
+          <div class="form-group full-width">
+            <label for="edit-precio">Precio</label>
+            <input type="number" id="edit-precio" min="0" step="0.01" required>
+          </div>
+          <div class="form-group full-width">
+            <label for="edit-imagen">URL Imagen</label>
+            <input type="text" id="edit-imagen">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="cancel-edit">Cancelar</button>
+        <button class="btn btn-primary" id="save-edit">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentProducts = [];
+    let filteredProducts = [];
+    let selectedIndices = new Set();
+    
+    // Pagination state
+    let currentPage = 1;
+    const itemsPerPage = 10; // Adjust to fit screen
+
+    // Elements
+    const table = document.getElementById("products-table");
+    const tbody = document.getElementById("products-body");
+    const emptyMsg = document.getElementById("empty-message");
+    const loadingMsg = document.getElementById("loading");
+    const selectAllCheckbox = document.getElementById("select-all");
+    const deleteSelectedBtn = document.getElementById("delete-selected-btn");
+    const selectedCountSpan = document.getElementById("selected-count");
+    const searchInput = document.getElementById("search-input");
+    const categoryFilter = document.getElementById("category-filter");
+    
+    // Pagination Elements
+    const paginationControls = document.getElementById("pagination-controls");
+    const totalItemsSpan = document.getElementById("total-items");
+    const paginationDiv = document.getElementById("pagination");
+    
+    // Modal Elements
+    const modalOverlay = document.getElementById("edit-modal");
+    const closeModalBtn = document.getElementById("close-modal");
+    const cancelEditBtn = document.getElementById("cancel-edit");
+    const saveEditBtn = document.getElementById("save-edit");
+    
+    // Form Elements
+    const editIndexInput = document.getElementById("edit-index");
+    const editCategoria = document.getElementById("edit-categoria");
+    const editDescripcion = document.getElementById("edit-descripcion");
+    const editPrecio = document.getElementById("edit-precio");
+    const editImagen = document.getElementById("edit-imagen");
+
+    // Load initial data
+    fetch("/api/productos-guardados")
+      .then(res => res.json())
+      .then(data => {
+        loadingMsg.style.display = "none";
+        currentProducts = data || [];
+        filteredProducts = [...currentProducts];
+        populateCategories();
+        renderTable();
+      })
+      .catch(err => {
+        loadingMsg.textContent = "Error al cargar productos.";
+        console.error(err);
+      });
+
+    function renderTable() {
+      tbody.innerHTML = "";
+      console.log("Renderizando tabla...", { total: currentProducts.length, filtrados: filteredProducts.length });
+
+      if (currentProducts.length === 0) {
+        table.style.display = "none";
+        paginationControls.style.display = "none";
+        emptyMsg.style.display = "block";
+        emptyMsg.textContent = "No hay productos guardados todavía.";
+        deleteSelectedBtn.style.display = "none";
+        return;
+      }
+
+      if (filteredProducts.length === 0) {
+        table.style.display = "none";
+        paginationControls.style.display = "none";
+        emptyMsg.style.display = "block";
+        emptyMsg.textContent = "No se encontraron productos con esos filtros.";
+        deleteSelectedBtn.style.display = "none";
+        return;
+      }
+      
+      // Show table
+      table.style.display = "table";
+      paginationControls.style.display = "flex";
+      emptyMsg.style.display = "none";
+      
+      // Update Select All checkbox state
+      // We check if all FILTERED products are selected
+      const allSelected = filteredProducts.length > 0 && filteredProducts.every(p => {
+          const idx = currentProducts.indexOf(p);
+          return selectedIndices.has(idx);
+      });
+      
+      selectAllCheckbox.checked = allSelected;
+      selectAllCheckbox.indeterminate = selectedIndices.size > 0 && !allSelected;
+
+      updateDeleteButtonState();
+      
+      // Pagination Logic
+      const totalItems = filteredProducts.length;
+      totalItemsSpan.textContent = totalItems;
+      const totalPages = Math.ceil(totalItems / itemsPerPage);
+      
+      // Ensure currentPage is valid
+      if (currentPage < 1) currentPage = 1;
+      if (currentPage > totalPages && totalPages > 0) currentPage = totalPages;
+      else if (totalPages === 0) currentPage = 1;
+      
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+      const pageProducts = filteredProducts.slice(startIndex, endIndex);
+
+      pageProducts.forEach((item) => {
+        const globalIndex = currentProducts.indexOf(item); // Always reference the main array index
+        const row = document.createElement("tr");
+        
+        // Checkbox
+        const checkboxCell = document.createElement("td");
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = selectedIndices.has(globalIndex);
+        checkbox.onchange = () => toggleSelection(globalIndex);
+        checkboxCell.appendChild(checkbox);
+        row.appendChild(checkboxCell);
+
+        // Index (#)
+        const indexCell = document.createElement("td");
+        indexCell.textContent = globalIndex + 1;
+        row.appendChild(indexCell);
+
+        // Categoria
+        const catCell = document.createElement("td");
+        catCell.textContent = item.categoria || "-";
+        row.appendChild(catCell);
+
+        // Imagen
+        const imgCell = document.createElement("td");
+        imgCell.className = "image-cell";
+        if (item.imagen) {
+          const img = document.createElement("img");
+          img.src = item.imagen;
+          img.alt = item.descripcion;
+          imgCell.appendChild(img);
+        }
+        row.appendChild(imgCell);
+
+        // Descripcion
+        const descCell = document.createElement("td");
+        descCell.textContent = item.descripcion || "-";
+        row.appendChild(descCell);
+
+        // Precio
+        const priceCell = document.createElement("td");
+        priceCell.className = "price-cell";
+        priceCell.textContent = (item.precio ? Number(item.precio).toFixed(2) : "0.00");
+        row.appendChild(priceCell);
+
+        // Acciones
+        const actionsCell = document.createElement("td");
+        
+        const editBtn = document.createElement("button");
+        editBtn.className = "btn btn-warning btn-sm";
+        editBtn.textContent = "Editar";
+        editBtn.style.marginRight = "5px";
+        editBtn.onclick = () => openEditModal(globalIndex);
+        
+        const deleteBtn = document.createElement("button");
+        deleteBtn.className = "btn btn-danger btn-sm";
+        deleteBtn.textContent = "Eliminar";
+        deleteBtn.onclick = () => deleteProduct(globalIndex);
+
+        actionsCell.appendChild(editBtn);
+        actionsCell.appendChild(deleteBtn);
+        row.appendChild(actionsCell);
+
+        tbody.appendChild(row);
+      });
+      
+      renderPaginationControls(totalPages);
+    }
+
+    function renderPaginationControls(totalPages) {
+      paginationDiv.innerHTML = "";
+      
+      if (totalPages <= 1) return;
+
+      // Prev Button
+      const prevBtn = document.createElement("button");
+      prevBtn.className = "page-btn";
+      prevBtn.textContent = "Anterior";
+      prevBtn.disabled = currentPage === 1;
+      prevBtn.onclick = () => {
+        if (currentPage > 1) {
+          currentPage--;
+          renderTable();
+        }
+      };
+      paginationDiv.appendChild(prevBtn);
+
+      // Page Numbers (Simple version: show all or max 5 window)
+      // Let's implement a simple window: Start, End, Current +- 1
+      
+      let startPage = Math.max(1, currentPage - 2);
+      let endPage = Math.min(totalPages, currentPage + 2);
+      
+      if (startPage > 1) {
+        const firstPageBtn = createPageButton(1);
+        paginationDiv.appendChild(firstPageBtn);
+        if (startPage > 2) {
+          const dots = document.createElement("span");
+          dots.textContent = "...";
+          dots.style.padding = "5px";
+          paginationDiv.appendChild(dots);
+        }
+      }
+
+      for (let i = startPage; i <= endPage; i++) {
+        const btn = createPageButton(i);
+        paginationDiv.appendChild(btn);
+      }
+      
+      if (endPage < totalPages) {
+        if (endPage < totalPages - 1) {
+          const dots = document.createElement("span");
+          dots.textContent = "...";
+          dots.style.padding = "5px";
+          paginationDiv.appendChild(dots);
+        }
+        const lastPageBtn = createPageButton(totalPages);
+        paginationDiv.appendChild(lastPageBtn);
+      }
+
+      // Next Button
+      const nextBtn = document.createElement("button");
+      nextBtn.className = "page-btn";
+      nextBtn.textContent = "Siguiente";
+      nextBtn.disabled = currentPage === totalPages;
+      nextBtn.onclick = () => {
+        if (currentPage < totalPages) {
+          currentPage++;
+          renderTable();
+        }
+      };
+      paginationDiv.appendChild(nextBtn);
+    }
+    
+    function populateCategories() {
+      const categories = new Set(currentProducts.map(p => p.categoria).filter(Boolean));
+      const sortedCategories = Array.from(categories).sort();
+      
+      // Keep current selection if possible
+      const currentSelection = categoryFilter.value;
+      
+      categoryFilter.innerHTML = '<option value="">Todas las categorías</option>';
+      
+      sortedCategories.forEach(cat => {
+        const option = document.createElement("option");
+        option.value = cat;
+        option.textContent = cat;
+        categoryFilter.appendChild(option);
+      });
+      
+      if (categories.has(currentSelection)) {
+        categoryFilter.value = currentSelection;
+      }
+    }
+
+    function applyFilters() {
+      const searchTerm = searchInput.value.toLowerCase();
+      const categoryTerm = categoryFilter.value;
+      
+      filteredProducts = currentProducts.filter(product => {
+        const matchesSearch = (product.descripcion || "").toLowerCase().includes(searchTerm) || 
+                              (product.categoria || "").toLowerCase().includes(searchTerm);
+        const matchesCategory = categoryTerm === "" || product.categoria === categoryTerm;
+        
+        return matchesSearch && matchesCategory;
+      });
+      
+      currentPage = 1; // Reset to first page on filter change
+      renderTable();
+    }
+
+    function createPageButton(page) {
+      const btn = document.createElement("button");
+      btn.className = "page-btn";
+      if (page === currentPage) btn.classList.add("active");
+      btn.textContent = page;
+      btn.onclick = () => {
+        currentPage = page;
+        renderTable();
+      };
+      return btn;
+    }
+
+    function toggleSelection(index) {
+      if (selectedIndices.has(index)) {
+        selectedIndices.delete(index);
+      } else {
+        selectedIndices.add(index);
+      }
+      renderTable();
+    }
+
+    function toggleSelectAll() {
+      if (selectAllCheckbox.checked) {
+        // Select all items matching current filter
+        filteredProducts.forEach(item => {
+          const index = currentProducts.indexOf(item);
+          if (index !== -1) selectedIndices.add(index);
+        });
+      } else {
+        // Deselect all items matching current filter (or clear all?)
+        // Standard behavior is often clear all, or clear visible. 
+        // Let's clear ALL for simplicity as users might get confused if hidden items remain selected
+        selectedIndices.clear();
+      }
+      renderTable();
+    }
+
+    function updateDeleteButtonState() {
+      const count = selectedIndices.size;
+      selectedCountSpan.textContent = count;
+      if (count > 0) {
+        deleteSelectedBtn.style.display = "inline-flex";
+      } else {
+        deleteSelectedBtn.style.display = "none";
+      }
+    }
+
+    function deleteSelected() {
+      if (selectedIndices.size === 0) return;
+      
+      if (confirm(`¿Estás seguro de que deseas eliminar ${selectedIndices.size} productos seleccionados?`)) {
+        // Create new array filtering out selected indices
+        currentProducts = currentProducts.filter((_, index) => !selectedIndices.has(index));
+        
+        // Clear selection
+        selectedIndices.clear();
+        
+        // Re-apply filters to update filteredProducts
+        applyFilters(); 
+        populateCategories(); // Categories might change
+        
+        saveToServer();
+      }
+    }
+
+    function deleteProduct(index) {
+      if (confirm("¿Estás seguro de que deseas eliminar este producto?")) {
+        currentProducts.splice(index, 1);
+        
+        selectedIndices.clear();
+        
+        // Re-apply filters
+        applyFilters();
+        populateCategories();
+        
+        saveToServer();
+      }
+    }
+
+    function openEditModal(index) {
+      const product = currentProducts[index];
+      editIndexInput.value = index;
+      editCategoria.value = product.categoria || "";
+      editDescripcion.value = product.descripcion || "";
+      editPrecio.value = product.precio || "";
+      editImagen.value = product.imagen || "";
+      
+      modalOverlay.classList.add("open");
+    }
+
+    function closeEditModal() {
+      modalOverlay.classList.remove("open");
+    }
+
+    function saveChanges() {
+      const index = parseInt(editIndexInput.value);
+      if (isNaN(index) || index < 0 || index >= currentProducts.length) return;
+
+      currentProducts[index] = {
+        categoria: editCategoria.value,
+        descripcion: editDescripcion.value,
+        precio: editPrecio.value,
+        imagen: editImagen.value
+      };
+
+      applyFilters(); // Description/Category might change
+      populateCategories();
+      saveToServer();
+      closeEditModal();
+    }
+
+    function saveToServer() {
+      fetch("/api/guardar", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(currentProducts)
+      })
+      .then(res => res.json())
+      .then(data => {
+        console.log("Guardado exitoso", data);
+      })
+      .catch(err => {
+        console.error("Error al guardar", err);
+        alert("Hubo un error al guardar los cambios en el servidor.");
+      });
+    }
+
+    // Event Listeners
+    selectAllCheckbox.addEventListener("change", toggleSelectAll);
+    deleteSelectedBtn.addEventListener("click", deleteSelected);
+    searchInput.addEventListener("input", applyFilters);
+    categoryFilter.addEventListener("change", applyFilters);
+
+    // Modal Event Listeners
+    closeModalBtn.addEventListener("click", closeEditModal);
+    cancelEditBtn.addEventListener("click", closeEditModal);
+    saveEditBtn.addEventListener("click", saveChanges);
+    
+    // Close modal if clicking outside
+    modalOverlay.addEventListener("click", (e) => {
+      if (e.target === modalOverlay) {
+        closeEditModal();
+      }
+    });
+
+    // Export Functions
+    const exportJsonBtn = document.getElementById("export-json-btn");
+    const exportCsvBtn = document.getElementById("export-csv-btn");
+
+    if (exportJsonBtn) {
+        exportJsonBtn.addEventListener("click", () => {
+            const dataStr = JSON.stringify(filteredProducts, null, 2);
+            const blob = new Blob([dataStr], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "productos_exportados.json";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+    }
+
+    if (exportCsvBtn) {
+        exportCsvBtn.addEventListener("click", () => {
+            if (filteredProducts.length === 0) {
+                alert("No hay productos para exportar.");
+                return;
+            }
+
+            const headers = ["Categoria", "Imagen", "Descripcion", "Precio"];
+            const csvRows = [headers.join(",")];
+
+            filteredProducts.forEach(item => {
+                const row = [
+                    `"${(item.categoria || "").replace(/"/g, '""')}"`,
+                    `"${(item.imagen || "").replace(/"/g, '""')}"`,
+                    `"${(item.descripcion || "").replace(/"/g, '""')}"`,
+                    `"${(item.precio || 0)}"`
+                ];
+                csvRows.push(row.join(","));
+            });
+
+            const csvString = csvRows.join("\n");
+            // Agregar BOM para que Excel reconozca UTF-8
+            const blob = new Blob(["\ufeff" + csvString], { type: "text/csv;charset=utf-8;" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "productos_exportados.csv";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+    }
+  </script>
+</body>
+</html>
