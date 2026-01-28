@@ -8,6 +8,10 @@ const path = require("path");
 const app = express();
 app.use(cors());
 app.use(express.json({ limit: '10mb' })); // Permitir JSON grandes para muchos productos
+
+// Servir archivos estáticos desde la carpeta 'public'
+app.use(express.static(path.join(__dirname, 'public')));
+// También servir la raíz para archivos antiguos si es necesario, pero preferir public
 app.use(express.static(__dirname));
 
 const DB_FILE = path.join(__dirname, "nuevos_productos.json");
