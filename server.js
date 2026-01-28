@@ -16,6 +16,18 @@ app.use(express.static(__dirname));
 
 const DB_FILE = path.join(__dirname, "nuevos_productos.json");
 
+// Variable en memoria para persistencia temporal (Vercel reinicia esto, pero evita crash 500)
+let productosMemoria = [];
+
+// Intentar cargar datos iniciales si existen
+try {
+    if (fs.existsSync(DB_FILE)) {
+        productosMemoria = JSON.parse(fs.readFileSync(DB_FILE, "utf8"));
+    }
+} catch (e) {
+    console.log("No se pudo cargar la base de datos inicial:", e.message);
+}
+
 // Endpoint para guardar productos (sobrescribir)
 app.post("/api/guardar", function (req, res) {
   try {
@@ -23,11 +35,25 @@ app.post("/api/guardar", function (req, res) {
     if (!Array.isArray(productos)) {
       return res.status(400).json({ error: "Se esperaba un array de productos" });
     }
-    fs.writeFileSync(DB_FILE, JSON.stringify(productos, null, 2), "utf8");
-    res.json({ message: "Productos guardados correctamente", count: productos.length });
+    
+    // Actualizar memoria siempre
+    productosMemoria = productos;
+
+    // Intentar guardar en disco
+    try {
+        fs.writeFileSync(DB_FILE, JSON.stringify(productos, null, 2), "utf8");
+        res.json({ message: "Productos guardados correctamente", count: productos.length });
+    } catch (writeError) {
+        console.error("Advertencia: No se pudo escribir en disco (Probablemente entorno Serverless Read-Only). Se guardó en memoria temporal.", writeError.message);
+        res.json({ 
+            message: "Guardado temporalmente en memoria (Nota: Vercel no permite guardar archivos permanentes). Usa 'Exportar' para respaldar tus datos.", 
+            count: productos.length,
+            warning: "read-only-fs"
+        });
+    }
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: "Error al guardar en el servidor" });
+    res.status(500).json({ error: "Error interno al procesar datos" });
   }
 });
 
@@ -39,21 +65,10 @@ app.post("/api/agregar", function (req, res) {
       return res.status(400).json({ error: "Se esperaba un array de productos" });
     }
 
-    let productosExistentes = [];
-    if (fs.existsSync(DB_FILE)) {
-      const data = fs.readFileSync(DB_FILE, "utf8");
-      try {
-        productosExistentes = JSON.parse(data);
-        if (!Array.isArray(productosExistentes)) productosExistentes = [];
-      } catch (e) {
-        productosExistentes = [];
-      }
-    }
+    // Usar memoria como fuente de verdad
+    let productosExistentes = [...productosMemoria];
 
-    // Filtrar duplicados por descripcion antes de agregar
-    // Opcional: El usuario pidio "agregar sin eliminar", pero evitar duplicados es lo logico
-    // para no llenar la base de datos con basura.
-    // Usaremos la descripcion como clave unica simple.
+    // Filtrar duplicados por descripcion
     let agregadosCount = 0;
     const descripcionesExistentes = new Set(productosExistentes.map(p => p.descripcion));
 
@@ -65,31 +80,34 @@ app.post("/api/agregar", function (req, res) {
       }
     });
 
-    fs.writeFileSync(DB_FILE, JSON.stringify(productosExistentes, null, 2), "utf8");
-    res.json({ 
-      message: "Productos agregados correctamente", 
-      total: productosExistentes.length,
-      agregados: agregadosCount 
-    });
+    productosMemoria = productosExistentes;
+
+    try {
+        fs.writeFileSync(DB_FILE, JSON.stringify(productosExistentes, null, 2), "utf8");
+        res.json({ 
+            message: "Productos agregados correctamente", 
+            total: productosExistentes.length,
+            agregados: agregadosCount 
+        });
+    } catch (writeError) {
+        console.error("Advertencia de escritura:", writeError.message);
+        res.json({ 
+            message: "Agregado a memoria temporal (Nota: Sistema de archivos de solo lectura).", 
+            total: productosExistentes.length,
+            agregados: agregadosCount,
+            warning: "read-only-fs"
+        });
+    }
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: "Error al agregar productos en el servidor" });
+    res.status(500).json({ error: "Error al agregar productos" });
   }
 });
 
 // Endpoint para leer productos guardados
 app.get("/api/productos-guardados", function (req, res) {
-  try {
-    if (!fs.existsSync(DB_FILE)) {
-      return res.json([]);
-    }
-    const data = fs.readFileSync(DB_FILE, "utf8");
-    const productos = JSON.parse(data);
-    res.json(productos);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: "Error al leer productos guardados" });
-  }
+  // Devolver siempre lo que hay en memoria, que es lo más fresco para esta instancia
+  res.json(productosMemoria);
 });
 
 // Ruta para la página de visualización
