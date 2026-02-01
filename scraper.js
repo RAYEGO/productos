@@ -2,277 +2,204 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 const CONFIG = {
-    url: 'https://www.metro.pe/higiene-salud-y-belleza',
-    categoriaDefecto: 'salud y belleza',
-    outputFile: 'embutidos.json',
+    url: 'https://www.metro.pe/frutas-y-verduras',
+    categoriaDefecto: 'frutas y verduras',
+    outputFile: 'prueba.json',
     selectors: {
-        productCard: '.vtex-product-summary-2-x-container', 
-        image: 'img[class*="imageNormal"]',
-        description: '[class*="productBrand"]',
-        price: '[class*="sellingPrice"] [class*="currencyContainer"]',
-        showMoreBtn: '.vtex-search-result-3-x-buttonShowMore button' 
+        productCard: '', // Se detectará dinámicamente
+        image: 'img',
+        description: '', 
+        price: '', 
+        showMoreBtn: 'button'
     }
 };
 
+// Función auxiliar para espera
+const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 (async () => {
-    console.log('🚀 Iniciando scraper...');
+    console.log('🚀 Iniciando scraper optimizado para Inkafarma...');
     
-    // Configuración del navegador
     const browser = await puppeteer.launch({
-        headless: false, // false para ver el navegador, "new" para modo oculto
+        headless: false,
         defaultViewport: null,
-        args: ['--start-maximized', '--no-sandbox', '--disable-setuid-sandbox']
+        args: [
+            '--start-maximized', 
+            '--no-sandbox', 
+            '--disable-setuid-sandbox',
+            '--disable-blink-features=AutomationControlled'
+        ]
     });
 
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
-    try {
-        console.log(`🌐 Navegando a: ${CONFIG.url}`);
-        await page.goto(CONFIG.url, { waitUntil: 'networkidle2', timeout: 60000 });
-        
-        // Función auxiliar para esperar carga de productos
-        const waitForProducts = async (minCount, previousCount = 0, timeout = 30000) => {
-            console.log(`⏳ Esperando carga de productos (Objetivo: > ${previousCount}, Mínimo inicial: ${minCount})...`);
-            const startTime = Date.now();
-            while (Date.now() - startTime < timeout) {
-                const currentCount = await page.evaluate((sel) => document.querySelectorAll(sel).length, CONFIG.selectors.productCard);
-                
-                // Si es carga inicial
-                if (previousCount === 0) {
-                    if (currentCount >= minCount) return currentCount;
-                } 
-                // Si es paginación (esperar incremento)
-                else {
-                    if (currentCount > previousCount) return currentCount;
-                }
-                
-                await new Promise(r => setTimeout(r, 1000));
-            }
-            const finalCount = await page.evaluate((sel) => document.querySelectorAll(sel).length, CONFIG.selectors.productCard);
-            console.log(`⚠️ Tiempo de espera finalizado. Productos encontrados: ${finalCount}`);
-            return finalCount;
-        };
-
-        try {
-            await page.waitForSelector(CONFIG.selectors.productCard, { timeout: 15000 });
-            // Esperar carga inicial de al menos 40 productos
-            await waitForProducts(40, 0, 30000);
-        } catch (e) {
-            console.log('⚠️ No se encontró el selector de productos inmediatamente.');
+    // Declarar extractAndSave globalmente
+    const extractAndSave = async () => {
+        if (!CONFIG.selectors.productCard) {
+            console.log('⚠️ Aún no se han detectado selectores. Saltando guardado.');
+            return;
         }
 
-        let hasMore = true;
-        let pageCount = 1;
-
-        // Función para extraer y guardar datos actuales
-        const extractAndSave = async () => {
-            console.log(' Extrayendo datos actuales...');
+        console.log('💾 Extrayendo datos...');
+        try {
             const scrapedItems = await page.evaluate((config) => {
                 const items = [];
+                // Usar selectores detectados o fallbacks
                 const cards = document.querySelectorAll(config.selectors.productCard);
-
+                
                 cards.forEach(card => {
-                    const imgElement = card.querySelector(config.selectors.image);
-                    let imagen = imgElement ? imgElement.src : null;
-
-                    if (imagen) {
-                        // Intentar obtener imagen de alta resolución
-                        // 1. Reemplazar dimensiones en la URL (ej. -144-144 -> -1000-1000)
-                        imagen = imagen.replace(/\/ids\/(\d+)-\d+-\d+/, '/ids/$1-1000-1000');
-                        // 2. Eliminar restricciones de tamaño en query params
-                        imagen = imagen.replace(/&width=\d+/, '').replace(/&height=\d+/, '');
-                    }
-
-                    const descElement = card.querySelector(config.selectors.description);
-                    let descripcion = descElement ? descElement.innerText.trim() : null;
-
-                    let precio = 0;
-                    const priceElement = card.querySelector(config.selectors.price);
+                    // Imagen
+                    let img = card.querySelector('img');
+                    let imagenSrc = img ? (img.src || img.getAttribute('data-src')) : null;
                     
-                    if (priceElement) {
-                        const txt = priceElement.innerText;
-                        const match = txt.match(/(\d{1,3}(,\d{3})*(\.\d{1,2})?)/); 
-                        if (match) precio = parseFloat(match[0].replace(/,/g, ''));
+                    // Descripción: Buscar elementos de texto significativos
+                    let descripcion = '';
+                    const textElements = Array.from(card.querySelectorAll('h3, h4, span, div'))
+                        .filter(el => el.children.length === 0 && el.innerText.length > 10)
+                        .sort((a,b) => b.innerText.length - a.innerText.length); // El más largo suele ser el nombre
+                    
+                    if (textElements.length > 0) descripcion = textElements[0].innerText.trim();
+
+                    // Precio: Buscar patrón S/
+                    let precio = 0;
+                    const text = card.innerText;
+                    const priceMatch = text.match(/S\/\s*(\d+(\.\d{2})?)/);
+                    if (priceMatch) {
+                        precio = parseFloat(priceMatch[1]);
                     }
 
-                    if (precio === 0) {
-                        const intPart = card.querySelector('[class*="currencyInteger"]');
-                        const decPart = card.querySelector('[class*="currencyFraction"]');
-                        if (intPart && decPart) {
-                            precio = parseFloat(intPart.innerText + '.' + decPart.innerText);
-                        }
-                    }
-
-                    if (precio === 0) {
-                        const anyPrice = card.querySelector('[class*="currencyContainer"]');
-                        if (anyPrice) {
-                             const txt = anyPrice.innerText;
-                             const match = txt.match(/(\d{1,3}(,\d{3})*(\.\d{1,2})?)/);
-                             if (match) precio = parseFloat(match[0].replace(/,/g, ''));
-                        }
-                    }
-
-                    if (descripcion) {
+                    if (descripcion && precio > 0) {
                         items.push({
                             categoria: config.categoriaDefecto,
-                            imagen: imagen,
+                            imagen: imagenSrc,
                             descripcion: descripcion,
-                            precio: isNaN(precio) ? 0 : precio
+                            precio: precio
                         });
                     }
                 });
                 return items;
             }, CONFIG);
 
-            console.log(`🔍 ${scrapedItems.length} productos en memoria actual.`);
+            console.log(`🔍 ${scrapedItems.length} productos extraídos en esta pasada.`);
 
-            // Leer archivo existente para preservar datos anteriores
+            // Mezclar con datos existentes
             let existingItems = [];
-            try {
-                if (fs.existsSync(CONFIG.outputFile)) {
-                    const fileContent = fs.readFileSync(CONFIG.outputFile, 'utf-8');
-                    existingItems = JSON.parse(fileContent);
-                }
-            } catch (e) {
-                console.log('⚠️ No se pudo leer el archivo existente, creando uno nuevo.');
+            if (fs.existsSync(CONFIG.outputFile)) {
+                try {
+                    existingItems = JSON.parse(fs.readFileSync(CONFIG.outputFile));
+                } catch(e) {}
             }
 
-            // Mezclar datos: Actualizar existentes o agregar nuevos (basado en descripción)
             const itemMap = new Map();
-            
-            // Primero cargar los existentes
-            existingItems.forEach(item => {
-                if(item.descripcion) itemMap.set(item.descripcion, item);
-            });
-
-            // Luego sobreescribir/agregar los nuevos escrapeados
-            scrapedItems.forEach(item => {
-                if(item.descripcion) itemMap.set(item.descripcion, item);
-            });
+            existingItems.forEach(i => itemMap.set(i.descripcion, i));
+            scrapedItems.forEach(i => itemMap.set(i.descripcion, i));
 
             const finalItems = Array.from(itemMap.values());
-
-            console.log(`✅ Total productos a guardar: ${finalItems.length} (Previos + Nuevos)`);
+            fs.writeFileSync(CONFIG.outputFile, JSON.stringify(finalItems, null, 2));
+            console.log(`✅ Progreso guardado. Total acumulado: ${finalItems.length}`);
             
-            if (finalItems.length > 0) {
-                fs.writeFileSync(CONFIG.outputFile, JSON.stringify(finalItems, null, 2));
-                console.log(`💾 Progreso guardado en ${CONFIG.outputFile}`);
+            return finalItems.length;
+
+        } catch (error) {
+            console.log('⚠️ Error al extraer/guardar (posible navegación en curso):', error.message);
+            return 0;
+        }
+    };
+
+    try {
+        console.log(`🌐 Navegando a: ${CONFIG.url}`);
+        await page.goto(CONFIG.url, { waitUntil: 'networkidle2', timeout: 60000 });
+        
+        console.log('⏳ Esperando carga inicial (10s)...');
+        await wait(10000);
+
+        // DETECCIÓN DE SELECTORES
+        console.log('🕵️ Intentando detectar estructura de productos...');
+        const detectedSelector = await page.evaluate(() => {
+            const allElements = document.querySelectorAll('*');
+            // Buscar un precio visible
+            for (const el of allElements) {
+                if (el.innerText && el.innerText.includes('S/') && el.children.length === 0 && el.offsetHeight > 0) {
+                    // Subir buscando un contenedor que parezca una tarjeta (tenga imagen y cierto tamaño)
+                    let parent = el.parentElement;
+                    let depth = 0;
+                    while (parent && depth < 8) {
+                        if (parent.querySelector('img') && parent.offsetHeight > 100 && parent.offsetWidth > 100) {
+                            // Encontramos un posible contenedor
+                            // Construir selector de clase
+                            if (parent.className && typeof parent.className === 'string') {
+                                const classes = parent.className.trim().split(/\s+/).filter(c => !c.includes('ng-') && c.length > 2);
+                                if (classes.length > 0) {
+                                    return '.' + classes.join('.');
+                                }
+                            }
+                            return parent.tagName.toLowerCase(); // Fallback a tag
+                        }
+                        parent = parent.parentElement;
+                        depth++;
+                    }
+                }
             }
-        };
+            return null;
+        });
+
+        if (detectedSelector) {
+            console.log(`✅ Selector detectado: ${detectedSelector}`);
+            CONFIG.selectors.productCard = detectedSelector;
+        } else {
+            console.log('⚠️ No se detectó selector específico. Usando estrategia genérica (div con precio).');
+            // Estrategia de respaldo: buscar cualquier div que tenga texto S/
+            CONFIG.selectors.productCard = 'body'; // Hack para que evalue todo el body en extractAndSave si es necesario, pero mejor no.
+        }
+
+        let hasMore = true;
+        let noNewProductsCount = 0;
+        let lastCount = 0;
 
         while (hasMore) {
-            console.log(`\n📄 Procesando página ${pageCount}...`);
-            console.log('📜 Scrolleando...');
             await autoScroll(page);
+            const currentTotal = await extractAndSave();
             
-            // Guardar datos en cada página para evitar pérdida de datos
-            await extractAndSave();
+            if (currentTotal === lastCount) {
+                noNewProductsCount++;
+            } else {
+                noNewProductsCount = 0;
+            }
+            lastCount = currentTotal;
 
-            try {
-                const buttonFound = await page.evaluate((selector) => {
-                    const btn = document.querySelector(selector);
-                    if (btn) return true;
-                    const candidates = Array.from(document.querySelectorAll('button, a, div[role="button"]'));
-                    const showMore = candidates.find(b => b.innerText && b.innerText.toLowerCase().includes('mostrar más'));
-                    if (showMore) {
-                        showMore.click();
-                        return true;
-                    }
-                    return false;
-                }, CONFIG.selectors.showMoreBtn);
-
-                if (buttonFound) {
-                    console.log('👆 Botón detectado. Scrolleando hacia él...');
-                    
-                    // 1. Intentar cerrar popups/banners que puedan estorbar
-                    try {
-                        const closed = await page.evaluate(() => {
-                            const closeBtns = document.querySelectorAll('button[aria-label="Close"], .vtex-toast-container button, .cookie-consent-close');
-                            closeBtns.forEach(btn => btn.click());
-                            return closeBtns.length;
-                        });
-                        if(closed > 0) console.log(`🧹 Se cerraron ${closed} popups/banners.`);
-                    } catch(e) {}
-
-                    // 2. Scroll hasta el botón
-                    await page.evaluate((selector) => {
-                        const btn = document.querySelector(selector);
-                        if(btn) {
-                            btn.scrollIntoView({behavior: 'smooth', block: 'center'});
-                            // Ajuste por si el header tapa el botón
-                            window.scrollBy(0, -100);
-                        }
-                    }, CONFIG.selectors.showMoreBtn);
-                    
-                    await new Promise(r => setTimeout(r, 2000));
-
-                    console.log('👆 Intentando hacer click...');
-                    
-                    // Guardar cantidad antes del click
-                    const prevCount = await page.evaluate((sel) => document.querySelectorAll(sel).length, CONFIG.selectors.productCard);
-                    
-                    // Click Loop: Intentar hasta que cambie la cantidad o se agoten intentos
-                    let clickSuccess = false;
-                    
-                    // Estrategia 1: Click nativo Puppeteer
-                    try {
-                        await page.click(CONFIG.selectors.showMoreBtn);
-                        console.log('🖱️ Click enviado vía Puppeteer.');
-                    } catch (e) { console.log('⚠️ Falló click Puppeteer'); }
-
-                    console.log('⏳ Verificando carga de nuevos productos...');
-                    
-                    // Usar la función de espera dinámica (hasta 30s)
-                    let currentCount = await waitForProducts(40, prevCount, 30000);
-                    
-                    // Si no cargó nada, probar Estrategia 2: JS Click forzado
-                    if (currentCount === prevCount) {
-                        console.log('⚠️ No se cargaron productos. Probando Click JS Forzado...');
-                        await page.evaluate((selector) => {
-                            const btn = document.querySelector(selector);
-                            if(btn) btn.click();
-                            
-                            // Buscar por texto también por si el selector falla
-                            const buttons = Array.from(document.querySelectorAll('button'));
-                            const showMore = buttons.find(b => b.innerText && b.innerText.toLowerCase().includes('mostrar más'));
-                            if(showMore) showMore.click();
-                        }, CONFIG.selectors.showMoreBtn);
-                        
-                        console.log('⏳ Verificando carga tras click JS...');
-                        await waitForProducts(40, prevCount, 30000);
-                    }
-                    
-                    // Espera adicional de seguridad para imágenes (lazy loading)
-                    console.log('🖼️ Dando tiempo extra para carga de imágenes...');
-                    await new Promise(r => setTimeout(r, 5000));
-
-                    // Verificación final del ciclo
-                    const finalCount = await page.evaluate((sel) => document.querySelectorAll(sel).length, CONFIG.selectors.productCard);
-                    console.log(`📊 Productos: ${prevCount} -> ${finalCount}`);
-                    
-                    if (finalCount > prevCount) {
-                        pageCount++;
-                    } else {
-                        console.log('🛑 El botón existe pero no carga más productos. Posible fin de lista o error.');
-                        // Opcional: break; si queremos detenernos, pero mejor seguir intentando por si es lag
-                    }
-                } else {
-                    console.log('🛑 No se encontró botón "Mostrar más".');
-                    hasMore = false;
-                }
-
-            } catch (e) {
-                console.log('🛑 Fin de paginación.');
+            if (noNewProductsCount >= 3) {
+                console.log('🛑 No se detectan nuevos productos tras varios intentos. Terminando.');
                 hasMore = false;
+                break;
+            }
+
+            // Intentar cargar más
+            console.log('👇 Buscando botón "Mostrar más" o scrolleando...');
+            const clicked = await page.evaluate(() => {
+                // Estrategia 1: Botón explícito
+                const buttons = Array.from(document.querySelectorAll('button, a'));
+                const showMore = buttons.find(b => b.innerText && /mostrar\s*m[áa]s|ver\s*m[áa]s|cargar\s*m[áa]s/i.test(b.innerText));
+                if (showMore && showMore.offsetParent !== null) { // Visible
+                    showMore.click();
+                    return true;
+                }
+                return false;
+            });
+
+            if (clicked) {
+                console.log('�️ Click realizado en "Mostrar más". Esperando carga...');
+                await wait(5000);
+            } else {
+                // Si no hay botón, asumimos infinite scroll ya activado por autoScroll
+                console.log('� Infinite scroll activo. Esperando...');
+                await wait(3000);
             }
         }
 
-        // Guardado final al terminar
-        await extractAndSave();
-
     } catch (error) {
-        console.error('❌ Error:', error);
+        console.error('❌ Error fatal en el flujo principal:', error);
+        await extractAndSave();
     } finally {
         await browser.close();
         console.log('👋 Navegador cerrado.');
