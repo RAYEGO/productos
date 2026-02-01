@@ -53,11 +53,11 @@
               <thead>
                 <tr>
                   <th><input type="checkbox" id="select-all"></th>
-                  <th>#</th>
-                  <th>Categoría</th>
                   <th>Imagen</th>
-                  <th>Descripción</th>
+                  <th>Producto</th>
                   <th>Precio</th>
+                  <th>Categoría</th>
+                  <th>Subcategoría</th>
                   <th>Acciones</th>
                 </tr>
               </thead>
@@ -100,7 +100,11 @@
             <input type="text" id="edit-categoria" required>
           </div>
           <div class="form-group full-width">
-            <label for="edit-descripcion">Descripción</label>
+            <label for="edit-subcategoria">Subcategoría</label>
+            <input type="text" id="edit-subcategoria">
+          </div>
+          <div class="form-group full-width">
+            <label for="edit-descripcion">Descripción / Producto</label>
             <input type="text" id="edit-descripcion" required>
           </div>
           <div class="form-group full-width">
@@ -154,6 +158,7 @@
     // Form Elements
     const editIndexInput = document.getElementById("edit-index");
     const editCategoria = document.getElementById("edit-categoria");
+    const editSubcategoria = document.getElementById("edit-subcategoria");
     const editDescripcion = document.getElementById("edit-descripcion");
     const editPrecio = document.getElementById("edit-precio");
     const editImagen = document.getElementById("edit-imagen");
@@ -239,39 +244,43 @@
         checkboxCell.appendChild(checkbox);
         row.appendChild(checkboxCell);
 
-        // Index (#)
-        const indexCell = document.createElement("td");
-        indexCell.textContent = globalIndex + 1;
-        row.appendChild(indexCell);
-
-        // Categoria
-        const catCell = document.createElement("td");
-        catCell.textContent = item.categoria || "-";
-        row.appendChild(catCell);
-
-        // Imagen
+        // 1. Imagen
         const imgCell = document.createElement("td");
         imgCell.className = "image-cell";
         if (item.imagen) {
           const img = document.createElement("img");
           img.src = item.imagen;
           img.alt = item.descripcion;
+          img.style.width = "50px";
+          img.style.height = "50px";
+          img.style.objectFit = "contain";
           imgCell.appendChild(img);
         }
         row.appendChild(imgCell);
 
-        // Descripcion
+        // 2. Producto (Descripcion)
         const descCell = document.createElement("td");
-        descCell.textContent = item.descripcion || "-";
+        descCell.textContent = item.descripcion || item.name || "-";
         row.appendChild(descCell);
 
-        // Precio
+        // 3. Precio
         const priceCell = document.createElement("td");
         priceCell.className = "price-cell";
-        priceCell.textContent = (item.precio ? Number(item.precio).toFixed(2) : "0.00");
+        const priceVal = item.precio !== undefined ? item.precio : item.price;
+        priceCell.textContent = (priceVal !== undefined ? Number(priceVal).toFixed(2) : "0.00");
         row.appendChild(priceCell);
 
-        // Acciones
+        // 4. Categoria
+        const catCell = document.createElement("td");
+        catCell.textContent = item.categoria || item.category || "-";
+        row.appendChild(catCell);
+
+        // 5. Subcategoria
+        const subcatCell = document.createElement("td");
+        subcatCell.textContent = item.subcategoria || item.subcategory || "-";
+        row.appendChild(subcatCell);
+
+        // 6. Acciones
         const actionsCell = document.createElement("td");
         
         const editBtn = document.createElement("button");
@@ -361,7 +370,7 @@
     }
     
     function populateCategories() {
-      const categories = new Set(currentProducts.map(p => p.categoria).filter(Boolean));
+      const categories = new Set(currentProducts.map(p => p.categoria || p.category).filter(Boolean));
       const sortedCategories = Array.from(categories).sort();
       
       // Keep current selection if possible
@@ -386,9 +395,11 @@
       const categoryTerm = categoryFilter.value;
       
       filteredProducts = currentProducts.filter(product => {
-        const matchesSearch = (product.descripcion || "").toLowerCase().includes(searchTerm) || 
-                              (product.categoria || "").toLowerCase().includes(searchTerm);
-        const matchesCategory = categoryTerm === "" || product.categoria === categoryTerm;
+        const desc = (product.descripcion || product.name || "").toLowerCase();
+        const cat = (product.categoria || product.category || "").toLowerCase();
+        
+        const matchesSearch = desc.includes(searchTerm) || cat.includes(searchTerm);
+        const matchesCategory = categoryTerm === "" || (product.categoria || product.category) === categoryTerm;
         
         return matchesSearch && matchesCategory;
       });
@@ -426,9 +437,7 @@
           if (index !== -1) selectedIndices.add(index);
         });
       } else {
-        // Deselect all items matching current filter (or clear all?)
-        // Standard behavior is often clear all, or clear visible. 
-        // Let's clear ALL for simplicity as users might get confused if hidden items remain selected
+        // Deselect all items matching current filter
         selectedIndices.clear();
       }
       renderTable();
@@ -479,10 +488,11 @@
     function openEditModal(index) {
       const product = currentProducts[index];
       editIndexInput.value = index;
-      editCategoria.value = product.categoria || "";
-      editDescripcion.value = product.descripcion || "";
-      editPrecio.value = product.precio || "";
-      editImagen.value = product.imagen || "";
+      editCategoria.value = product.categoria || product.category || "";
+      editSubcategoria.value = product.subcategoria || product.subcategory || "";
+      editDescripcion.value = product.descripcion || product.name || "";
+      editPrecio.value = (product.precio !== undefined ? product.precio : product.price) || "";
+      editImagen.value = product.imagen || product.image || "";
       
       modalOverlay.classList.add("open");
     }
@@ -495,11 +505,21 @@
       const index = parseInt(editIndexInput.value);
       if (isNaN(index) || index < 0 || index >= currentProducts.length) return;
 
+      // Preserve existing fields and update edited ones
+      const existing = currentProducts[index];
+      
       currentProducts[index] = {
+        ...existing,
         categoria: editCategoria.value,
+        category: editCategoria.value, // Keep both for compatibility
+        subcategoria: editSubcategoria.value,
+        subcategory: editSubcategoria.value,
         descripcion: editDescripcion.value,
-        precio: editPrecio.value,
-        imagen: editImagen.value
+        name: editDescripcion.value,
+        precio: parseFloat(editPrecio.value),
+        price: parseFloat(editPrecio.value),
+        imagen: editImagen.value,
+        image: editImagen.value
       };
 
       applyFilters(); // Description/Category might change
@@ -570,15 +590,16 @@
                 return;
             }
 
-            const headers = ["Categoria", "Imagen", "Descripcion", "Precio"];
+            const headers = ["Categoria", "Subcategoria", "Imagen", "Producto", "Precio"];
             const csvRows = [headers.join(",")];
 
             filteredProducts.forEach(item => {
                 const row = [
-                    `"${(item.categoria || "").replace(/"/g, '""')}"`,
-                    `"${(item.imagen || "").replace(/"/g, '""')}"`,
-                    `"${(item.descripcion || "").replace(/"/g, '""')}"`,
-                    `"${(item.precio || 0)}"`
+                    `"${(item.categoria || item.category || "").replace(/"/g, '""')}"`,
+                    `"${(item.subcategoria || item.subcategory || "").replace(/"/g, '""')}"`,
+                    `"${(item.imagen || item.image || "").replace(/"/g, '""')}"`,
+                    `"${(item.descripcion || item.name || "").replace(/"/g, '""')}"`,
+                    `"${(item.precio !== undefined ? item.precio : item.price || 0)}"`
                 ];
                 csvRows.push(row.join(","));
             });
