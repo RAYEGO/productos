@@ -100,7 +100,7 @@ if (fs.existsSync(DONE_FILE)) {
 
             let hasMore = true;
             let noNewProductsCount = 0;
-            let lastProductCount = 0;
+            let stuckCounter = 0; // To prevent infinite loops if "Show More" doesn't load new items
             let consecutiveErrors = 0;
 
             while (hasMore) {
@@ -151,17 +151,10 @@ if (fs.existsSync(DONE_FILE)) {
                     });
                     log(`   + Added ${newItems.length} new products. Total in memory: ${allProducts.length}`);
                     noNewProductsCount = 0;
+                    stuckCounter = 0;
                     
                     // Save incrementally
                     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allProducts, null, 2));
-                } else {
-                    noNewProductsCount++;
-                    log(`   . No new products found (Attempt ${noNewProductsCount}/3)`);
-                }
-
-                if (noNewProductsCount >= 3) {
-                    hasMore = false;
-                    break;
                 }
 
                 // Try to click "Show More"
@@ -178,11 +171,27 @@ if (fs.existsSync(DONE_FILE)) {
                 if (clicked) {
                     log('   > Clicked "Show More". Waiting...');
                     await wait(4000);
-                    // Do not reset noNewProductsCount here. 
-                    // We only reset if we actually find NEW products.
+                    
+                    if (newItems.length === 0) {
+                        stuckCounter++;
+                        log(`   . Button clicked but no new products (Stuck: ${stuckCounter}/5)`);
+                        if (stuckCounter >= 5) {
+                            log('   ⚠️ Stuck clicking "Show More" without results. Breaking.');
+                            hasMore = false;
+                        }
+                    }
                 } else {
                     log('   . No "Show More" button found.');
-                    hasMore = false; // If no button and no new products, we are done
+                    
+                    if (newItems.length === 0) {
+                        noNewProductsCount++;
+                        log(`   . No new products and no button (Attempt ${noNewProductsCount}/3)`);
+                        if (noNewProductsCount >= 3) {
+                            hasMore = false;
+                        }
+                    } else {
+                        noNewProductsCount = 0;
+                    }
                 }
             }
 
