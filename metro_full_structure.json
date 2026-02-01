@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Bebidas",
+    "url": "https://www.metro.pe/aguas-y-bebidas",
+    "subcategories": [
+      {
+        "name": "aguas sin gas y con gas",
+        "url": "https://www.metro.pe/aguas-y-bebidas/aguas"
+      },
+      {
+        "name": "jugos naturales",
+        "url": "https://www.metro.pe/aguas-y-bebidas/jugos-y-otras-bebidas"
+      },
+      {
+        "name": "Fanta",
+        "url": "https://www.metro.pe/aguas-y-bebidas/gaseosas/fanta"
+      },
+      {
+        "name": "Sprite",
+        "url": "https://www.metro.pe/aguas-y-bebidas/gaseosas/sprite"
+      }
+    ]
+  },
+  {
+    "name": "Frutas y Verduras",
+    "url": "https://www.metro.pe/frutas-y-verduras",
+    "subcategories": [
+      {
+        "name": "verduras",
+        "url": "https://www.metro.pe/frutas-y-verduras/verduras"
+      },
+      {
+        "name": "frutas frescas",
+        "url": "https://www.metro.pe/frutas-y-verduras/frutas"
+      }
+    ]
+  },
+  {
+    "name": "Cuidado del Hogar",
+    "url": "https://www.metro.pe/limpieza",
+    "subcategories": [
+      {
+        "name": "limpieza",
+        "url": "https://www.metro.pe/limpieza?map=ft"
+      }
+    ]
+  },
+  {
+    "name": "Despensa",
+    "url": "https://www.metro.pe/abarrotes",
+    "subcategories": [
+      {
+        "name": "aceites vegetales",
+        "url": "https://www.metro.pe/abarrotes/aceites"
+      },
+      {
+        "name": "pastas",
+        "url": "https://www.metro.pe/abarrotes/fideos-pastas-y-salsas"
+      },
+      {
+        "name": "arroz",
+        "url": "https://www.metro.pe/abarrotes/arroz"
+      },
+      {
+        "name": "menestras",
+        "url": "https://www.metro.pe/abarrotes/menestras"
+      },
+      {
+        "name": "condimentos",
+        "url": "https://www.metro.pe/abarrotes/condimentos-vinagres-y-comida-instantanea"
+      },
+      {
+        "name": "galletas",
+        "url": "https://www.metro.pe/abarrotes/galletas-snacks-y-golosinas"
+      }
+    ]
+  },
+  {
+    "name": "Tecnología",
+    "url": "https://www.metro.pe/tecnologia",
+    "subcategories": []
+  },
+  {
+    "name": "Lácteos y huevos",
+    "url": "https://www.metro.pe/lacteos",
+    "subcategories": []
+  },
+  {
+    "name": "Panadería",
+    "url": "https://www.metro.pe/panaderia-y-pasteleria",
+    "subcategories": []
+  },
+  {
+    "name": "Congelados",
+    "url": "https://www.metro.pe/congelados",
+    "subcategories": []
+  },
+  {
+    "name": "Carnes y chorizos",
+    "url": "https://www.metro.pe/carnes-aves-y-pescados",
+    "subcategories": []
+  }
+]

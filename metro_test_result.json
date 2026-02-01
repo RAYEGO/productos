@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Mix de Gaseosas Botella 3L: Coca Cola + Inca Kola + Fanta",
+    "price": 22.4,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/567552-144-144?v=638730945150130000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/mix-de-gaseosas-botella-3l-coca-cola-inca-kola-fanta-2-2/p"
+  },
+  {
+    "name": "Pack Gaseosa: Coca Cola 3L + Inca Kola 3L",
+    "price": 20.5,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/503951-144-144?v=638381183543500000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/pack-gaseosa-coca-cola-3l-inca-kola-3l-317712-2/p"
+  },
+  {
+    "name": "Pack Gaseosa: Coca Cola Sin Azúcar 1.5L + Inca Kola Sin Azúcar 1.5L",
+    "price": 11.2,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/547076-144-144?v=638633469995970000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/pack-gaseosa-coca-cola-sin-azucar-1-5l-inca-kola-sin-azucar-1-5l-974355-2/p"
+  },
+  {
+    "name": "Twopack Gaseosa Coca Cola Sabor Original Botella 3L",
+    "price": 20.5,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/547062-144-144?v=638633469943170000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/twopack-gaseosa-coca-cola-sabor-original-botella-3l-148354/p"
+  },
+  {
+    "name": "Sixpack Gaseosa Coca Cola Sin Azúcar Botella 300ml",
+    "price": 10,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/571895-144-144?v=638745141831230000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/sixpack-gaseosa-coca-cola-sin-azucar-botella-300ml-713717/p"
+  },
+  {
+    "name": "Pack x12 Gaseosa Botella 300ml: Coca Cola + Inca Kola + Fanta + Sprite",
+    "price": 19.5,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/538172-144-144?v=638578173764730000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/pack-x12-gaseosa-botella-300ml-coca-cola-inca-kola-fanta-sprite-1022107/p"
+  },
+  {
+    "name": "Ginger Ale Evervess Two Pack 1.5 L c/u",
+    "price": 10.9,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/256590-144-144?v=638176281952400000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/ginger-ale-evervess-two-pack-1-5-l-c-u-2/p"
+  },
+  {
+    "name": "Twopack Gaseosa Coca Cola Sin Azúcar Botella 1.5L",
+    "price": 11.2,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/503950-144-144?v=638381183538970000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/twopack-gaseosa-coca-cola-sin-azucar-botella-1-5l-206097/p"
+  },
+  {
+    "name": "Sixpack Gaseosa Inca Kola Sin Azúcar Botella 300ml",
+    "price": 10,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/231236-144-144?v=637713924884870000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/sixpack-gaseosa-inca-kola-sin-az-car-botella-300ml-713719/p"
+  },
+  {
+    "name": "Twopack Gaseosa Inca Kola Sin Azúcar Botella 1.5L",
+    "price": 11.2,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/237646-144-144?v=638173813436870000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/twopack-gaseosa-inca-kola-sin-azucar-botella-1-5l-2/p"
+  },
+  {
+    "name": "Gaseosa Coca Cola Botella 1L",
+    "price": 4,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/547071-144-144?v=638633469975570000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/gaseosa-coca-cola-botella-1l-2/p"
+  },
+  {
+    "name": "Sixpack Gaseosa Coca Cola Sabor Original Botella 500ml",
+    "price": 15,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/547063-144-144?v=638633469946930000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/sixpack-gaseosa-coca-cola-sabor-original-botella-500ml-414938/p"
+  },
+  {
+    "name": "Twopack Gaseosa Inca Kola Sabor Original Botella 3L",
+    "price": 20.5,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/503949-144-144?v=638381183534770000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/twopack-gaseosa-inca-kola-sabor-original-botella-3l-148357/p"
+  },
+  {
+    "name": "Mix de Gaseosas Botella 3L: Fanta + Fanta Kola Inglesa + Sprite",
+    "price": 19.5,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/438992-144-144?v=638281827888870000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/mix-de-gaseosas-botella-3l-fanta-fanta-kola-inglesa-sprite-2/p"
+  },
+  {
+    "name": "Gaseosa Coca Cola Original 3L 2un + Gaseosa Inca Kola Original 3L",
+    "price": 33.09,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/503964-144-144?v=638381183600470000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/gaseosa-coca-cola-original-3l-2un-gaseosa-inca-kola-original-3l-722252/p"
+  },
+  {
+    "name": "Gaseosa Coca Cola Sin Azúcar Botella 2.25 Lt",
+    "price": 8.8,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/247597-144-144?v=638173945577570000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/gaseosa-coca-cola-sin-azucar-botella-2-25-lt-2/p"
+  },
+  {
+    "name": "Gaseosa Sprite Lima Limón Botella 3L",
+    "price": 7,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/516288-144-144?v=638459698054900000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/gaseosa-sprite-lima-limon-botella-3l-2/p"
+  },
+  {
+    "name": "Gaseosa Inca Kola Sabor Original Botella 1L",
+    "price": 4,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/503957-144-144?v=638381183570400000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/gaseosa-inca-kola-sabor-original-botella-1l-534755/p"
+  },
+  {
+    "name": "Twopack Gaseosa Schweppes Citrus Botella 1.5L",
+    "price": 9.9,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/544029-144-144?v=638621049742900000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/twopack-gaseosa-schweppes-citrus-botella-1-5l-772390/p"
+  },
+  {
+    "name": "Sixpack Gaseosa Coca Cola Original Botella 600ml",
+    "price": 17.5,
+    "image": "https://metroio.vtexassets.com/arquivos/ids/623215-144-144?v=639016005973400000&width=144&height=144&aspect=true",
+    "link": "https://www.metro.pe/sixpack-gaseosa-coca-cola-original-botella-600ml-1054095/p"
+  }
+]
