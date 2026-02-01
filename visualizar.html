@@ -44,6 +44,9 @@
             <select id="category-filter" class="filter-select">
               <option value="">Todas las categorías</option>
             </select>
+            <select id="subcategory-filter" class="filter-select">
+              <option value="">Todas las subcategorías</option>
+            </select>
           </div>
 
           <div id="loading" style="text-align: center; padding: 20px;">Cargando productos...</div>
@@ -143,6 +146,7 @@
     const selectedCountSpan = document.getElementById("selected-count");
     const searchInput = document.getElementById("search-input");
     const categoryFilter = document.getElementById("category-filter");
+    const subcategoryFilter = document.getElementById("subcategory-filter");
     
     // Pagination Elements
     const paginationControls = document.getElementById("pagination-controls");
@@ -388,11 +392,43 @@
       if (categories.has(currentSelection)) {
         categoryFilter.value = currentSelection;
       }
+
+      populateSubcategories();
+    }
+
+    function populateSubcategories() {
+        const selectedCategory = categoryFilter.value;
+        const currentSubSelection = subcategoryFilter.value;
+
+        // Filter products based on selected category if any
+        let relevantProducts = currentProducts;
+        if (selectedCategory) {
+            relevantProducts = currentProducts.filter(p => (p.categoria || p.category) === selectedCategory);
+        }
+
+        const subcategories = new Set(relevantProducts.map(p => p.subcategoria || p.subcategory).filter(Boolean));
+        const sortedSubcategories = Array.from(subcategories).sort();
+
+        subcategoryFilter.innerHTML = '<option value="">Todas las subcategorías</option>';
+
+        sortedSubcategories.forEach(sub => {
+            const option = document.createElement("option");
+            option.value = sub;
+            option.textContent = sub;
+            subcategoryFilter.appendChild(option);
+        });
+
+        if (subcategories.has(currentSubSelection)) {
+            subcategoryFilter.value = currentSubSelection;
+        } else {
+            subcategoryFilter.value = "";
+        }
     }
 
     function applyFilters() {
       const searchTerm = searchInput.value.toLowerCase();
       const categoryTerm = categoryFilter.value;
+      const subcategoryTerm = subcategoryFilter.value;
       
       filteredProducts = currentProducts.filter(product => {
         const desc = (product.descripcion || product.name || "").toLowerCase();
@@ -400,8 +436,9 @@
         
         const matchesSearch = desc.includes(searchTerm) || cat.includes(searchTerm);
         const matchesCategory = categoryTerm === "" || (product.categoria || product.category) === categoryTerm;
+        const matchesSubcategory = subcategoryTerm === "" || (product.subcategoria || product.subcategory) === subcategoryTerm;
         
-        return matchesSearch && matchesCategory;
+        return matchesSearch && matchesCategory && matchesSubcategory;
       });
       
       currentPage = 1; // Reset to first page on filter change
@@ -550,7 +587,11 @@
     selectAllCheckbox.addEventListener("change", toggleSelectAll);
     deleteSelectedBtn.addEventListener("click", deleteSelected);
     searchInput.addEventListener("input", applyFilters);
-    categoryFilter.addEventListener("change", applyFilters);
+    categoryFilter.addEventListener("change", () => {
+        populateSubcategories();
+        applyFilters();
+    });
+    subcategoryFilter.addEventListener("change", applyFilters);
 
     // Modal Event Listeners
     closeModalBtn.addEventListener("click", closeEditModal);
