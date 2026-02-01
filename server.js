@@ -115,11 +115,6 @@ app.get("/visualizar", function (req, res) {
   res.sendFile(path.join(__dirname, "visualizar.html"));
 });
 
-// Ruta explícita para tabla de productos Metro
-app.get("/tabla_productos.html", function (req, res) {
-  res.sendFile(path.join(__dirname, "tabla_productos.html"));
-});
-
 
 function normalizarPrecio(texto) {
   if (!texto) {
