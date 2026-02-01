@@ -72,16 +72,17 @@
             <table>
               <thead>
                 <tr>
-                  <th>#</th>
-                  <th>Categoría</th>
                   <th>Imagen</th>
-                  <th>Descripción</th>
+                  <th>Producto</th>
                   <th>Precio</th>
+                  <th>Categoría</th>
+                  <th>Subcategoría</th>
+                  <th>Acción</th>
                 </tr>
               </thead>
               <tbody id="products-body">
                 <tr id="empty-row">
-                  <td colspan="5">
+                  <td colspan="6">
                     <div class="empty-state">
                       No hay productos registrados. Usa el formulario para agregar uno o importa datos.
                     </div>
@@ -107,16 +108,17 @@
     var importFileInput = document.getElementById("import-file");
     var saveServerButton = document.getElementById("save-server-button");
 
-    function agregarFilaProducto(categoria, imagen, descripcion, precio) {
-      // Verificar si ya existe un producto con la misma descripción
+    function agregarFilaProducto(imagen, producto, precio, categoria, subcategoria, link) {
+      // Verificar duplicados por nombre/producto
       var rows = tbody.querySelectorAll("tr");
       for (var i = 0; i < rows.length; i++) {
         var row = rows[i];
         if (row.id === "empty-row") continue;
         
         var cells = row.querySelectorAll("td");
-        if (cells.length > 3 && cells[3].textContent.trim() === descripcion) {
-          return false; // Indicar que no se agregó por duplicado
+        // Columna Producto es indice 1 ahora
+        if (cells.length > 1 && cells[1].textContent.trim() === producto) {
+          return false; // Duplicado
         }
       }
 
@@ -126,36 +128,55 @@
       }
       var row = document.createElement("tr");
 
-      // Columna #
-      var indexCell = document.createElement("td");
-      indexCell.textContent = tbody.children.length + 1;
-      row.appendChild(indexCell);
-
-      var categoriaCell = document.createElement("td");
-      categoriaCell.textContent = categoria;
-      row.appendChild(categoriaCell);
-
+      // 1. Imagen
       var imagenCell = document.createElement("td");
       imagenCell.className = "image-cell";
       if (imagen) {
         var img = document.createElement("img");
         img.src = imagen;
-        img.alt = categoria;
+        img.alt = producto;
+        img.style.width = "50px"; // Ajuste visual rápido
+        img.style.height = "50px";
+        img.style.objectFit = "contain";
         imagenCell.appendChild(img);
       }
       row.appendChild(imagenCell);
 
-      var descripcionCell = document.createElement("td");
-      descripcionCell.textContent = descripcion;
-      row.appendChild(descripcionCell);
+      // 2. Producto
+      var productoCell = document.createElement("td");
+      productoCell.textContent = producto;
+      row.appendChild(productoCell);
 
+      // 3. Precio
       var precioCell = document.createElement("td");
       precioCell.className = "price-cell";
-      precioCell.textContent = precio.toFixed(2);
+      precioCell.textContent = typeof precio === 'number' ? precio.toFixed(2) : precio;
       row.appendChild(precioCell);
 
+      // 4. Categoría
+      var categoriaCell = document.createElement("td");
+      categoriaCell.textContent = categoria;
+      row.appendChild(categoriaCell);
+
+      // 5. Subcategoría
+      var subcategoriaCell = document.createElement("td");
+      subcategoriaCell.textContent = subcategoria || "";
+      row.appendChild(subcategoriaCell);
+
+      // 6. Acción
+      var accionCell = document.createElement("td");
+      if (link) {
+        var a = document.createElement("a");
+        a.href = link;
+        a.target = "_blank";
+        a.className = "btn btn-sm btn-outline-primary";
+        a.textContent = "Ver";
+        accionCell.appendChild(a);
+      }
+      row.appendChild(accionCell);
+
       tbody.appendChild(row);
-      return true; // Indicar éxito
+      return true;
     }
 
     form.addEventListener("submit", function (event) {
@@ -164,7 +185,7 @@
       var categoria = form.categoria.value.trim();
       var precioValue = form.precio.value.trim();
       var imagen = form.imagen.value.trim();
-      var descripcion = form.descripcion.value.trim();
+      var descripcion = form.descripcion.value.trim(); // Usamos descripción como Producto
 
       if (!categoria || !precioValue || !descripcion) {
         submitButton.disabled = false;
@@ -177,10 +198,11 @@
         return;
       }
 
-      var agregado = agregarFilaProducto(categoria, imagen, descripcion, precio);
+      // Manual entry: subcategoria empty, link empty
+      var agregado = agregarFilaProducto(imagen, descripcion, precio, categoria, "", "");
       
       if (!agregado) {
-        alert("El producto con esta descripción ya existe en la lista.");
+        alert("El producto ya existe en la lista.");
         submitButton.disabled = false;
         return;
       }
@@ -205,26 +227,31 @@
             data = JSON.parse(text);
           } catch (error) {
             importFileInput.value = "";
+            alert("Error JSON inválido");
             return;
           }
           if (!Array.isArray(data)) {
             importFileInput.value = "";
+            alert("El JSON debe ser un array de productos");
             return;
           }
           var count = 0;
           data.forEach(function (item) {
-            if (!item) {
-              return;
-            }
-            var categoria = typeof item.categoria === "string" ? item.categoria.trim() : "";
-            var descripcion = typeof item.descripcion === "string" ? item.descripcion.trim() : "";
-            var imagen = typeof item.imagen === "string" ? item.imagen.trim() : "";
-            var precioNumero = Number(item.precio);
+            if (!item) return;
 
-            if (!categoria || !descripcion || Number.isNaN(precioNumero) || precioNumero < 0) {
+            // Soporte para formato metro_products.json y formato anterior
+            var producto = item.name || item.descripcion || "";
+            var precio = Number(item.price !== undefined ? item.price : item.precio);
+            var categoria = item.category || item.categoria || "";
+            var subcategoria = item.subcategory || item.subcategoria || "";
+            var imagen = item.image || item.imagen || "";
+            var link = item.link || "";
+
+            if (!producto || Number.isNaN(precio)) {
               return;
             }
-            if (agregarFilaProducto(categoria, imagen, descripcion, precioNumero)) {
+            
+            if (agregarFilaProducto(imagen, producto, precio, categoria, subcategoria, link)) {
               count++;
             }
           });
@@ -232,7 +259,7 @@
           if (count > 0) {
             alert("Se importaron " + count + " productos correctamente.");
           } else {
-            alert("No se importaron productos (posibles duplicados o formato inválido).");
+            alert("No se importaron productos (posibles duplicados).");
           }
         };
         reader.readAsText(file);
@@ -248,19 +275,30 @@
           if (fila.id === "empty-row") return;
           
           var celdas = fila.querySelectorAll("td");
-          if (celdas.length < 5) return;
+          // Indices: 0:Img, 1:Prod, 2:Precio, 3:Cat, 4:Subcat, 5:Action
+          if (celdas.length < 6) return;
 
-          var categoria = celdas[1].textContent;
-          var imgEl = celdas[2].querySelector("img");
+          var imgEl = celdas[0].querySelector("img");
           var imagen = imgEl ? imgEl.src : "";
-          var descripcion = celdas[3].textContent;
-          var precio = celdas[4].textContent;
+          var productoName = celdas[1].textContent;
+          var precio = parseFloat(celdas[2].textContent);
+          var categoria = celdas[3].textContent;
+          var subcategoria = celdas[4].textContent;
+          var linkEl = celdas[5].querySelector("a");
+          var link = linkEl ? linkEl.href : "";
 
           productos.push({
+            descripcion: productoName, // Mapear a descripcion para compatibilidad backend
+            name: productoName,
+            precio: precio,
+            price: precio,
             categoria: categoria,
+            category: categoria,
+            subcategoria: subcategoria,
+            subcategory: subcategoria,
             imagen: imagen,
-            descripcion: descripcion,
-            precio: precio
+            image: imagen,
+            link: link
           });
         });
 
@@ -281,9 +319,6 @@
         })
         .then(function(res) { 
           if (!res.ok) {
-            if (res.status === 404) {
-              throw new Error("El servidor no reconoce la ruta de guardado. ¿Reiniciaste el servidor?");
-            }
             throw new Error("Error del servidor: " + res.status); 
           }
           return res.json(); 
@@ -292,9 +327,6 @@
           var msg = "Productos guardados correctamente.";
           if (data.agregados !== undefined) {
              msg += "\nSe agregaron " + data.agregados + " nuevos productos.";
-             if (data.agregados < productos.length) {
-               msg += "\n(" + (productos.length - data.agregados) + " eran duplicados y no se agregaron)";
-             }
           }
           alert(msg);
         })
