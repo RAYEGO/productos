@@ -8,18 +8,24 @@ const mainCategories = require('./metro_main_categories.json');
     console.log('🚀 Inspeccionando Categorías de Metro.pe...');
     
     const browser = await puppeteer.launch({
-        headless: "new",
+        headless: true,
         args: ['--start-maximized', '--no-sandbox', '--disable-setuid-sandbox']
     });
 
     const page = await browser.newPage();
+    
+    // Explicitly reload mainCategories to ensure freshness
+    const freshMainCategories = JSON.parse(fs.readFileSync('metro_main_categories.json', 'utf8'));
+
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
     await page.setViewport({ width: 1366, height: 768 });
 
     // Cargar estructura parcial si existe para reintentar fallidos
     let existingStructure = [];
     try {
-        existingStructure = JSON.parse(fs.readFileSync('metro_full_structure.json', 'utf8'));
+        if (fs.existsSync('metro_full_structure.json')) {
+            existingStructure = JSON.parse(fs.readFileSync('metro_full_structure.json', 'utf8'));
+        }
     } catch (e) {}
 
     // Filtrar categorías que no tienen subcategorías
@@ -29,7 +35,8 @@ const mainCategories = require('./metro_main_categories.json');
         categoriesToScan = existingStructure.filter(c => !c.subcategories || c.subcategories.length === 0);
         console.log(`Reintentando ${categoriesToScan.length} categorías vacías...`);
     } else {
-        categoriesToScan = mainCategories;
+        categoriesToScan = freshMainCategories;
+        console.log(`Iniciando escaneo de ${categoriesToScan.length} categorías principales...`);
     }
 
     // Map back to mainCategories to get original URL if needed, but existing structure has URL.
@@ -117,6 +124,9 @@ const mainCategories = require('./metro_main_categories.json');
                 ...category,
                 subcategories: subcategories
             });
+
+            // Save incrementally to avoid data loss
+            fs.writeFileSync('metro_full_structure.json', JSON.stringify(fullStructure, null, 2));
 
         } catch (error) {
             console.error(`   Error analyzing ${category.name}:`, error.message);

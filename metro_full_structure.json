@@ -1,27 +1,5 @@
 [
   {
-    "name": "Bebidas",
-    "url": "https://www.metro.pe/aguas-y-bebidas",
-    "subcategories": [
-      {
-        "name": "aguas sin gas y con gas",
-        "url": "https://www.metro.pe/aguas-y-bebidas/aguas"
-      },
-      {
-        "name": "jugos naturales",
-        "url": "https://www.metro.pe/aguas-y-bebidas/jugos-y-otras-bebidas"
-      },
-      {
-        "name": "Fanta",
-        "url": "https://www.metro.pe/aguas-y-bebidas/gaseosas/fanta"
-      },
-      {
-        "name": "Sprite",
-        "url": "https://www.metro.pe/aguas-y-bebidas/gaseosas/sprite"
-      }
-    ]
-  },
-  {
     "name": "Frutas y Verduras",
     "url": "https://www.metro.pe/frutas-y-verduras",
     "subcategories": [
@@ -36,68 +14,347 @@
     ]
   },
   {
-    "name": "Cuidado del Hogar",
-    "url": "https://www.metro.pe/limpieza",
+    "name": "Carnes, Aves y Pescados",
+    "url": "https://www.metro.pe/carnes-aves-y-pescados",
     "subcategories": [
       {
-        "name": "limpieza",
-        "url": "https://www.metro.pe/limpieza?map=ft"
+        "name": "Aves y Huevos",
+        "url": "https://www.metro.pe/carnes-aves-y-pescados/aves-y-huevos"
+      },
+      {
+        "name": "Hamburguesas y Apanados",
+        "url": "https://www.metro.pe/carnes-aves-y-pescados/hamburguesas-y-apanados"
+      },
+      {
+        "name": "Pescados y Mariscos",
+        "url": "https://www.metro.pe/carnes-aves-y-pescados/pescados-y-mariscos"
+      },
+      {
+        "name": "Res y Otras Carnes",
+        "url": "https://www.metro.pe/carnes-aves-y-pescados/res-y-otras-carnes"
+      },
+      {
+        "name": "Cerdo",
+        "url": "https://www.metro.pe/carnes-aves-y-pescados/cerdo"
+      },
+      {
+        "name": "Premium",
+        "url": "https://www.metro.pe/carnes-aves-y-pescados/res-y-otras-carnes/cortes-premium"
       }
     ]
   },
   {
-    "name": "Despensa",
+    "name": "Desayuno",
+    "url": "https://www.metro.pe/desayuno",
+    "subcategories": [
+      {
+        "name": "Azúcar y Edulcorantes",
+        "url": "https://www.metro.pe/desayuno/azucar-y-edulcorantes"
+      },
+      {
+        "name": "Café e Infusiones",
+        "url": "https://www.metro.pe/desayuno/cafe-e-infusiones"
+      },
+      {
+        "name": "Cereales y Avenas",
+        "url": "https://www.metro.pe/desayuno/cereales-y-avenas"
+      },
+      {
+        "name": "Mermeladas y Mieles",
+        "url": "https://www.metro.pe/desayuno/mermeladas-y-mieles"
+      },
+      {
+        "name": "Modificadores de Leche",
+        "url": "https://www.metro.pe/desayuno/modificadores-de-leche"
+      },
+      {
+        "name": "Panes y Tortillas Empacadas",
+        "url": "https://www.metro.pe/desayuno/panes-y-tortillas-empacadas"
+      },
+      {
+        "name": "Panetones, Kekes y Bizcochos",
+        "url": "https://www.metro.pe/desayuno/panetones-kekes-y-bizcochos"
+      },
+      {
+        "name": "Suplementos Nutricionales para Adultos",
+        "url": "https://www.metro.pe/desayuno/suplementos-nutricionales-para-adultos"
+      }
+    ]
+  },
+  {
+    "name": "Lácteos y Huevos",
+    "url": "https://www.metro.pe/lacteos",
+    "subcategories": [
+      {
+        "name": "Aves y Huevos",
+        "url": "https://www.metro.pe/carnes-aves-y-pescados/aves-y-huevos"
+      },
+      {
+        "name": "La Quesería",
+        "url": "https://www.metro.pe/lacteos/la-queseria"
+      },
+      {
+        "name": "Leches",
+        "url": "https://www.metro.pe/lacteos/leches"
+      },
+      {
+        "name": "Mantequillas y Margarinas",
+        "url": "https://www.metro.pe/lacteos/mantequillas-y-margarinas"
+      },
+      {
+        "name": "Yogures",
+        "url": "https://www.metro.pe/lacteos/yogures"
+      }
+    ]
+  },
+  {
+    "name": "Embutidos y Fiambres",
+    "url": "https://www.metro.pe/embutidos-y-fiambres",
+    "subcategories": [
+      {
+        "name": "Embutidos",
+        "url": "https://www.metro.pe/embutidos-y-fiambres/embutidos"
+      },
+      {
+        "name": "Fiambres",
+        "url": "https://www.metro.pe/embutidos-y-fiambres/fiambres"
+      },
+      {
+        "name": "Delicatessen",
+        "url": "https://www.metro.pe/embutidos-y-fiambres/delicatessen"
+      }
+    ]
+  },
+  {
+    "name": "Abarrotes",
     "url": "https://www.metro.pe/abarrotes",
     "subcategories": [
       {
-        "name": "aceites vegetales",
+        "name": "Aceites",
         "url": "https://www.metro.pe/abarrotes/aceites"
       },
       {
-        "name": "pastas",
-        "url": "https://www.metro.pe/abarrotes/fideos-pastas-y-salsas"
+        "name": "Alimentos en Conserva",
+        "url": "https://www.metro.pe/abarrotes/alimentos-en-conserva"
       },
       {
-        "name": "arroz",
+        "name": "Arroz",
         "url": "https://www.metro.pe/abarrotes/arroz"
       },
       {
-        "name": "menestras",
-        "url": "https://www.metro.pe/abarrotes/menestras"
+        "name": "Chocolateria",
+        "url": "https://www.metro.pe/abarrotes/chocolateria"
       },
       {
-        "name": "condimentos",
+        "name": "Salsas, Comidas Instantáneas, Condimentos y Sales",
         "url": "https://www.metro.pe/abarrotes/condimentos-vinagres-y-comida-instantanea"
       },
       {
-        "name": "galletas",
+        "name": "Galletas, Snacks y Golosinas",
         "url": "https://www.metro.pe/abarrotes/galletas-snacks-y-golosinas"
+      },
+      {
+        "name": "Menestras",
+        "url": "https://www.metro.pe/abarrotes/menestras"
+      },
+      {
+        "name": "Repostería",
+        "url": "https://www.metro.pe/abarrotes/reposteria"
+      },
+      {
+        "name": "Pastas (Extra)",
+        "url": "https://www.metro.pe/abarrotes/fideos-pastas-y-salsas"
       }
     ]
   },
   {
-    "name": "Tecnología",
-    "url": "https://www.metro.pe/tecnologia",
-    "subcategories": []
-  },
-  {
-    "name": "Lácteos y huevos",
-    "url": "https://www.metro.pe/lacteos",
-    "subcategories": []
-  },
-  {
-    "name": "Panadería",
+    "name": "Panadería y Pastelería",
     "url": "https://www.metro.pe/panaderia-y-pasteleria",
-    "subcategories": []
+    "subcategories": [
+      {
+        "name": "Confitería",
+        "url": "https://www.metro.pe/panaderia-y-pasteleria/confiteria"
+      },
+      {
+        "name": "La Panadería",
+        "url": "https://www.metro.pe/panaderia-y-pasteleria/la-panaderia"
+      },
+      {
+        "name": "Pastelería",
+        "url": "https://www.metro.pe/panaderia-y-pasteleria/pasteleria"
+      }
+    ]
+  },
+  {
+    "name": "Comidas y Rostizados",
+    "url": "https://www.metro.pe/comidas-y-rostizados",
+    "subcategories": [
+      {
+        "name": "Comidas",
+        "url": "https://www.metro.pe/comidas-y-rostizados/comidas"
+      },
+      {
+        "name": "Rostizados Metro",
+        "url": "https://www.metro.pe/comidas-y-rostizados/rostizados-metro"
+      }
+    ]
   },
   {
     "name": "Congelados",
     "url": "https://www.metro.pe/congelados",
-    "subcategories": []
+    "subcategories": [
+      {
+        "name": "Helados",
+        "url": "https://www.metro.pe/congelados/helados"
+      },
+      {
+        "name": "Masas y Bocaditos",
+        "url": "https://www.metro.pe/congelados/masas-y-bocaditos"
+      },
+      {
+        "name": "Comida Congelada",
+        "url": "https://www.metro.pe/congelados/comida-congelada"
+      }
+    ]
   },
   {
-    "name": "Carnes y chorizos",
-    "url": "https://www.metro.pe/carnes-aves-y-pescados",
-    "subcategories": []
+    "name": "Bebidas",
+    "url": "https://www.metro.pe/aguas-y-bebidas",
+    "subcategories": [
+      {
+        "name": "Aguas",
+        "url": "https://www.metro.pe/aguas-y-bebidas/aguas"
+      },
+      {
+        "name": "Bebidas Regeneradoras",
+        "url": "https://www.metro.pe/aguas-y-bebidas/bebidas-regeneradoras"
+      },
+      {
+        "name": "Gaseosas",
+        "url": "https://www.metro.pe/aguas-y-bebidas/gaseosas"
+      },
+      {
+        "name": "Hielo",
+        "url": "https://www.metro.pe/aguas-y-bebidas/hielo"
+      },
+      {
+        "name": "Jugos y otras bebidas",
+        "url": "https://www.metro.pe/aguas-y-bebidas/jugos-y-otras-bebidas"
+      }
+    ]
+  },
+  {
+    "name": "Cervezas, Vinos y Licores",
+    "url": "https://www.metro.pe/cervezas-vinos-y-licores",
+    "subcategories": [
+      {
+        "name": "Cervezas",
+        "url": "https://www.metro.pe/cervezas-vinos-y-licores/cervezas"
+      },
+      {
+        "name": "Champagne, Espumantes y Cavas",
+        "url": "https://www.metro.pe/cervezas-vinos-y-licores/champagne-espumantes-y-cavas"
+      },
+      {
+        "name": "Cigarrillos",
+        "url": "https://www.metro.pe/cervezas-vinos-y-licores/cigarrillos"
+      },
+      {
+        "name": "Vinos",
+        "url": "https://www.metro.pe/cervezas-vinos-y-licores/vinos"
+      },
+      {
+        "name": "Licores",
+        "url": "https://www.metro.pe/cervezas-vinos-y-licores/licores"
+      }
+    ]
+  },
+  {
+    "name": "Limpieza",
+    "url": "https://www.metro.pe/limpieza",
+    "subcategories": [
+      {
+        "name": "Accesorios de Limpieza",
+        "url": "https://www.metro.pe/limpieza/accesorios-de-limpieza"
+      },
+      {
+        "name": "Cuidado de Ropa",
+        "url": "https://www.metro.pe/limpieza/cuidado-de-ropa"
+      },
+      {
+        "name": "Cuidado del Hogar",
+        "url": "https://www.metro.pe/limpieza/cuidado-del-hogar"
+      },
+      {
+        "name": "Limpieza de Automóviles",
+        "url": "https://www.metro.pe/limpieza/limpieza-de-automoviles"
+      },
+      {
+        "name": "Limpieza de Baño",
+        "url": "https://www.metro.pe/limpieza/limpieza-de-bano"
+      },
+      {
+        "name": "Limpieza de Cocina",
+        "url": "https://www.metro.pe/limpieza/limpieza-de-cocina"
+      },
+      {
+        "name": "Limpieza del Calzado",
+        "url": "https://www.metro.pe/limpieza/limpieza-del-calzado"
+      },
+      {
+        "name": "Aerosoles",
+        "url": "https://www.metro.pe/limpieza/aerosoles"
+      },
+      {
+        "name": "Papel para el Hogar",
+        "url": "https://www.metro.pe/limpieza/papel-para-el-hogar"
+      }
+    ]
+  },
+  {
+    "name": "Higiene, Salud y Belleza",
+    "url": "https://www.metro.pe/higiene-salud-y-belleza",
+    "subcategories": [
+      {
+        "name": "Cuidado Bucal",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/cuidado-bucal"
+      },
+      {
+        "name": "Cuidado del Cabello",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/cuidado-del-cabello"
+      },
+      {
+        "name": "Cuidado Femenino",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/cuidado-femenino"
+      },
+      {
+        "name": "Protección Incontinencia",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/proteccion-incontinencia"
+      },
+      {
+        "name": "Afeitado y Depilación",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/afeitado-y-depilacion"
+      },
+      {
+        "name": "Belleza",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/belleza"
+      },
+      {
+        "name": "Cuidado Facial y Corporal",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/cuidado-facial-y-corporal"
+      },
+      {
+        "name": "Cuidado Personal",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/cuidado-personal"
+      },
+      {
+        "name": "Packs",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/packs"
+      },
+      {
+        "name": "Salud",
+        "url": "https://www.metro.pe/higiene-salud-y-belleza/salud"
+      }
+    ]
   }
 ]

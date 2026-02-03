@@ -1,38 +1,54 @@
 [
   {
-    "name": "Tecnología",
-    "url": "https://www.metro.pe/tecnologia"
-  },
-  {
-    "name": "Bebidas",
-    "url": "https://www.metro.pe/aguas-y-bebidas"
-  },
-  {
     "name": "Frutas y Verduras",
     "url": "https://www.metro.pe/frutas-y-verduras"
   },
   {
-    "name": "Cuidado del Hogar",
-    "url": "https://www.metro.pe/limpieza"
+    "name": "Carnes, Pollos y Pescados",
+    "url": "https://www.metro.pe/carnes-aves-y-pescados"
   },
   {
-    "name": "Lácteos y huevos",
+    "name": "Desayuno",
+    "url": "https://www.metro.pe/desayuno"
+  },
+  {
+    "name": "Lácteos y Huevos",
     "url": "https://www.metro.pe/lacteos"
   },
   {
-    "name": "Panadería",
+    "name": "Embutidos y Fiambres",
+    "url": "https://www.metro.pe/embutidos-y-fiambres"
+  },
+  {
+    "name": "Abarrotes",
+    "url": "https://www.metro.pe/abarrotes"
+  },
+  {
+    "name": "Panadería y Pastelería",
     "url": "https://www.metro.pe/panaderia-y-pasteleria"
   },
   {
-    "name": "Despensa",
-    "url": "https://www.metro.pe/abarrotes"
+    "name": "Comidas y Rostizados",
+    "url": "https://www.metro.pe/comidas-y-rostizados"
   },
   {
     "name": "Congelados",
     "url": "https://www.metro.pe/congelados"
   },
   {
-    "name": "Carnes y chorizos",
-    "url": "https://www.metro.pe/carnes-aves-y-pescados"
+    "name": "Bebidas",
+    "url": "https://www.metro.pe/aguas-y-bebidas"
+  },
+  {
+    "name": "Cervezas, Vinos y Licores",
+    "url": "https://www.metro.pe/cervezas-vinos-y-licores"
+  },
+  {
+    "name": "Limpieza",
+    "url": "https://www.metro.pe/limpieza"
+  },
+  {
+    "name": "Higiene, Salud y Belleza",
+    "url": "https://www.metro.pe/higiene-salud-y-belleza"
   }
 ]
