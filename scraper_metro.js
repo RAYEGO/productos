@@ -138,9 +138,15 @@ if (fs.existsSync(DONE_FILE)) {
                             
                             // Update category/subcategory if changed
                             if (existing.category !== p.category || existing.subcategory !== p.subcategory) {
-                                existing.category = p.category;
-                                existing.subcategory = p.subcategory;
-                                updated = true;
+                                // PREVENT DOWNGRADING SPECIFIC SUBCATEGORY TO "General"
+                                // If the new product is "General" but the existing one is specific (not "General"), keep the specific one.
+                                if (p.subcategory === 'General' && existing.subcategory !== 'General') {
+                                    // Do nothing for subcategory
+                                } else {
+                                    existing.category = p.category;
+                                    existing.subcategory = p.subcategory;
+                                    updated = true;
+                                }
                             }
                             
                             // Update other fields if changed (optional but good)
@@ -209,8 +215,14 @@ if (fs.existsSync(DONE_FILE)) {
         }
 
         if (doneUrls.has(task.url)) {
-            log(`⏩ Skipping already scraped: ${task.url}`);
-            continue;
+            // ALWAYS scrape 'General' (main category) pages to catch non-subcategorized products,
+            // even if we visited them before.
+            if (task.subcategory === 'General') {
+                log(`ℹ️ Re-checking General category: ${task.category} (${task.url})`);
+            } else {
+                log(`⏩ Skipping already scraped: ${task.url}`);
+                continue;
+            }
         }
 
         tasksProcessed++;

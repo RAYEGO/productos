@@ -356,5 +356,45 @@
         "url": "https://www.metro.pe/higiene-salud-y-belleza/salud"
       }
     ]
+  },
+  {
+    "name": "Electrohogar",
+    "url": "https://www.metro.pe/electrohogar",
+    "subcategories": []
+  },
+  {
+    "name": "Tecnología",
+    "url": "https://www.metro.pe/tecnologia",
+    "subcategories": []
+  },
+  {
+    "name": "Hogar y Bazar",
+    "url": "https://www.metro.pe/hogar-y-bazar",
+    "subcategories": []
+  },
+  {
+    "name": "Dormitorio",
+    "url": "https://www.metro.pe/dormitorio",
+    "subcategories": []
+  },
+  {
+    "name": "Niños y Bebés",
+    "url": "https://www.metro.pe/ninos-y-bebes",
+    "subcategories": []
+  },
+  {
+    "name": "Mascotas",
+    "url": "https://www.metro.pe/mascotas",
+    "subcategories": []
+  },
+  {
+    "name": "Juguetería",
+    "url": "https://www.metro.pe/la-jugueteria",
+    "subcategories": []
+  },
+  {
+    "name": "Deportes y Outdoors",
+    "url": "https://www.metro.pe/deportes-y-outdoors",
+    "subcategories": []
   }
 ]
