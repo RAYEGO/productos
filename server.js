@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // También servir la raíz para archivos antiguos si es necesario, pero preferir public
 app.use(express.static(__dirname));
 
-const DB_FILE = path.join(__dirname, "nuevos_productos.json");
+const DB_FILE = path.join(__dirname, "metro_products.json");
 
 // Variable en memoria para persistencia temporal (Vercel reinicia esto, pero evita crash 500)
 let productosMemoria = [];
@@ -68,14 +68,35 @@ app.post("/api/agregar", function (req, res) {
     // Usar memoria como fuente de verdad
     let productosExistentes = [...productosMemoria];
 
-    // Filtrar duplicados por descripcion
+    // Filtrar duplicados por link (preferido) o nombre
     let agregadosCount = 0;
-    const descripcionesExistentes = new Set(productosExistentes.map(p => p.descripcion));
+    // Crear Sets para búsqueda rápida
+    const linksExistentes = new Set(productosExistentes.map(p => p.link).filter(l => l));
+    const nombresExistentes = new Set(productosExistentes.map(p => p.name).filter(n => n));
 
     nuevosProductos.forEach(p => {
-      if (p.descripcion && !descripcionesExistentes.has(p.descripcion)) {
+      // Normalizar datos si es necesario (el scraper usa 'name', la UI antigua usaba 'descripcion')
+      const nombreProducto = p.name || p.descripcion;
+      const linkProducto = p.link;
+
+      // Criterio de unicidad:
+      // 1. Si tiene link, verificamos si el link ya existe.
+      // 2. Si no tiene link, verificamos si el nombre ya existe.
+      const esDuplicadoPorLink = linkProducto && linksExistentes.has(linkProducto);
+      const esDuplicadoPorNombre = !linkProducto && nombreProducto && nombresExistentes.has(nombreProducto);
+
+      if (!esDuplicadoPorLink && !esDuplicadoPorNombre) {
+        // Asegurar que usamos 'name' consistente con el scraper
+        if (!p.name && p.descripcion) {
+            p.name = p.descripcion;
+            delete p.descripcion;
+        }
+
         productosExistentes.push(p);
-        descripcionesExistentes.add(p.descripcion);
+        
+        if (linkProducto) linksExistentes.add(linkProducto);
+        if (nombreProducto) nombresExistentes.add(nombreProducto);
+        
         agregadosCount++;
       }
     });

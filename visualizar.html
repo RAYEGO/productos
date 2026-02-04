@@ -9,6 +9,9 @@
 <body>
 
   <div class="app-container">
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+    
     <!-- Sidebar -->
     <nav class="sidebar">
       <div class="sidebar-header">
@@ -656,6 +659,32 @@
             a.click();
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
+        });
+    }
+
+    // Mobile Sidebar Toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+    const sidebarOverlay = document.getElementById('sidebar-overlay');
+    
+    function toggleSidebar() {
+        sidebar.classList.toggle('active');
+        sidebarOverlay.classList.toggle('active');
+        menuToggle.textContent = sidebar.classList.contains('active') ? '✕' : '☰';
+    }
+    
+    if (menuToggle) {
+        menuToggle.addEventListener('click', toggleSidebar);
+        sidebarOverlay.addEventListener('click', toggleSidebar);
+        
+        // Close sidebar when clicking a link on mobile
+        const sidebarLinks = sidebar.querySelectorAll('a');
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 768) {
+                    toggleSidebar();
+                }
+            });
         });
     }
   </script>
